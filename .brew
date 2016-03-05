@@ -1,0 +1,198 @@
+## Setup ######################################################################
+#!/usr/bin/env bash
+# Install command-line tools using Homebrew.
+# Ask for the administrator password upfront.
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until the script has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+
+echo "Updating and upgrading Homebrew"
+
+# Make sure we’re using the latest Homebrew
+brew update
+
+# Upgrade any already-installed formulae
+brew upgrade
+
+
+## Core System Updates ########################################################
+
+echo "Installing core system utilities"
+
+# Install GNU core utilities (those that come with OS X are outdated)
+brew install coreutils
+
+# Install some other useful utilities like `sponge`
+brew install moreutils
+
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+brew install findutils
+
+# Install GNU `sed`, overwriting the built-in `sed`
+brew install gnu-sed --with-default-names
+
+# Install Bash 4
+brew install bash
+brew install bash-completion
+
+# Install `wget` with IRI support
+brew install wget --with-iri
+
+# Install more recent versions of some OS X tools
+brew install vim --override-system-vi
+brew install homebrew/dupes/grep
+brew install homebrew/dupes/openssh
+brew install homebrew/dupes/screen
+brew install homebrew/php/php55 --with-gmp
+
+
+## Binaries ###################################################################
+
+echo "Installing binaries"
+
+brew install ack
+brew install autoconf
+brew install bash-completion
+brew install brew-cask
+brew install cmake
+brew install colordiff
+brew install ffmpeg
+brew install freetds
+brew install freetype
+brew install git
+brew install graphicsmagick
+brew install heroku-toolbelt
+brew install hr
+brew install httpie
+brew install hub
+brew install imagemagick --with-webp
+brew install jpeg
+brew install jpegoptim
+brew install libevent
+brew install libpng
+brew install libtool
+brew install libyaml
+brew install lynx
+brew install mackup
+brew install mysql
+brew install node
+brew install optipng
+brew install phantomjs
+brew install pkg-config
+brew install python
+brew install readline
+brew install rename
+brew install speedtest_cli
+brew install tag
+brew install taglib
+brew install trash
+brew install tree
+brew install webkit2png
+brew install wget
+brew install x264
+brew install zopfli
+
+
+echo "Cleaning up"
+
+# Remove outdated versions from the cellar
+brew cleanup
+
+
+## Apps #######################################################################
+
+echo "Installing apps"
+
+brew install TomAnthony/brews/itermocil
+brew install fpp
+brew install httpie
+
+
+echo "Cleaning up"
+
+# Remove outdated versions from the cellar
+brew cleanup
+
+
+## Cask #######################################################################
+
+echo "Installing cask apps"
+
+# Tap cask and install
+brew tap caskroom/cask
+brew install brew-cask
+
+# Quicklook
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlimagesize
+brew cask install qlprettypatch
+brew cask install quicklook-csv
+brew cask install betterzipql
+brew cask install webpquicklook
+brew cask install scriptql
+brew cask install suspicious-package
+
+# Color Pickers
+brew cask install colorpicker-skalacolor
+
+# Apps
+brew cask install --appdir="/Applications" adwaremedic
+brew cask install --appdir="/Applications" adium
+brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" appdelete
+brew cask install --appdir="/Applications" bartender
+brew cask install --appdir="/Applications" beamer
+brew cask install --appdir="/Applications" better-window-manager
+brew cask install --appdir="/Applications" charles
+brew cask install --appdir="/Applications" codekit
+brew cask install --appdir="/Applications" cocktail
+brew cask install --appdir="/Applications" controlplane
+brew cask install --appdir="/Applications" curb
+brew cask install --appdir="/Applications" dropzone
+brew cask install --appdir="/Applications" duet
+brew cask install --appdir="/Applications" expandrive
+brew cask install --appdir="/Applications" fluid
+brew cask install --appdir="/Applications" fontprep
+brew cask install --appdir="/Applications" handbrake
+brew cask install --appdir="/Applications" handbrakecli
+brew cask install --appdir="/Applications" imagealpha
+brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" itsycal
+brew cask install --appdir="/Applications" jadengeller-helium
+brew cask install --appdir="/Applications" lightpaper
+brew cask install --appdir="/Applications" mamp
+brew cask install --appdir="/Applications" metaz
+brew cask install --appdir="/Applications" mou
+brew cask install --appdir="/Applications" kaleidoscope
+brew cask install --appdir="/Applications" nvalt
+brew cask install --appdir="/Applications" recordit
+brew cask install --appdir="/Applications" reflector
+brew cask install --appdir="/Applications" renamer
+brew cask install --appdir="/Applications" sequel-pro
+brew cask install --appdir="/Applications" sketch-toolbox
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" textexpander
+brew cask install --appdir="/Applications" the-tagger
+brew cask install --appdir="/Applications" totalfinder
+brew cask install --appdir="/Applications" tower
+brew cask install --appdir="/Applications" transmit
+brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" vagrant-manager
+brew cask install --appdir="/Applications" virtualbox
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" viscosity
+
+
+# Ensure that Alfred can find installed apps
+brew cask alfred link
+
+echo "Cleaning up"
+
+# Remove outdated versions from the cellar
+brew cleanup
