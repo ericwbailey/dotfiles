@@ -94,6 +94,8 @@
     - [ ] Menu Bar Icons: [Marten-nu](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=7801)
     - [ ] Emoticons: None
     - [ ] Dock Icon: [septi v2.2](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=5403)
+- [ ] **Atom**
+    - [ ] Install starred packages `apm stars --install`
 - [ ] **Sketch**
     - [ ] [alssndro/sandros-sketch-plugins](https://github.com/alssndro/sandros-sketch-plugins)
     - [ ] [InVision Craft](http://labs.invisionapp.com/craft)
