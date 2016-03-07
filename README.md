@@ -41,8 +41,7 @@
 - [ ] Icon Slate
 - [ ] Integrity
 - [ ] JPEGmini
-- [ ] Mail Notifr
-    - Requires app-specific password 🔒
+- [ ] Mail Notifr *
 - [ ] Monity
 - [ ] Monotony
 - [ ] Page Layers
@@ -67,14 +66,16 @@
 - [ ] Check which git and set the $PATH, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
 
 ### Non-app Store
+- [ ] [AppDelete](http://www.reggieashworth.com/appdelete)
+- [ ] [Atom](https://atom.io/)
 - [ ] [Bartender](http://www.macbartender.com/)
 - [ ] [BetterZip](http://macitbetter.com/)
 - [ ] [CrashPlan](https://www.code42.com/crashplan/)
 - [ ] [Dictater](http://nosrac.github.io/Dictater/)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
+- [ ] [GifGrabber](http://www.gifgrabber.com/)
 - [ ] [GitUp](http://gitup.co/)
 - [ ] [Go2Shell](http://zipzapmac.com/Go2Shell)
-- [ ] [Hemmingway](http://www.hemingwayapp.com/)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [ ] [Origami](http://facebook.github.io/origami/download/)
@@ -83,12 +84,11 @@
 - [ ] [seil](https://pqrs.org/osx/karabiner/seil.html.en)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
-- [ ] [TodayRemote Helper](http://todayremote.com/)
+- [ ] [TextExpander](https://smilesoftware.com/textexpander)
 - [ ] [TripMode](http://www.tripmode.ch/)
 
 ### Plugins
-- [ ] [Adium](https://adium.im/)
-    - Requires app-specific passwords
+- [ ] [Adium](https://adium.im/) *
     - [ ] Service Icons: Aqua
     - [ ] Status Icons: [iPhone](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=4011)
     - [ ] Menu Bar Icons: [Marten-nu](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=7801)
@@ -227,18 +227,15 @@ slim`
 ### Dock
 1. [ ] Preview
 - [ ] 1Password
-- [ ] LightPaper
 - [ ] FontExplorer X
+- [ ] LightPaper
 - [ ] Todoist
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] Slack
 - [ ] Adium
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-- [ ] MAMP
-- [ ] CodeKit
 - [ ] iTerm
-- [ ] Sublime Text
-    - [ ] Run `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
+- [ ] Atom
 - [ ] Tower
 - [ ] GitUp
 - [ ] Kaleidoscope
@@ -246,8 +243,8 @@ slim`
 - [ ] Chrome
 - [ ] Firefox
 - [ ] Safari
-- [ ] Arranged
 - [ ] Opera
+- [ ] Arranged
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] Sketch
 - [ ] Photoshop
@@ -299,9 +296,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. [ ] Set up spaces
 - [ ] Set wallpapers
 - [ ] Set custom icons
-    - [ ] LightPaper
     - [ ] Preview
-    - [ ] Sublime Text
 
 ### Menu Bar
 1. [ ] Configure Bartender and set order
@@ -320,6 +315,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 - [ ] Turn `LoginLaunch.applescript` into an app and add to Login Items
 - [ ] Set up Control Plane contexts for system automation
 
+* Requires app-specific password
 
 ## References
 - http://sourabhbajaj.com/mac-setup/
