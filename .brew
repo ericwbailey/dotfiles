@@ -170,7 +170,6 @@ brew cask install --appdir="/Applications" mamp
 brew cask install --appdir="/Applications" metaz
 brew cask install --appdir="/Applications" mou
 brew cask install --appdir="/Applications" kaleidoscope
-brew cask install --appdir="/Applications" nvalt
 brew cask install --appdir="/Applications" recordit
 brew cask install --appdir="/Applications" reflector
 brew cask install --appdir="/Applications" renamer
