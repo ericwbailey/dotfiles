@@ -42,7 +42,7 @@
 - [ ] Integrity
 - [ ] JPEGmini
 - [ ] Mail Notifr
-    - Requires app-specific password
+    - Requires app-specific password 🔒
 - [ ] Monity
 - [ ] Monotony
 - [ ] Page Layers
