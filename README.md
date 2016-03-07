@@ -253,7 +253,7 @@ slim`
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 
 ### Finder view preferences
-Be sure to set from system root level so preferences propagate up to all user directories)
+Be sure to set from system root level so preferences propagate up to all user directories.
 
 - [ ] Always open in column view
 - [ ] Browse in column view
@@ -267,10 +267,10 @@ Be sure to set from system root level so preferences propagate up to all user di
 ### Finder sidebar
 1. Favorites
     1. [ ] Desktop
-    - [ ] AirDrop
     - [ ] home
-    - [ ] Documents
+    - [ ] AirDrop
     - [ ] Applications
+    - [ ] Documents
     - [ ] Dropbox
 - Devices
 - Shared
