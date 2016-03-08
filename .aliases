@@ -159,6 +159,11 @@ alias cls="clear;ls"
 alias cla="clear;la"
 
 
+## Histroy
+
+alias his="history"
+
+
 ## File manipulating
 
 # Prompt before deletion
@@ -249,10 +254,6 @@ alias siteshot="pageres"
 
 # Pings a resource 10 times
 alias ping="ping -c 10"
-
-
-# Catches sublime
-alias subl="sublime"
 
 
 ## Vagrant
