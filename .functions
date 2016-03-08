@@ -47,6 +47,17 @@ function o() {
 }
 
 
+# `a` with no arguments opens the current directory in Atom Editor, otherwise
+# opens the given location
+function a() {
+	if [ $# -eq 0 ]; then
+		atom .;
+	else
+		atom "$@";
+	fi;
+}
+
+
 # Starts a server in the current directory, picks a port, and opens in a new tab
 # https://github.com/paulsmith/quickserver
 quickserver() {
