@@ -77,6 +77,7 @@
 - [ ] [GitUp](http://gitup.co/)
 - [ ] [Go2Shell](http://zipzapmac.com/Go2Shell)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
+- [ ] [Lookback](https://lookback.io/usb)
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [ ] [Origami](http://facebook.github.io/origami/download/)
 - [ ] [Private Internet Access](https://www.privateinternetaccess.com/)
