@@ -141,51 +141,49 @@ brew cask install suspicious-package
 brew cask install colorpicker-skalacolor
 
 # Apps
-brew cask install --appdir="/Applications" adwaremedic
-brew cask install --appdir="/Applications" adium
-brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="/Applications" appdelete
-brew cask install --appdir="/Applications" bartender
-brew cask install --appdir="/Applications" beamer
-brew cask install --appdir="/Applications" better-window-manager
-brew cask install --appdir="/Applications" charles
-brew cask install --appdir="/Applications" codekit
-brew cask install --appdir="/Applications" cocktail
-brew cask install --appdir="/Applications" controlplane
-brew cask install --appdir="/Applications" curb
-brew cask install --appdir="/Applications" dropzone
-brew cask install --appdir="/Applications" duet
-brew cask install --appdir="/Applications" expandrive
-brew cask install --appdir="/Applications" fluid
-brew cask install --appdir="/Applications" fontprep
-brew cask install --appdir="/Applications" handbrake
-brew cask install --appdir="/Applications" handbrakecli
-brew cask install --appdir="/Applications" imagealpha
-brew cask install --appdir="/Applications" imageoptim
-brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" itsycal
-brew cask install --appdir="/Applications" jadengeller-helium
-brew cask install --appdir="/Applications" lightpaper
-brew cask install --appdir="/Applications" mamp
-brew cask install --appdir="/Applications" metaz
-brew cask install --appdir="/Applications" mou
-brew cask install --appdir="/Applications" kaleidoscope
-brew cask install --appdir="/Applications" recordit
-brew cask install --appdir="/Applications" reflector
-brew cask install --appdir="/Applications" renamer
-brew cask install --appdir="/Applications" sequel-pro
-brew cask install --appdir="/Applications" sketch-toolbox
-brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" textexpander
-brew cask install --appdir="/Applications" the-tagger
-brew cask install --appdir="/Applications" totalfinder
-brew cask install --appdir="/Applications" tower
-brew cask install --appdir="/Applications" transmit
-brew cask install --appdir="/Applications" vagrant
-brew cask install --appdir="/Applications" vagrant-manager
-brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vlc
-brew cask install --appdir="/Applications" viscosity
+brew cask install adwaremedic
+brew cask install adium
+brew cask install alfred
+brew cask install appdelete
+brew cask install bartender
+brew cask install beamer
+brew cask install better-window-manager
+brew cask install charles
+brew cask install codekit
+brew cask install cocktail
+brew cask install controlplane
+brew cask install curb
+brew cask install dropzone
+brew cask install duet
+brew cask install fluid
+brew cask install fontprep
+brew cask install handbrake
+brew cask install handbrakecli
+brew cask install imagealpha
+brew cask install imageoptim
+brew cask install iterm2
+brew cask install itsycal
+brew cask install jadengeller-helium
+brew cask install keepingyouawake
+brew cask install lightpaper
+brew cask install mamp
+brew cask install metaz
+brew cask install kaleidoscope
+brew cask install reflector
+brew cask install renamer
+brew cask install sequel-pro
+brew cask install sketch-toolbox
+brew cask install skype
+brew cask install textexpander
+brew cask install the-tagger
+brew cask install totalfinder
+brew cask install tower
+brew cask install transmit
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install virtualbox
+brew cask install vlc
+brew cask install viscosity
 
 
 # Ensure that Alfred can find installed apps
