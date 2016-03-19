@@ -49,7 +49,6 @@
 - [ ] Raster
 - [ ] Screens VNC
 - [ ] SiteSucker
-- [ ] Sketch 3
 - [ ] Soulver
 - [ ] Sim Daltonism
 - [ ] Slack
@@ -81,6 +80,7 @@
 - [ ] [Origami](http://facebook.github.io/origami/download/)
 - [ ] [Private Internet Access](https://www.privateinternetaccess.com/)
 - [ ] [skalapreview](http://bjango.com/mac/skalapreview/)
+- [ ] [Sketch](http://www.sketchapp.com/)
 - [ ] [seil](https://pqrs.org/osx/karabiner/seil.html.en)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
@@ -97,6 +97,37 @@
 - [ ] **Atom**
     - [ ] Install starred packages `apm stars --install`
 - [ ] **Sketch**
+    - [ ] Toolbar Order
+        - [ ] Artboard
+        - [ ] Insert
+        - [ ] Shape
+        - [ ] Make Grid
+        - Space
+        - [ ] Create Symbol
+        - [ ] Symbol
+        - [ ] Styled Text
+        - Space
+        - [ ] Edit
+        - [ ] Transform
+        - [ ] Rotate
+        - [ ] Rotate Copies
+        - [ ] Scale
+        - Space
+        - [ ] Show Grid
+        - [ ] Show Layout
+        - [ ] Show Pixels
+        - [ ] View
+        - Space
+        - [ ] Scissiors
+        - [ ] Mask
+        - [ ] Union
+        - [ ] Subtract
+        - [ ] Intersect
+        - [ ] Difference
+        - [ ] Flatten
+        - Flexible Space
+        - [ ] Mirror
+        - [ ] Share
     - [ ] [alssndro/sandros-sketch-plugins](https://github.com/alssndro/sandros-sketch-plugins)
     - [ ] [InVision Craft](http://labs.invisionapp.com/craft)
     - [ ] [nathco/Sync-Plugins](https://github.com/nathco/Sync-Plugins)
@@ -266,13 +297,22 @@ Be sure to set from system root level so preferences propagate up to all user di
     - [ ] Show icon preview
     - [ ] Show preview column
 
+### Finder toolbar
+- [ ] Back/Forward
+- [ ] Go2Shell
+- [ ] Path
+- [ ] Connect
+- [ ] Share
+- Flexible Space
+- [ ] Search
+
 ### Finder sidebar
 1. Favorites
     1. [ ] Desktop
-    - [ ] AirDrop
     - [ ] home
-    - [ ] Documents
+    - [ ] AirDrop
     - [ ] Applications
+    - [ ] Documents
     - [ ] Dropbox
 - Devices
 - Shared
