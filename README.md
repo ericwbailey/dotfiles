@@ -31,7 +31,6 @@
 
 ### App Store
 - [ ] Blind
-- [ ] Caffeine
 - [ ] Daisy Disk
 - [ ] Day One
 - [ ] GifGrabber
