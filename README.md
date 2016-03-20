@@ -179,6 +179,7 @@ commandcar
 cpy
 empty-trash-cli
 get-port
+git-labelmaker
 gitjk
 grunt-cli
 gulp
