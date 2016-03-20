@@ -13,10 +13,10 @@
 ### Browsers
 - [ ] [Arranged](https://itunes.apple.com/us/app/arranged/id1002970923?mt=12)
 - [ ] [Chrome](https://www.google.com/chrome/)
+    1. [ ] Set as default
 - [ ] [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
 - [ ] [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-    1. [ ] Set as default
-    - [ ] Tweak Firefox config
+    1. [ ] Tweak Firefox config
     - [ ] Sync uBlock settings
 - [ ] [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 - [ ] [Opera](http://www.opera.com/)
