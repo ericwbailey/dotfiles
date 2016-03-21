@@ -170,7 +170,6 @@
 ### NPM
 1. [ ] Check to see if homebrew installed
 - [ ] `npm install -g 
-alex
 axe-core
 bower
 browserify
