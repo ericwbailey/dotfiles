@@ -198,6 +198,7 @@ pageres
 pageres-cli
 public-ip
 request
+stylelint
 tldr
 trash-cli
 vtop
