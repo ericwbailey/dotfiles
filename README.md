@@ -210,6 +210,7 @@ yo`
 Babel
 colout
 eg
+proselint
 Pygments
 pytz
 setuptools
