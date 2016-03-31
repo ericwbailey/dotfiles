@@ -166,6 +166,12 @@
         - [ ] [nolastan/sync.sketchplugin](https://github.com/nolastan/sync.sketchplugin)
 
 ### NVM
+1. [ ] Install via `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash`
+- [ ] Check for local node versions via `nvm ls`
+- [ ] Check for remote versions via `nvm ls-remote`
+- [ ] Install any remote versions as needed
+- [ ] Reinstall any packages installed to non-system versions via `nvm reinstall-packages system`
+
 
 ### NPM
 1. [ ] Check to see if homebrew installed
@@ -216,20 +222,6 @@ pytz
 setuptools
 thefuck
 vboxapi`
-
-
-# UPDATE ME
-install nvm (add actual command/link)
-nvm ls
-nvm ls-remote
-nvm install 5.1
-nvm reinstall-packages system
-
-
-rbenv install 2.2.3
-rbenv global 2.2.3
-rbenv version
-rbenv rehash
 
 
 ### Ruby
