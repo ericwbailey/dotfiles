@@ -159,7 +159,7 @@ alias cls="clear;ls"
 alias cla="clear;la"
 
 
-## Histroy
+## History
 
 alias his="history"
 
