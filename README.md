@@ -33,7 +33,7 @@
 - [ ] Blind
 - [ ] Daisy Disk
 - [ ] Day One
-- [ ] GifGrabber
+- [ ] GIPHY CAPTURE
 - [ ] Glyphs
 - [ ] HyperDock
 - [ ] iA Writer Pro
