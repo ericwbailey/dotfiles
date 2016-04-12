@@ -254,6 +254,7 @@ linters:
       - z-index
       - zoom
       - # Generated Content
+      - additive-symbols
       - content
       - counter-increment
       - counter-reset
@@ -461,15 +462,25 @@ linters:
   PropertyUnits:
     enabled: true
     global: [
-      'ch', 'em', 'ex', 'rem',                 # Font-relative lengths
-      'cm', 'in', 'mm', 'pc', 'pt', 'px', 'q', # Absolute lengths
-      'vh', 'vw', 'vmin', 'vmax',              # Viewport-percentage lengths
-      'deg', 'grad', 'rad', 'turn',            # Angle
-      'ms', 's',                               # Duration
-      'Hz', 'kHz',                             # Frequency
-      'dpi', 'dpcm', 'dppx',                   # Resolution
-      '%']                                     # Other
-    properties: {}
+      'ch', 'em', 'ex', 'rem',      # Font-relative lengths
+      'cm', 'in', 'mm', 'q',        # Absolute lengths
+      'vh', 'vw', 'vmin', 'vmax',   # Viewport-percentage lengths
+      'deg', 'grad', 'rad', 'turn', # Angle
+      'ms', 's',                    # Duration
+      'Hz', 'kHz',                  # Frequency
+      'dpi', 'dpcm', 'dppx',        # Resolution
+      '%']                          # Other
+    properties:
+      counter-reset: []
+      counter-increment: []
+      font-weight: []
+      line-height: []
+      pitch-range: []
+      richness: []
+      stress: []
+      volume: []
+      z-index: []
+    severity: error
 
   PseudoElement:
     enabled: false # Handled by stylelint
