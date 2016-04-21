@@ -186,6 +186,11 @@ brew cask install vlc
 brew cask install viscosity
 
 
+# Install unstable apps
+brew tap zyedidia/micro
+brew install --devel micro
+
+
 # Ensure that Alfred can find installed apps
 brew cask alfred link
 
