@@ -2,13 +2,16 @@
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
-for file in ~/.{path,bash_prompt,bashrc,exports,aliases,functions}; do
+for file in ~/.{path,colors,bash_prompt,bashrc,exports,aliases,functions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
 
 
 ## General Options ############################################################
+
+# Use Micro as the default editor: https://github.com/zyedidia/micro
+export EDITOR=/usr/local/Cellar/micro/osx/bin/micro
 
 # Prevent file overwrite on stdout redirection
 set -o noclobber
