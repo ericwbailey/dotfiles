@@ -131,6 +131,7 @@
     - [ ] [alssndro/sandros-sketch-plugins](https://github.com/alssndro/sandros-sketch-plugins)
     - [ ] [InVision Craft](http://labs.invisionapp.com/craft)
     - [ ] [nathco/Sync-Plugins](https://github.com/nathco/Sync-Plugins)
+    - [ ] [Sketch Runner](http://sketchrunner.com/)
     - [ ] Artboards
         - [ ] [frankko/Artboard-Tools](https://github.com/frankko/Artboard-Tools)
         - [ ] [kenmoore/sketch-arrange-artboards](https://github.com/kenmoore/sketch-arrange-artboards)
