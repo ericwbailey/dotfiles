@@ -41,6 +41,7 @@
 - [ ] Integrity
 - [ ] JPEGmini
 - [ ] Mail Notifr ✽
+- [ ] MindNode
 - [ ] Monity
 - [ ] Monotony
 - [ ] Page Layers
