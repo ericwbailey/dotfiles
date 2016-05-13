@@ -223,7 +223,8 @@ Pygments
 pytz
 setuptools
 thefuck
-vboxapi`
+vboxapi
+waybackpack`
 
 
 ### Ruby
