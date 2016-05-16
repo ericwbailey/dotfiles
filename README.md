@@ -131,6 +131,7 @@
         - [ ] Share
     - [ ] [alssndro/sandros-sketch-plugins](https://github.com/alssndro/sandros-sketch-plugins)
     - [ ] [InVision Craft](http://labs.invisionapp.com/craft)
+    - [ ] [MagicSketch/MagicPresenter](https://github.com/MagicSketch/MagicPresenter)
     - [ ] [nathco/Sync-Plugins](https://github.com/nathco/Sync-Plugins)
     - [ ] [Sketch Runner](http://sketchrunner.com/)
     - [ ] Artboards
@@ -158,6 +159,7 @@
         - [ ] [bouchenoiremarc/Sketch-Constraints](https://github.com/bouchenoiremarc/Sketch-Constraints)
         - [ ] [matt-curtis/Fluid-for-Sketch](https://github.com/matt-curtis/Fluid-for-Sketch)
         - [ ] [ozzik/push-and-shove](https://github.com/ozzik/push-and-shove)
+        - [ ] [romashamin/compo-sketch](https://github.com/romashamin/compo-sketch)
         - [ ] [ScottSavarie/Clipboard-Fill](https://github.com/ScottSavarie/Clipboard-Fill)
     - [ ] Styles
         - [ ] [nathco/Clear-Styles](https://github.com/nathco/Clear-Styles)
@@ -267,7 +269,6 @@ slim`
 - [ ] iTerm
 - [ ] Atom
 - [ ] Tower
-- [ ] GitUp
 - [ ] Kaleidoscope
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] Chrome
