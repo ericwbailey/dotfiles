@@ -20,6 +20,7 @@
     - [ ] Sync uBlock settings
 - [ ] [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 - [ ] [Opera](http://www.opera.com/)
+- [ ] [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 - [ ] [Vivaldi](https://vivaldi.com/)
 
 ### Xcode
