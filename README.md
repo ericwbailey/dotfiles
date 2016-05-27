@@ -48,7 +48,6 @@
 - [ ] Monotony
 - [ ] Page Layers
 - [ ] PicGIF
-- [ ] Paragraphs
 - [ ] Raster
 - [ ] Screens VNC
 - [ ] SiteSucker
@@ -58,6 +57,7 @@
 - [ ] Textual
 - [ ] Todoist
 - [ ] Transloader
+- [ ] Ulysses
 - [ ] The Unarchiver
 - [ ] World Clock
 - [ ] UnPlugged
