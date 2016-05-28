@@ -187,6 +187,7 @@ axe-core
 bower
 browserify
 browser-sync
+caniuse-cmd
 commandcar
 cpy
 empty-trash-cli
