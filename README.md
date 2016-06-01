@@ -209,6 +209,7 @@ npm-run-all
 opn
 pageres
 pageres-cli
+parker
 public-ip
 request
 stylelint
