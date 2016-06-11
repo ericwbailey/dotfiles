@@ -301,7 +301,6 @@ Be sure to set from system root level so preferences propagate up to all user di
 
 ### Finder toolbar
 - [ ] Back/Forward
-- [ ] Go2Shell
 - [ ] Path
 - [ ] Connect
 - [ ] Share
