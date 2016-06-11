@@ -38,7 +38,6 @@
 - [ ] GIPHY CAPTURE
 - [ ] Glyphs
 - [ ] HyperDock
-- [ ] iA Writer Pro
 - [ ] Icon Slate
 - [ ] Integrity
 - [ ] JPEGmini
@@ -54,6 +53,7 @@
 - [ ] Soulver
 - [ ] Sim Daltonism
 - [ ] Slack
+- [ ] TermHere
 - [ ] Textual
 - [ ] Todoist
 - [ ] Transloader
@@ -76,7 +76,6 @@
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
 - [ ] [GifGrabber](http://www.gifgrabber.com/)
 - [ ] [GitUp](http://gitup.co/)
-- [ ] [Go2Shell](http://zipzapmac.com/Go2Shell)
 - [ ] [Hazel](https://www.noodlesoft.com/)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
 - [ ] [Lookback](https://lookback.io/usb)
