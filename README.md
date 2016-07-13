@@ -12,6 +12,7 @@
 
 ### Browsers
 - [ ] [Arranged](https://itunes.apple.com/us/app/arranged/id1002970923?mt=12)
+- [ ] [Blisk](https://blisk.io/)
 - [ ] [Chrome](https://www.google.com/chrome/)
     1. [ ] Set as default
 - [ ] [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
