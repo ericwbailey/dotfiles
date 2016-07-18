@@ -347,11 +347,20 @@ Be sure to set from system root level so preferences propagate up to all user di
     - [ ] Preview
 
 ### Menu Bar
-1. [ ] Configure Bartender and set order
+1. [ ] Configure Bartender and set order (left to right)
+    1. [ ] Location Services
+    - [ ] Bluetooth
+    - [ ] Adobe Creative Cloud
+    - [ ] ControlPlane
+    - [ ] 1Password Mini
+    - [ ] Better Window Manager
+    - [ ] AirPlay
+    - [ ] Username
+    - [ ] Bartender Preferences
 
 ### Fonts
 1. [ ] Download and set editors to use [FiraCode-Retina](https://github.com/tonsky/FiraCode)
-    - [ ] LightPaperm
+    - [ ] LightPaper
     - [ ] iTerm
 - [ ] Migrate FontExplorer X sets and lists
 
