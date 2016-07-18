@@ -350,7 +350,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. [ ] Configure Bartender and set order
 
 ### Fonts
-1. [ ] Download and set editors to use [Inconsolata DZ](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
+1. [ ] Download and set editors to use [FiraCode-Retina](https://github.com/tonsky/FiraCode)
     - [ ] LightPaperm
     - [ ] iTerm
 - [ ] Migrate FontExplorer X sets and lists
