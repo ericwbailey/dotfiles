@@ -87,6 +87,7 @@
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [ ] [Origami](http://facebook.github.io/origami/download/)
 - [ ] [Private Internet Access](https://www.privateinternetaccess.com/)
+- [ ] [Quitter](https://marco.org/apps#quitter)
 - [ ] [skalapreview](http://bjango.com/mac/skalapreview/)
 - [ ] [Sketch](http://www.sketchapp.com/)
 - [ ] [seil](https://pqrs.org/osx/karabiner/seil.html.en)
