@@ -72,29 +72,17 @@
 - [ ] Check which git and set the $PATH, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
 
 ### Non-app Store
-- [ ] [AppDelete](http://www.reggieashworth.com/appdelete)
-- [ ] [Atom](https://atom.io/)
-- [ ] [Bartender](http://www.macbartender.com/)
-- [ ] [BetterZip](http://macitbetter.com/)
 - [ ] [CrashPlan](https://www.code42.com/crashplan/)
-- [ ] [Dictater](http://nosrac.github.io/Dictater/)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
-- [ ] [GifGrabber](http://www.gifgrabber.com/)
-- [ ] [GitUp](http://gitup.co/)
-- [ ] [Hazel](https://www.noodlesoft.com/)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
 - [ ] [Lookback](https://lookback.io/usb)
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [ ] [Origami](http://facebook.github.io/origami/download/)
 - [ ] [Private Internet Access](https://www.privateinternetaccess.com/)
-- [ ] [Quitter](https://marco.org/apps#quitter)
-- [ ] [skalapreview](http://bjango.com/mac/skalapreview/)
 - [ ] [Sketch](http://www.sketchapp.com/)
-- [ ] [seil](https://pqrs.org/osx/karabiner/seil.html.en)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
 - [ ] [TextExpander](https://smilesoftware.com/textexpander)
-- [ ] [TripMode](http://www.tripmode.ch/)
 
 ### Plugins
 - [ ] [Adium](https://adium.im/) ✽
