@@ -172,6 +172,7 @@ brew cask install jadengeller-helium
 brew cask install kaleidoscope
 brew cask install keepingyouawake
 brew cask install lightpaper
+brew cask install makemkv
 brew cask install mamp
 brew cask install metaz
 brew cask install private-internet-access 
