@@ -46,7 +46,7 @@
 - [ ] Icon Slate
 - [ ] Integrity
 - [ ] JPEGmini
-- [ ] Mail Notifr ℹ️
+- [ ] Mail Notifr 🔒
 - [ ] MindNode
 - [ ] Monity
 - [ ] Monotony
@@ -69,9 +69,11 @@
 
 ### Homebrew
 1. [ ] Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- [ ] Check which git and set the $PATH, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
+- [ ] Check which git and set the `$PATH`, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
 
 ### Non-app Store
+These apps can't be installed by [Homebrew Brew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew)
+
 - [ ] [CrashPlan](https://www.code42.com/crashplan/)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
@@ -84,8 +86,10 @@
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
 - [ ] [TextExpander](https://smilesoftware.com/textexpander)
 
+Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced. 
+
 ### Plugins
-- [ ] [Adium](https://adium.im/) ℹ️
+- [ ] [Adium](https://adium.im/) 🔒
     - [ ] Service Icons: Aqua
     - [ ] Status Icons: [iPhone](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=4011)
     - [ ] Menu Bar Icons: [Marten-nu](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=7801)
@@ -255,30 +259,30 @@ slim`
     - [ ] [foldersstructure](https://www.dropbox.com/sh/7ua9gl8ppmkl7wk/AAA5sW3b1UgaYLH4vbeLpRMIa?dl=0)
 
 ### Dock
-1. [ ] Preview
-- [ ] 1Password
-- [ ] FontExplorer X
-- [ ] LightPaper
-- [ ] Todoist
+1. [ ] Preview (Assign to None)
+- [ ] 1Password (Assign to None)
+- [ ] LightPaper (Assign to None)
+- [ ] FontExplorer X (Assign to All Desktops)
+- [ ] Todoist (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-- [ ] Slack
-- [ ] Adium
+- [ ] Slack (Assign to All Desktops)
+- [ ] Adium (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-- [ ] iTerm
-- [ ] Atom
-- [ ] Tower
-- [ ] Kaleidoscope
+- [ ] iTerm (Assign to None)
+- [ ] Atom (Assign to All Desktops)
+- [ ] Tower (Assign to Desktop 2)
+- [ ] Kaleidoscope (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-- [ ] Chrome
-- [ ] Firefox
-- [ ] Safari
-- [ ] Opera
-- [ ] Arranged
+- [ ] Chrome (Assign to All Desktops)
+- [ ] Firefox (Assign to All Desktops)
+- [ ] Safari (Assign to All Desktops)
+- [ ] Opera (Assign to All Desktops)
+- [ ] Arranged (Assign to All Desktops)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-- [ ] Sketch
-- [ ] Photoshop
-- [ ] Illustrator
-- [ ] InDesign
+- [ ] Sketch (Assign to None)
+- [ ] Photoshop (Assign to None)
+- [ ] Illustrator (Assign to None)
+- [ ] InDesign (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 
 ### Finder view preferences
@@ -314,20 +318,14 @@ Be sure to set from system root level so preferences propagate up to all user di
 
 ### Notification Center
 1. [ ] World Clock
-    1. [ ] Boston (EST)
+    1. [ ] Boston (Eastern)
     - [ ] Chicago (Central)
     - [ ] San Francisco (Western)
 - [ ] Monity
-    1. [ ] Battery
+    1. [ ] System
+    - [ ] Memory
     - [ ] Network
-    - [ ] Temperature
-    - [ ] System
-    - [ ] Fans
-    - [ ] Memory
-    - [ ] Processes
-    - [ ] Power
-    - [ ] Allocation
-    - [ ] Memory
+    - [ ] Battery
 
 ### Set up spaces, wallpapers, and custom app icons
 1. [ ] Set up spaces
@@ -362,7 +360,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 - [ ] Turn `LoginLaunch.applescript` into an app and add to Login Items
 - [ ] Set up Control Plane contexts for system automation
 
-ℹ️ Requires app-specific password
+🔒 Requires app-specific password
 
 ## References
 - http://sourabhbajaj.com/mac-setup/
