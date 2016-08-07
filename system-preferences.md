@@ -19,7 +19,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - [ ] Folder: `Dropbox/Devices/Desktops`
 
 ### Desktop
-- [ ] Folder: `Dropbox/Logs/Flickr`
+- [ ] Folder: `Dropbox/Logs/Instagram`
 - [ ] [x] Shuffle slide order
 - [ ] Start after **20 Minutes**
 
