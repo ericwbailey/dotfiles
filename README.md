@@ -46,7 +46,7 @@
 - [ ] Icon Slate
 - [ ] Integrity
 - [ ] JPEGmini
-- [ ] Mail Notifr ✽
+- [ ] Mail Notifr ℹ️
 - [ ] MindNode
 - [ ] Monity
 - [ ] Monotony
@@ -85,7 +85,7 @@
 - [ ] [TextExpander](https://smilesoftware.com/textexpander)
 
 ### Plugins
-- [ ] [Adium](https://adium.im/) ✽
+- [ ] [Adium](https://adium.im/) ℹ️
     - [ ] Service Icons: Aqua
     - [ ] Status Icons: [iPhone](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=4011)
     - [ ] Menu Bar Icons: [Marten-nu](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=7801)
@@ -362,7 +362,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 - [ ] Turn `LoginLaunch.applescript` into an app and add to Login Items
 - [ ] Set up Control Plane contexts for system automation
 
-✽ Requires app-specific password
+ℹ️ Requires app-specific password
 
 ## References
 - http://sourabhbajaj.com/mac-setup/
