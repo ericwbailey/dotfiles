@@ -3,7 +3,7 @@
 # Navigate to Root
 alias ~="cd ~"
 
-# Navigate to Desktop
+# Navigate to previous working directory
 alias -- -="cd -"
 
 # Navigate 1 directory down
@@ -27,9 +27,9 @@ alias ......="cd ../../../../.."
 ## Shortcuts ##################################################################
 
 # Projects
-alias work="cd ~/Desktop/Sherpath/angular-content-player"
+alias work="cd ~/Desktop/Sherpath/angular-content-player && nvm use 4.2.3"
 alias cantina="cd ~/Documents/cantina.co"
-alias beacon="cd ~/Desktop/weatherbeacon"
+alias beacon="cd ~/Documents/weatherbeacon"
 
 # Applications
 alias apps="cd /Applications"
@@ -161,7 +161,8 @@ alias cla="clear;la"
 
 ## History
 
-alias his="history"
+# Lists the last 15 commands
+alias his="history 15"
 
 
 ## File manipulating
