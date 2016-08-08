@@ -20,33 +20,33 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 
 ### Desktop
 - [ ] Folder: `Dropbox/Logs/Instagram`
-- [ ] [x] Shuffle slide order
+- [ ] ☑ ️Shuffle slide order
 - [ ] Start after **20 Minutes**
 
 
 ## Dock
 - [ ] Position on screen: **Bottom**
 - [ ] Minimize windows using: **Scale effect**
-- [ ] [x] Double-click a window's title bar to minimize
-- [ ] [x] Animate opening applications
-- [ ] [x] Show indicator lights for open applications
+- [ ] ☑ Double-click a window's title bar to minimize
+- [ ] ☑ Animate opening applications
+- [ ] ☑ Show indicator lights for open applications
 
 
 ## Mission Control
-- [ ] [x] When switching to an application, switch to a Space with open windows for the application
-- [ ] [x] Group windows by application
-- [ ] [x] Displays have separate Spaces
+- [ ] ☑ When switching to an application, switch to a Space with open windows for the application
+- [ ] ☑ Group windows by application
+- [ ] ☑ Displays have separate Spaces
 
 ## Keyboard and Mouse Shortcuts
-- [ ] [x] Mission Control: **^↑**
-- [ ] [x] Application windows: **^↓**
-- [ ] [x] Show Desktop: F11
-- [ ] [x] Show Dashboard: F12
+- [ ] ☑ Mission Control: **^↑**
+- [ ] ☑ Application windows: **^↓**
+- [ ] ☑ Show Desktop: F11
+- [ ] ☑ Show Dashboard: F12
 
 ## Hot Corners
-- [ ] [x] Top right: **Application Windows**
-- [ ] [x] Bottom left: **Mission Control**
-- [ ] [x] Bottom right: **Desktop**
+- [ ] ☑ Top right: **Application Windows**
+- [ ] ☑ Bottom left: **Mission Control**
+- [ ] ☑ Bottom right: **Desktop**
 
 
 ## Security & Privacy
@@ -61,24 +61,24 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 ## Spotlight
 
 ### Search Results
-- [ ] [x] Applications
-- [ ] [x] Folders
-- [ ] [x] Documents
-- [ ] [x] PDF Documents
-- [ ] [x] Presentations
-- [ ] [x] Spreadsheets
-- [ ] [x] Images
-- [ ] [x] Music
-- [ ] [x] Movies
-- [ ] [x] Developer
-- [ ] [x] System Preferences
+- [ ] ☑ Applications
+- [ ] ☑ Folders
+- [ ] ☑ Documents
+- [ ] ☑ PDF Documents
+- [ ] ☑ Presentations
+- [ ] ☑ Spreadsheets
+- [ ] ☑ Images
+- [ ] ☑ Music
+- [ ] ☑ Movies
+- [ ] ☑ Developer
+- [ ] ☑ System Preferences
 
 
 ## Notifications
 - [ ] Sort Notification Center: **Manually**
 
 ### Do Not Disturb
-- [ ] [x] When mirroring to TVs and projectors
+- [ ] ☑ When mirroring to TVs and projectors
 
 ### Not in Notification Center
 - [ ] Fluid custom mail apps
@@ -98,28 +98,28 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 ### Display
 - [ ] Resolution: **Best for display**
 - [ ] Uncheck automatically adjust brightness
-- [ ] [x] Show mirroring options in the menu bar when available
+- [ ] ☑ Show mirroring options in the menu bar when available
 
 
 ## Energy Saver
-- [ ] [x] Automatic graphics switching
-- [ ] [x] Show battery status in menu bar
+- [ ] ☑ Automatic graphics switching
+- [ ] ☑ Show battery status in menu bar
 
 ### Battery
 - [ ] Computer sleep: **15 min**
 - [ ] Display sleep: **Halfway between 1 min and 15 min**
-- [ ] [x] Put hard disks to sleep when possible
-- [ ] [x] Slightly dim the display while on battery power
+- [ ] ☑ Put hard disks to sleep when possible
+- [ ] ☑ Slightly dim the display while on battery power
 
 ### Power Adapter
 - [ ] Computer sleep: **3 hrs**
 - [ ] Display sleep: **1 hr**
-- [ ] [x] Wake for network access
+- [ ] ☑ Wake for network access
 
 ### UPS
 - [ ] Computer sleep: **10 min**
 - [ ] Display sleep: **A little after 1 min**
-- [ ] [x] Slightly dim the display when using this power source
+- [ ] ☑ Slightly dim the display when using this power source
 
 
 ## Keyboard
@@ -127,7 +127,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 ### Keyboard
 - [ ] Key Repeat: **1 position lower than Fast**
 - [ ] Delay Until Repeat: **2 positions after Long**
-- [ ] [x] Adjust keyboard brightness in low light
+- [ ] ☑ Adjust keyboard brightness in low light
 - [ ] Turn off when computer is not used for: **5 mins**
 
 ### Shortcuts
@@ -146,28 +146,28 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 
 ### Point & Click
 - [ ] [ ] Tap to click
-- [ ] [x] Secondary click
+- [ ] ☑ Secondary click
     - [ ] [ ] **Click with two fingers**
 - [ ] [ ] Look up
-- [ ] [x] Three finger drag
+- [ ] ☑ Three finger drag
 - [ ] Tracking speed: **3 positions higher than Slow**
 
 ### Scroll & Zoom
 - [ ] [ ] Scroll direction: natural
-- [ ] [x] Zoom in or out
-- [ ] [x] Smart zoom
-- [ ] [x] Rotate
+- [ ] ☑ Zoom in or out
+- [ ] ☑ Smart zoom
+- [ ] ☑ Rotate
 
 ### More Gestures
-- [ ] [x] Swipe between pages
+- [ ] ☑ Swipe between pages
     - [ ] Scroll left or right with two fingers
-- [ ] [x] Swipe between full-screen apps
+- [ ] ☑ Swipe between full-screen apps
     - [ ] Swipe left or right with four fingers
-- [ ] [x] Notification Center
+- [ ] ☑ Notification Center
     - [ ] Swipe left from the right edge with two fingers
-- [ ] [x] Mission Control
+- [ ] ☑ Mission Control
     - [ ] Swipe up with four fingers
-- [ ] [x] App Esposé
+- [ ] ☑ App Esposé
     - [ ] Swipe down with four fingers
 - [ ] [ ] Launchpad
 - [ ] [ ] Show Desktop
@@ -192,9 +192,9 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - [ ] [ ] Safari
 - [ ] [ ] Keychain
 - [ ] [ ] Photos
-- [ ] [x] Documebnts & Data
+- [ ] ☑ Documebnts & Data
 - [ ] [ ] Back to My Mac
-- [ ] [x] Find My Mac
+- [ ] ☑ Find My Mac
 
 
 ## Internet Accounts
