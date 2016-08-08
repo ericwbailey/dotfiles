@@ -52,7 +52,7 @@
 - [ ] [Page Layers](https://itunes.apple.com/us/app/page-layers-website-screenshots/id437835477)
 - [ ] [PicGIF](https://itunes.apple.com/us/app/picgif/id784260229)
 - [ ] [Raster](https://itunes.apple.com/us/app/raster/id946873079)
-- [ ] [Screens VNC])https://itunes.apple.com/us/app/screens-vnc-remote-access/id446107677)
+- [ ] [Screens VNC](https://itunes.apple.com/us/app/screens-vnc-remote-access/id446107677)
 - [ ] [SiteSucker](https://itunes.apple.com/us/app/sitesucker/id442168834)
 - [ ] [Soulver](https://itunes.apple.com/us/app/soulver/id413965349)
 - [ ] [Sim Daltonism](https://itunes.apple.com/us/app/sim-daltonism/id693112260)
@@ -71,7 +71,7 @@
 - [ ] Check which git and set the `$PATH`, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
 
 ### Non-app Store
-These apps can't be installed by [Homebrew Brew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew)
+These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew).
 
 - [ ] [CrashPlan](https://www.code42.com/crashplan/)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
@@ -177,7 +177,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
 
 
 ### NPM
-1. [ ] Check to see if homebrew installed
+1. [ ] Check to see if Homebrew is installed
 - [ ] `npm install -g 
 axe-core
 bower
@@ -216,7 +216,7 @@ yo`
 
 
 ### Python
-1. [ ] Check to see if homebrew installed
+1. [ ] Check to see if Homebrew is installed
 - [ ] `pip install 
 Babel
 colout
