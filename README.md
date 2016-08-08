@@ -1,6 +1,36 @@
 # New System Setup
 
 
+## Table of Contents
+
+1. [First steps](#first-steps)
+    - [Updates, syncing, and password/licenses access](#updates-syncing-and-passwordlicenses-access)
+    - [Browsers](#browsers)
+    - [Disable SIP](#disable-sip)
+    - [Xcode](#xcode)
+- [Installs](#installs)
+    - [App Store](#app-store)
+    - [Homebrew](#homebrew)
+    - [Non-app Store](#non-app-store)
+    - [Plugins](#plugins)
+    - [NVM](#nvm)
+    - [NPM](#npm)
+    - [Python](#python)
+    - [Ruby](#ruby)
+- [System setup](#system-setup)
+    - [System Preferences](#system-preferences)
+    - [Dock](#dock)
+    - [Finder view preferences](#finder-view-preferences)
+    - [Finder Toolbar](#finder-toolbar)
+    - [Finder Sidebar](#finder-sidebar)
+    - [Notification Center](#notification-center)
+    - [Set up spaces, wallpapers, and custom app icons](#set-up-spaces-wallpapers-and-custom-app-icons)
+    - [Menu Bar](#menu-bar)
+    - [Fonts](#fonts)
+- [Wrapup](#wrapup)
+- [References](#references)
+
+
 ## First steps
 
 ### Updates, syncing, and password/licenses access
@@ -358,7 +388,8 @@ Be sure to set from system root level so preferences propagate up to all user di
     - [ ] iTerm
 - [ ] Migrate FontExplorer X sets and lists
 
-### Wrapup
+
+## Wrapup
 - [ ] Reboot and double check `System Preferences > Users & Groups > Login Items` and set a login picture
 - [ ] Reboot, install [Undercover](http://orbicule.com/undercover/mac/), then double-check it and Find My Mac's Location Services access
 - [ ] [Re-enable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil enable`
