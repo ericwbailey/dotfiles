@@ -37,35 +37,34 @@
 ## Installs
 
 ### App Store
-- [ ] Blind
-- [ ] Daisy Disk
-- [ ] Day One
-- [ ] GIPHY CAPTURE
-- [ ] Glyphs
-- [ ] HyperDock
-- [ ] Icon Slate
-- [ ] Integrity
-- [ ] JPEGmini
-- [ ] Mail Notifr 🔒
-- [ ] MindNode
-- [ ] Monity
-- [ ] Monotony
-- [ ] Page Layers
-- [ ] PicGIF
-- [ ] Raster
-- [ ] Screens VNC
-- [ ] SiteSucker
-- [ ] Soulver
-- [ ] Sim Daltonism
-- [ ] Slack
-- [ ] TermHere
-- [ ] Textual
-- [ ] Todoist
-- [ ] Transloader
-- [ ] Ulysses
-- [ ] The Unarchiver
-- [ ] World Clock
-- [ ] UnPlugged
+- [ ] [Blind](https://itunes.apple.com/us/app/blind-1x-browser/id687450044)
+- [ ] [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860)
+- [ ] [GIPHY CAPTURE](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984)
+- [ ] [Glyphs](https://itunes.apple.com/us/app/glyphs-mini/id469036911)
+- [ ] [HyperDock](https://itunes.apple.com/us/app/hyperdock/id449830122)
+- [ ] [Icon Slate](https://itunes.apple.com/us/app/icon-slate/id439697913)
+- [ ] [Integrity](https://itunes.apple.com/us/app/integrity/id513610341)
+- [ ] [JPEGmini](https://itunes.apple.com/us/app/jpegmini/id498944723)
+- [ ] [Mail Notifr](https://itunes.apple.com/us/app/mail-notifr/id808154494) 🔒
+- [ ] [MindNode](https://itunes.apple.com/us/app/mindnode-2-delightful-mind/)
+- [ ] [Monity](https://itunes.apple.com/us/app/monity/id915542151?mt=12)
+- [ ] [Monotony](https://itunes.apple.com/us/app/monotony/id533978766?mt=12)
+- [ ] [Page Layers](https://itunes.apple.com/us/app/page-layers-website-screenshots/id437835477)
+- [ ] [PicGIF](https://itunes.apple.com/us/app/picgif/id784260229)
+- [ ] [Raster](https://itunes.apple.com/us/app/raster/id946873079)
+- [ ] [Screens VNC])https://itunes.apple.com/us/app/screens-vnc-remote-access/id446107677)
+- [ ] [SiteSucker](https://itunes.apple.com/us/app/sitesucker/id442168834)
+- [ ] [Soulver](https://itunes.apple.com/us/app/soulver/id413965349)
+- [ ] [Sim Daltonism](https://itunes.apple.com/us/app/sim-daltonism/id693112260)
+- [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12)
+- [ ] [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220)
+- [ ] [Textual](https://itunes.apple.com/us/app/textual-5/id896450579)
+- [ ] [Todoist](https://itunes.apple.com/us/app/todoist-to-do-list-task-list/id585829637)
+- [ ] [Transloader](https://itunes.apple.com/us/app/transloader/id572281534)
+- [ ] [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237)
+- [ ] [The Unarchiver](https://itunes.apple.com/us/app/the-unarchiver/id425424353)
+- [ ] [World Clock](https://itunes.apple.com/us/app/world-clock/id858446756)
+- [ ] [UnPlugged](https://itunes.apple.com/us/app/unplugged/id423123087)
 
 ### Homebrew
 1. [ ] Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -334,7 +333,13 @@ Be sure to set from system root level so preferences propagate up to all user di
     - [ ] Preview
 
 ### Menu Bar
-1. [ ] Configure Bartender and set order (left to right)
+1. [ ] Mail Notifr 
+- [ ] Dropbox
+- [ ] Dropzone
+- [ ] Time
+- [ ] Itsycal
+- [ ] Battery
+- [ ] Bartender (left to right)
     1. [ ] Location Services
     - [ ] Bluetooth
     - [ ] Adobe Creative Cloud
@@ -342,8 +347,10 @@ Be sure to set from system root level so preferences propagate up to all user di
     - [ ] 1Password Mini
     - [ ] Better Window Manager
     - [ ] AirPlay
+    - [ ] Quitter
     - [ ] Username
     - [ ] Bartender Preferences
+- [ ] Notification Center
 
 ### Fonts
 1. [ ] Download and set editors to use [FiraCode-Retina](https://github.com/tonsky/FiraCode)
@@ -360,7 +367,6 @@ Be sure to set from system root level so preferences propagate up to all user di
 - [ ] Turn `LoginLaunch.applescript` into an app and add to Login Items
 - [ ] Set up Control Plane contexts for system automation
 
-🔒 Requires app-specific password
 
 ## References
 - http://sourabhbajaj.com/mac-setup/
@@ -368,3 +374,6 @@ Be sure to set from system root level so preferences propagate up to all user di
 - http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
 - http://jesseatkinson.org/writing/2013/9/8/setting-up-a-new-mac
 - https://github.com/herrbischoff/awesome-osx-command-line
+
+
+🔒 Requires app-specific password
