@@ -4,12 +4,12 @@
 ## Table of Contents
 
 1. [First steps](#first-steps)
-    - [Updates, syncing, and password/licenses access](#updates-syncing-and-passwordlicenses-access)
+    1. [Updates, syncing, and password/licenses access](#updates-syncing-and-passwordlicenses-access)
     - [Browsers](#browsers)
     - [Disable SIP](#disable-sip)
     - [Xcode](#xcode)
 - [Installs](#installs)
-    - [App Store](#app-store)
+    1. [App Store](#app-store)
     - [Homebrew](#homebrew)
     - [Non-app Store](#non-app-store)
     - [Plugins](#plugins)
@@ -18,7 +18,7 @@
     - [Python](#python)
     - [Ruby](#ruby)
 - [System setup](#system-setup)
-    - [System Preferences](#system-preferences)
+    1. [System Preferences](#system-preferences)
     - [Dock](#dock)
     - [Finder view preferences](#finder-view-preferences)
     - [Finder Toolbar](#finder-toolbar)
