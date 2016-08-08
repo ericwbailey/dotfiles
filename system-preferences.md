@@ -10,7 +10,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - [ ] Show scroll bars: **Always**
 - [ ] Click in the scroll bar to: **Jump to the spot that's clicked**
 - [ ] Recent items: **15** Documents, Apps, and Servers
-- [ ] [x] Use LCD font smoothing when available
+- [ ] ☑️ Use LCD font smoothing when available
 
 
 ## Desktop & Screen Saver
