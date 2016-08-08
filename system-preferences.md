@@ -264,9 +264,9 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - [ ] Set time zone automatically using current location
 
 ### Clock
-- [ ] [ ] Show date and time in menu bar
+- [ ] ◻️ Show date and time in menu bar
 
 
 ## Time Machine
 - [ ] Time Machine: **Off**
-- [ ] [ ] Show Time Machine in menu bar
+- [ ] ◻️ Show Time Machine in menu bar
