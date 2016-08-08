@@ -145,15 +145,15 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 ## Trackpad
 
 ### Point & Click
-- [ ] [ ] Tap to click
+- [ ] ◻ Tap to click
 - [ ] ☑ Secondary click
-    - [ ] [ ] **Click with two fingers**
-- [ ] [ ] Look up
+    - [ ] ◻ **Click with two fingers**
+- [ ] ◻ Look up
 - [ ] ☑ Three finger drag
 - [ ] Tracking speed: **3 positions higher than Slow**
 
 ### Scroll & Zoom
-- [ ] [ ] Scroll direction: natural
+- [ ] ◻ Scroll direction: natural
 - [ ] ☑ Zoom in or out
 - [ ] ☑ Smart zoom
 - [ ] ☑ Rotate
@@ -167,10 +167,10 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
     - [ ] Swipe left from the right edge with two fingers
 - [ ] ☑ Mission Control
     - [ ] Swipe up with four fingers
-- [ ] ☑ App Esposé
+- [ ] ☑ App Exsposé
     - [ ] Swipe down with four fingers
-- [ ] [ ] Launchpad
-- [ ] [ ] Show Desktop
+- [ ] ◻ Launchpad
+- [ ] ◻ Show Desktop
     - [ ] Spread with thumb and three fingers
 
 
@@ -178,22 +178,22 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 
 ### Sound Effects
 - [ ] Funk
-- [ ] [ ] Play user interface sound effects
-- [ ] [ ] Play feedback when volume is changed
+- [ ] ◻ Play user interface sound effects
+- [ ] ◻ Play feedback when volume is changed
 - [ ] Set Alert and Output volume to max
 
 
 ## iCloud
-- [ ] [ ] Mail
-- [ ] [ ] Contacts
-- [ ] [ ] Calendars
-- [ ] [ ] Reminders
-- [ ] [ ] Notes
-- [ ] [ ] Safari
-- [ ] [ ] Keychain
-- [ ] [ ] Photos
+- [ ] ◻ Mail
+- [ ] ◻ Contacts
+- [ ] ◻ Calendars
+- [ ] ◻ Reminders
+- [ ] ◻ Notes
+- [ ] ◻ Safari
+- [ ] ◻ Keychain
+- [ ] ◻ Photos
 - [ ] ☑ Documebnts & Data
-- [ ] [ ] Back to My Mac
+- [ ] ◻ Back to My Mac
 - [ ] ☑ Find My Mac
 
 
@@ -204,12 +204,12 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 ## Network
 
 ### Wi-Fi
-- [ ] [ ] Ask to join new networks
-- [ ] [ ] Show Wi-Fi status in menu bar
+- [ ] ◻ Ask to join new networks
+- [ ] ◻ Show Wi-Fi status in menu bar
 
 
 ## Bluetooth
-- [ ] [ ] Show Bluetooth in menu bar
+- [ ] Show Bluetooth in menu bar
 
 
 ## Sharing
@@ -239,10 +239,10 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 
 ## App Store
 - [ ] Automatically check for updates
-- [ ] [ ] Download newly available updates in the background
+- [ ] ◻ Download newly available updates in the background
 - [ ] Install app updates
 - [ ] Install system data files and security updates
-- [ ] [ ] Automatically download apps purchased on other Macs
+- [ ] ◻ Automatically download apps purchased on other Macs
 
 
 ## Dictation & Speech
