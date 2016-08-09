@@ -220,6 +220,7 @@ cpy
 empty-trash-cli
 get-port
 git-labelmaker
+git-open
 gitjk
 grunt-cli
 gulp
