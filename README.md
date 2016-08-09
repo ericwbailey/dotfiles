@@ -190,6 +190,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [ozzik/push-and-shove](https://github.com/ozzik/push-and-shove)
         - [ ] [romashamin/compo-sketch](https://github.com/romashamin/compo-sketch)
         - [ ] [ScottSavarie/Clipboard-Fill](https://github.com/ScottSavarie/Clipboard-Fill)
+        - [ ] [vincenzopetito/Shapr](https://github.com/vincenzopetito/Shapr)
     - [ ] Styles
         - [ ] [nathco/Clear-Styles](https://github.com/nathco/Clear-Styles)
     - [ ] Text and Typography
