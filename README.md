@@ -69,6 +69,7 @@
 ### App Store
 - [ ] [Blind](https://itunes.apple.com/us/app/blind-1x-browser/id687450044)
 - [ ] [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860)
+- [ ] [GIF Brewery 3](https://itunes.apple.com/us/app/gif-brewery-3-video-to-gif/id1081413713)
 - [ ] [GIPHY CAPTURE](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984)
 - [ ] [Glyphs](https://itunes.apple.com/us/app/glyphs-mini/id469036911)
 - [ ] [HyperDock](https://itunes.apple.com/us/app/hyperdock/id449830122)
