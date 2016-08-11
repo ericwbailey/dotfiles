@@ -16,7 +16,7 @@ Most settings *should* sync, but just in case:
             - [Console](#console)
             - [Extensions](#extensions)
             - [DevTools](#devtools)
-        - [Inspector](#inspector)
+        - [Experiments](#experiments)
 - [Firefox]((#firefox)
     1. Search bar operators
     - about:config
@@ -91,12 +91,12 @@ Most settings *should* sync, but just in case:
 
 - ◻ Auto-open DevTools for popups
 
-### Inspector
+### Experiments
 
 - ☑ Accessibility Inspection
 - ☑ Allow custom UI themes
 - ◻ Continue to first invocation
-vCPU throttling
+- ◻ CPU throttling
 - ◻ Empty sourcemap auto-stepping
 - ☑ Layers panel
 - ◻ Private script inspection
