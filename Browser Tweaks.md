@@ -17,16 +17,16 @@ Most settings *should* sync, but just in case:
             - [Extensions](#extensions)
             - [DevTools](#devtools)
         - [Experiments](#experiments)
-- [Firefox]((#firefox)
-    1. Search bar operators
-    - about:config
-    - userChrome.css
-    - Adblocking
+- [Firefox](#firefox)
+    1. [Search bar operators](#search-bar-operators)
+    - [about:config](#aboutconfig)
+    - [userChrome.css](#userchromecss)
+    - [Adblocking](#adblocking)
 
 
 ## Chrome
 
-### DevTools
+### DevTools Settings
 
 #### Preferences
 
