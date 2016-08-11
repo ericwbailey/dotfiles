@@ -186,3 +186,75 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 http://prebake.eu/
 
 #### Custom rules
+
+### Developer Tools
+
+#### Default Firefox Developer Tools
+
+- ◻ Shader Editor
+- ◻ Canvas
+- ☑ Performance
+- ◻ Memory
+- ☑ Network
+- ◻ Storage
+- ◻ Web Audio
+- ◻ Scratchpad
+- ☑ DOM
+
+#### Developer Tools installed by add-ons
+
+- ☑ Accessibility
+
+#### Available Toolbox Buttons
+
+- ☑ Pick an element from the page
+- ☑ Select an iframe as the currently targeted document
+- ☑ Toggle split console
+- ☑ Responsive Design Mode
+- ◻ Highlight painted area
+- ◻ Scratchpad
+- ◻ Grab a color from the page
+- ☑ Take a fullpage screenshot
+- ☑ Toggle rulers for the page
+- ☑ Measure a portion of the page
+
+#### Themes
+
+- 🔘 Dark
+
+#### Common Preferences
+
+- ◻ Enable persistent logs
+
+#### Inspector
+
+- ◻ Show Browser Styles
+- ☑ Truncate DOM attributes
+- 🔽 Default color unit: As Authored
+
+#### Web Console
+
+- ◻ Enable timestamps
+
+#### Style Editor
+
+- ☑ Show original sources
+- ☑ Autocomplete CSS
+
+#### Editor Preferences
+
+- ☑ Detect indentation
+- ☑ Autoclose brackets
+- ☑ Indent using spaces
+- 🔽 Tab size: 4
+- 🔽 Keybindings: Sublime Text
+
+#### Advanced settings
+
+- ◻ Show Gecko platform data
+- ☑ Disable Cache (when toolbox is open)
+- ◻ Disable JavaScript
+- ◻ Enable Service Workers over HTTP (when toolbox is open)
+- ◻ Enable browser chrome and add-on debugging toolboxes
+- ◻ Enable remote debugging
+- ◻ Enable worker debugging
