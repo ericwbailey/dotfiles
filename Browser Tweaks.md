@@ -5,8 +5,19 @@ Most settings *should* sync, but just in case:
 
 ## Table of Contents
 
-1. Chrome
-- Firefox
+1. [Chrome](#chrome)
+    1. [DevTools Settings](#dev-tools-settings)
+        1. [Preferences](#preferences)
+            1. [Appearance](#appearance)
+            - [Elements](#elements)
+            - [Sources](#sources)
+            - [Network](#network)
+            - [Profiles](#profiles)
+            - [Console](#console)
+            - [Extensions](#extensions)
+            - [DevTools](#devtools)
+        - [Inspector](#inspector)
+- [Firefox]((#firefox)
     1. Search bar operators
     - about:config
     - userChrome.css
@@ -15,7 +26,7 @@ Most settings *should* sync, but just in case:
 
 ## Chrome
 
-### Inspector
+### DevTools
 
 #### Preferences
 
