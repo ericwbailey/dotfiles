@@ -22,6 +22,17 @@ Most settings *should* sync, but just in case:
     - [about:config](#aboutconfig)
     - [userChrome.css](#userchromecss)
     - [Adblocking](#adblocking)
+    - [Developer Tools](#developer-tools)
+        1. [Default Firefox Developer Tools](#default-firefox-developer-tools) 
+        - [Developer Tools installed by add-ons](#developer-tools-installed-by-add-ons)
+        - [Available Toolbox Buttons](#available-toolbox-buttons)
+        - [Themes](#themes)
+        - [Common Preferences](#common-preferences)
+        - [Inspector](#inspector)
+        - [Web Console](#web-console)
+        - [Style Editor](#style-editor)
+        - [Editor Preferences](#editor-preferences)
+        - [Advanced settings](#advanced-settings)
 
 
 ## Chrome
