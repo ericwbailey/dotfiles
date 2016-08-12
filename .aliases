@@ -29,7 +29,7 @@ alias ......="cd ../../../../.."
 # Projects
 alias work="cd ~/Desktop/Sherpath/angular-content-player && nvm use 4.2.3"
 alias cantina="cd ~/Documents/cantina.co"
-alias beacon="cd ~/Documents/weatherbeacon"
+alias beacon="cd ~/Documents/hancock.lighting"
 
 # Applications
 alias apps="cd /Applications"
@@ -241,6 +241,7 @@ alias gnts="grunt serve"
 alias npmi="npm install"
 alias npmu="npm update"
 alias npmlg="la `npm root -g`"
+alias npmd="trash node_modules && npm install"
 
 
 ## Open DNS public IP address
