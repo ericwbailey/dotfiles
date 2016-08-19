@@ -35,7 +35,6 @@
         }],
         "color-no-invalid-hex": true,
         "comment-no-empty": true,
-        "comment-no-empty": "always",
         "custom-property-empty-line-before": ["always", {
             "except": "after-custom-property",
             "ignore": "after-comment"
