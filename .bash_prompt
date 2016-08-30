@@ -43,7 +43,7 @@ prompt_git() {
 
 		[ -n "${s}" ] && s=" [${s}]";
 
-		echo -e "${1}${branchName}${2}${s}";
+		echo -e "${black} on ${1}${branchName}${2}${s}";
 	else
 		return;
 	fi;
@@ -68,12 +68,11 @@ PS1="\[\033]0;\w\007\]";
 PS1+="\[${bold}\]\n"; # newline
 PS1+="\[${bold}\]\n"; # newline
 PS1+="\[${userStyle}\]\u"; # username
-PS1+="\[${black}\] on ";
+PS1+="\[${black}\] in ";
 PS1+="\[${hostStyle}\]\h"; # host
+PS1+="\$(prompt_git \"\[${orange}\]\" \"\[${blue}\]\")"; # Git repository details
 PS1+="\[${bold}\]\n"; # newline
 PS1+="\[${yellow}\]\w"; # working directory
-PS1+="\[${bold}\]\n"; # newline
-PS1+="\$(prompt_git \"\[${orange}\]\" \"\[${blue}\]\")"; # Git repository details
 PS1+="\n";
 PS1+="\[${black}\]\#: \[${reset}\]"; # `:` (and reset color)
 export PS1;
