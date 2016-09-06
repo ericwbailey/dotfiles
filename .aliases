@@ -241,7 +241,7 @@ alias gnts="grunt serve"
 alias npmi="npm install"
 alias npmu="npm update"
 alias npmlg="la `npm root -g`"
-alias npmd="trash node_modules && npm install"
+alias npmdi="trash node_modules && npm install"
 
 
 ## Open DNS public IP address
