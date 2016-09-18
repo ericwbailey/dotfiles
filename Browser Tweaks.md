@@ -183,6 +183,9 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 #### Tracking protection
 - [ ] `privacy.trackingprotection.enabled` `true`
 
+#### Enable [Electrolysis multiprocess](https://wiki.mozilla.org/Electrolysis)
+- [ ] `rowser.tabs.remote.autostart` `true`
+
 ### userChrome.css
 ```css
 /* Show keyword input box when adding a bookmark */
