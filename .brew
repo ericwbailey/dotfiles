@@ -62,6 +62,7 @@ brew install ffmpeg
 brew install freetds
 brew install freetype
 brew install git
+brew install git-lfs
 brew install graphicsmagick
 brew install heroku-toolbelt
 brew install hr
