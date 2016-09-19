@@ -251,6 +251,7 @@ yo`
 ### Python
 1. [ ] Check to see if Homebrew is installed
 - [ ] `pip install 
+aws-shell
 Babel
 colout
 eg
