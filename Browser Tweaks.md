@@ -184,7 +184,10 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 - [ ] `privacy.trackingprotection.enabled` `true`
 
 #### Enable [Electrolysis multiprocess](https://wiki.mozilla.org/Electrolysis)
-- [ ] `rowser.tabs.remote.autostart` `true`
+- [ ] `browser.tabs.remote.autostart` `true`
+
+#### Remove "Recently Bookmarked" from the Bookmarks menu
+- [ ] `browser.bookmarks.showRecentlyBookmarked` `false`
 
 ### userChrome.css
 ```css
