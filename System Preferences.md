@@ -253,6 +253,9 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 
 ### Text to Speech
 - [ ] System Voice: Samantha
+- [ ] Speaking rate: Halfway between Normal and next tick to the left
+- [ ] ☑ Speak selected text when the key is pressed:
+    - [ ] Current key: Command+Option+Command+Control+R
 
 
 ## Date & Time
