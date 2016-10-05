@@ -38,7 +38,7 @@ alias apps="cd /Applications"
 alias desk="cd ~/Desktop"
 
 # Documents
-alias docs="cd ~/Documents"
+# alias docs="cd ~/Documents"
 
 # Downloads
 alias down="cd ~/Downloads"
