@@ -68,3 +68,7 @@ eval "$(rbenv init -)"
 # Enable rbenv shims and autocompletion add to your profile:
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 eval "$(rbenv init -)"
+
+
+## Autojump ###################################################################
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
