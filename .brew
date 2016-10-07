@@ -172,6 +172,7 @@ brew cask install iterm2
 brew cask install itsycal
 brew cask install jadengeller-helium
 brew cask install kaleidoscope
+brew cask install kap
 brew cask install keepingyouawake
 brew cask install lightpaper
 brew cask install makemkv
