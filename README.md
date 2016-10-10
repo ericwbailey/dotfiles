@@ -212,10 +212,8 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
 ### NPM
 1. [ ] Check to see if Homebrew is installed
 - [ ] `npm install -g 
-axe-core
 bower
 browserify
-browser-sync
 caniuse-cmd
 commandcar
 cpy
@@ -224,30 +222,28 @@ get-port
 git-labelmaker
 git-open
 gitjk
-grunt-cli
-gulp
 internal-ip
 itunes-remote
 is-up
-jshint
 less
 mkdirp
 nativefier
 node-gyp
-npm-package-updates
 npm-run-all
 opn
-pageres
-pageres-cli
-parker
 public-ip
-request
-stylelint
 tldr
 trash-cli
 vtop
 yo`
 
+- [ ] Additionally, you might want to consider installing these packages globally: `npm install -g 
+axe-core
+browser-sync
+grunt-cli
+gulp
+jshint
+npm-package-updates`
 
 ### Python
 1. [ ] Check to see if Homebrew is installed
@@ -262,7 +258,15 @@ pytz
 setuptools
 thefuck
 vboxapi
-waybackpack`
+waybackpack
+pageres
+pageres-cli
+parker
+request
+stylelint
+
+
+
 
 
 ### Ruby
