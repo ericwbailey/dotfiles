@@ -58,6 +58,7 @@ brew install bash-completion
 brew install brew-cask
 brew install cmake
 brew install colordiff
+brew install doxygen
 brew install ffmpeg
 brew install freetds
 brew install freetype
