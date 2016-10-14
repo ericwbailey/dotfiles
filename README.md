@@ -237,6 +237,8 @@ nativefier
 node-gyp
 npm-run-all
 opn
+pageres
+pageres-cli
 public-ip
 tldr
 trash-cli
@@ -265,8 +267,6 @@ setuptools
 thefuck
 vboxapi
 waybackpack
-pageres
-pageres-cli
 parker
 request
 stylelint`
@@ -292,7 +292,7 @@ slim`
 ## System setup
 
 ### System Preferences
-1. [ ] Review [System Preferences settings](https://github.com/ericwbailey/dotfiles/blob/master/system-preferences.md)
+1. [ ] Review [System Preferences settings](https://github.com/ericwbailey/dotfiles/blob/master/System%20Preferences.md)
 - [ ] Ensure that [color is properly set up for Adobe](http://bjango.com/articles/photoshop/)
 - [ ] Install services
     - [ ] [TextFlow](https://github.com/vmdanilov/TextFlow)
