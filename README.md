@@ -63,6 +63,9 @@
 1. [ ] [Install Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) and get all and available Downloads in Preferences
 - [ ] Install Xcode Command Line Tools: `xcode-select --install`
 
+### Clone this repo
+1. [ ] `git clone https://github.com/ericwbailey/dotfiles.git`
+
 
 ## Installs
 
@@ -264,11 +267,7 @@ pageres
 pageres-cli
 parker
 request
-stylelint
-
-
-
-
+stylelint`
 
 ### Ruby
 1. [ ] Install [rbenv](https://github.com/sstephenson/rbenv)
