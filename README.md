@@ -33,6 +33,10 @@
 
 ## First steps
 
+### Clone this repo
+1. [ ] `cd ~ && git clone https://github.com/ericwbailey/dotfiles.git`
+
+
 ### Updates, syncing, and password/licenses access
 1. [ ] Check for system and app updates, reboot if necessary
 - [ ] Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES` 
@@ -62,9 +66,6 @@
 ### Xcode
 1. [ ] [Install Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) and get all and available Downloads in Preferences
 - [ ] Install Xcode Command Line Tools: `xcode-select --install`
-
-### Clone this repo
-1. [ ] `git clone https://github.com/ericwbailey/dotfiles.git`
 
 
 ## Installs
