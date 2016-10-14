@@ -100,7 +100,7 @@
 ### Homebrew
 1. [ ] Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - [ ] Check which git and set the `$PATH`, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
-- [ ] Install `.brew`: `sh .brew`
+- [ ] Install `[.brew](https://github.com/ericwbailey/dotfiles/blob/master/.brew)`: `sh .brew`
 
 ### Non-app Store
 These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew).
