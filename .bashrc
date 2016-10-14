@@ -37,8 +37,3 @@ bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 bind '"\e[C": forward-char'
 bind '"\e[D": backward-char'
-
-#[ -n "$PS1" ] && source ~/.bash_profile;
-
-export NVM_DIR="/Users/eric/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
