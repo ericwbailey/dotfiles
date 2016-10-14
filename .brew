@@ -188,7 +188,6 @@ brew cask install skala-preview
 brew cask install sketch-toolbox
 brew cask install skype
 brew cask install the-tagger
-brew cask install totalfinder
 brew cask install tower
 brew cask install transmit
 brew cask install vagrant
