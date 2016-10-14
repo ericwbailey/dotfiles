@@ -9,8 +9,11 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - [ ] Sidebar icon size: **Medium**
 - [ ] Show scroll bars: **Always**
 - [ ] Click in the scroll bar to: **Jump to the spot that's clicked**
+- [ ] ☑️ Ask to keep changes when closing documents
+- [ ] ☑️ Close windows when quitting an app
 - [ ] Recent items: **15** Documents, Apps, and Servers
 - [ ] ☑️ Use LCD font smoothing when available
+- [ ] ☑️ Allow Handoff between this Mac and your iCloud devices
 
 
 ## Desktop & Screen Saver
@@ -18,7 +21,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 ### Desktop
 - [ ] Folder: `Dropbox/Devices/Desktops`
 
-### Desktop
+### Screen Saver
 - [ ] Folder: `Dropbox/Logs/Instagram`
 - [ ] ☑ ️Shuffle slide order
 - [ ] Start after **20 Minutes**
@@ -33,6 +36,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 
 
 ## Mission Control
+- [ ] ◻ Automatically rearrange Spaces based on most recent use
 - [ ] ☑ When switching to an application, switch to a Space with open windows for the application
 - [ ] ☑ Group windows by application
 - [ ] ☑ Displays have separate Spaces
