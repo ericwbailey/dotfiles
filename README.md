@@ -119,6 +119,7 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
 - [ ] [TextExpander](https://smilesoftware.com/textexpander)
+- [ ] [Tripmode](https://www.tripmode.ch/)
 
 Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced. 
 
