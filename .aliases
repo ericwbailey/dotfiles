@@ -196,9 +196,9 @@ alias iconcleanup="sudo find /private/var/folders/ -name com.apple.dock.iconcach
 
 # Get updates for OS X Software, Homebrew, NPM, Heroku, Pip, and all
 # packages/gems
-alias update="sudo softwareupdate -i -a && brew update; brew upgrade --all; brew cleanup && npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && pip install --upgrade pip && mackup backup;"
+alias update="sudo softwareupdate -i -a && brew update; brew upgrade; brew cleanup && npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && pip install --upgrade pip && mackup backup;"
 alias updatesoftware="sudo softwareupdate -i -a"
-alias updatehomebrew="sudo brew update; brew upgrade --all; brew cleanup"
+alias updatehomebrew="sudo brew update; brew upgrade; brew cleanup"
 alias updatenpm="sudo npm install npm -g; npm update -g; sudo gem update --system; sudo gem update"
 alias updateheroku="sudo heroku update"
 alias updatepip="sudo pip install --upgrade pip"
