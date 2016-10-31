@@ -316,6 +316,36 @@ defaults write com.google.Chrome DisablePrintPreview -bool true
 defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 
 
+## Mas ########################################################################
+# https://github.com/mas-cli/mas
+
+mas install 443987910  # 1Password
+mas install 1002970923 # Arranged
+mas install 687450044  # Blind
+mas install 411643860  # DaisyDisk
+mas install 668208984  # GIPHY CAPTURE
+mas install 416987633  # Glyphs
+mas install 449830122  # HyperDock
+mas install 439697913  # Icon Slate
+mas install 513610341  # Integrity
+mas install 498944723  # JPEGmini
+mas install 808154494  # Mail Notifr
+mas install 992076693  # MindNode
+mas install 533978766  # Monotony
+mas install 915542151  # Monity
+mas install 946873079  # Raster
+mas install 446107677  # Screens
+mas install 413965349  # Soulver
+mas install 693112260  # Sim Daltonism
+mas install 442168834  # SiteSucker
+mas install 1114363220 # TermHere
+mas install 896450579  # Textual 5
+mas install 585829637  # Todoist
+mas install 623795237  # Ulysses
+mas install 423123087  # UnPlugged
+mas install 858446756  # World Clock
+
+
 ## Wrap-up ####################################################################
 
 # Kill and relaunch affected applications
