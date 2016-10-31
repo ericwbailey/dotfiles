@@ -70,41 +70,44 @@
 
 ## Installs
 
-### App Store
-- [ ] [Blind](https://itunes.apple.com/us/app/blind-1x-browser/id687450044)
-- [ ] [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860)
-- [ ] [GIF Brewery 3](https://itunes.apple.com/us/app/gif-brewery-3-video-to-gif/id1081413713)
-- [ ] [GIPHY CAPTURE](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984)
-- [ ] [Glyphs](https://itunes.apple.com/us/app/glyphs-mini/id469036911)
-- [ ] [HyperDock](https://itunes.apple.com/us/app/hyperdock/id449830122)
-- [ ] [Icon Slate](https://itunes.apple.com/us/app/icon-slate/id439697913)
-- [ ] [Integrity](https://itunes.apple.com/us/app/integrity/id513610341)
-- [ ] [JPEGmini](https://itunes.apple.com/us/app/jpegmini/id498944723)
-- [ ] [Mail Notifr](https://itunes.apple.com/us/app/mail-notifr/id808154494) 🔒
-- [ ] [MindNode](https://itunes.apple.com/us/app/mindnode-2-delightful-mind/)
-- [ ] [Monity](https://itunes.apple.com/us/app/monity/id915542151?mt=12)
-- [ ] [Monotony](https://itunes.apple.com/us/app/monotony/id533978766?mt=12)
-- [ ] [Page Layers](https://itunes.apple.com/us/app/page-layers-website-screenshots/id437835477)
-- [ ] [PicGIF](https://itunes.apple.com/us/app/picgif/id784260229)
-- [ ] [Raster](https://itunes.apple.com/us/app/raster/id946873079)
-- [ ] [Screens VNC](https://itunes.apple.com/us/app/screens-vnc-remote-access/id446107677)
-- [ ] [SiteSucker](https://itunes.apple.com/us/app/sitesucker/id442168834)
-- [ ] [Soulver](https://itunes.apple.com/us/app/soulver/id413965349)
-- [ ] [Sim Daltonism](https://itunes.apple.com/us/app/sim-daltonism/id693112260)
-- [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12)
-- [ ] [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220)
-- [ ] [Textual](https://itunes.apple.com/us/app/textual-5/id896450579)
-- [ ] [Todoist](https://itunes.apple.com/us/app/todoist-to-do-list-task-list/id585829637)
-- [ ] [Transloader](https://itunes.apple.com/us/app/transloader/id572281534)
-- [ ] [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237)
-- [ ] [The Unarchiver](https://itunes.apple.com/us/app/the-unarchiver/id425424353)
-- [ ] [World Clock](https://itunes.apple.com/us/app/world-clock/id858446756)
-- [ ] [UnPlugged](https://itunes.apple.com/us/app/unplugged/id423123087)
-
 ### Homebrew
 1. [ ] Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - [ ] Check which git and set the `$PATH`, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
 - [ ] Install [`.brew`](https://github.com/ericwbailey/dotfiles/blob/master/.brew): `sh .brew`
+
+### mas
+- [ ] Install [`.macos`](https://github.com/ericwbailey/dotfiles/blob/master/.macos): `sh .macos`
+
+### App Store
+- [ ] [Blind](https://itunes.apple.com/us/app/blind-1x-browser/id687450044) `687450044`
+- [ ] [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860) `411643860`
+- [ ] [GIF Brewery 3](https://itunes.apple.com/us/app/gif-brewery-3-video-to-gif/id1081413713) `1081413713`
+- [ ] [GIPHY CAPTURE](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984) `668208984 `
+- [ ] [Glyphs](https://itunes.apple.com/us/app/glyphs-mini/id469036911) `416987633`
+- [ ] [HyperDock](https://itunes.apple.com/us/app/hyperdock/id449830122) `449830122`
+- [ ] [Icon Slate](https://itunes.apple.com/us/app/icon-slate/id439697913) `439697913`
+- [ ] [Integrity](https://itunes.apple.com/us/app/integrity/id513610341) `513610341`
+- [ ] [JPEGmini](https://itunes.apple.com/us/app/jpegmini/id498944723) `498944723`
+- [ ] [Mail Notifr](https://itunes.apple.com/us/app/mail-notifr/id808154494) `808154494` 🔒
+- [ ] [MindNode](https://itunes.apple.com/us/app/mindnode-2-delightful-mind/) `992076693`
+- [ ] [Monity](https://itunes.apple.com/us/app/monity/id915542151?mt=12) `915542151 `
+- [ ] [Monotony](https://itunes.apple.com/us/app/monotony/id533978766?mt=12) `533978766`
+- [ ] [Page Layers](https://itunes.apple.com/us/app/page-layers-website-screenshots/id437835477) ``
+- [ ] [PicGIF](https://itunes.apple.com/us/app/picgif/id784260229)
+- [ ] [Raster](https://itunes.apple.com/us/app/raster/id946873079) `946873079`
+- [ ] [Screens VNC](https://itunes.apple.com/us/app/screens-vnc-remote-access/id446107677) `446107677`
+- [ ] [SiteSucker](https://itunes.apple.com/us/app/sitesucker/id442168834) `442168834`
+- [ ] [Soulver](https://itunes.apple.com/us/app/soulver/id413965349) `413965349`
+- [ ] [Sim Daltonism](https://itunes.apple.com/us/app/sim-daltonism/id693112260) `693112260`
+- [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12)
+- [ ] [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220) `1114363220`
+- [ ] [Textual](https://itunes.apple.com/us/app/textual-5/id896450579) `896450579`
+- [ ] [Todoist](https://itunes.apple.com/us/app/todoist-to-do-list-task-list/id585829637) `585829637`
+- [ ] [Transloader](https://itunes.apple.com/us/app/transloader/id572281534)
+- [ ] [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237) `623795237 `
+- [ ] [The Unarchiver](https://itunes.apple.com/us/app/the-unarchiver/id425424353)
+- [ ] [World Clock](https://itunes.apple.com/us/app/world-clock/id858446756) `858446756 `
+- [ ] [UnPlugged](https://itunes.apple.com/us/app/unplugged/id423123087) `423123087 `
 
 ### Non-app Store
 These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew).
