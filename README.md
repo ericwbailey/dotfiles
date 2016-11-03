@@ -45,11 +45,11 @@
 - [ ] Sign in to relevant accounts in `System Preferences > Mail, Contacts, & Calendars`
 
 ### Browsers
-- [ ] [Arranged](https://itunes.apple.com/us/app/arranged/id1002970923?mt=12)
 - [ ] [Blisk](https://blisk.io/)
 - [ ] [Chrome](https://www.google.com/chrome/)
     1. [ ] Set as default
 - [ ] [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
+- [ ] [Duo](https://itunes.apple.com/us/app/duo/id777886035?mt=12)
 - [ ] [Firefox](https://www.mozilla.org/en-US/firefox/new/)
     1. [ ] Tweak Firefox config
     - [ ] Sync uBlock settings
@@ -320,7 +320,7 @@ slim`
 - [ ] Firefox (Assign to All Desktops)
 - [ ] Safari (Assign to All Desktops)
 - [ ] Opera (Assign to All Desktops)
-- [ ] Arranged (Assign to All Desktops)
+- [ ] Duo (Assign to All Desktops)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] Sketch (Assign to None)
 - [ ] Photoshop (Assign to None)
