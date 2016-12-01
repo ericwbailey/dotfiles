@@ -5,9 +5,9 @@
 	<key>ArchiveType</key>
 	<integer>1</integer>
 	<key>ArchiveVersion</key>
-	<string>390.104</string>
+	<string>426.42</string>
 	<key>ArchiveVersionOS</key>
-	<string>101000</string>
+	<string>101100</string>
 	<key>ArchiveVersionVO</key>
 	<integer>4</integer>
 	<key>export</key>
@@ -19,17 +19,142 @@
 			<key>SCRCTrackpadCommanderEnabled</key>
 			<false/>
 			<key>SCRCUserDefaultsAutomaticallySpeakWebPage</key>
-			<false/>
+			<true/>
+			<key>SCRCUserDefaultsAutomaticallySpeakWebPageSummary</key>
+			<true/>
 			<key>SCRCUserDefaultsBrailleTableIdentifier</key>
 			<string>com.apple.scrod.braille.table.duxbury.eng-xueb</string>
 			<key>SCRCUserDefaultsGuideViewTransparency</key>
 			<real>1</real>
 			<key>SCRCUserDefaultsHasPronunciations</key>
 			<true/>
+			<key>SCRCUserDefaultsWebNavigationMethod</key>
+			<integer>0</integer>
 			<key>SCRCUserDefaultsWebPageLoadingBehavior</key>
 			<integer>1</integer>
+			<key>SCRCUserDefaultsWebRotorOrdering</key>
+			<array>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuLandmarks</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuHeadings</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuLinks</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuNonVisitedLinks</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuVisitedLinks</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuButtons</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuFormControls</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuTextFields</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuRadioGroup</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuCheckbox</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuStaticText</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuLists</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuTables</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuImages</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuLiveRegions</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<true/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuFrames</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<false/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuWebspots</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<false/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuWebGroups</string>
+				</dict>
+				<dict>
+					<key>WebRotorEnabled</key>
+					<false/>
+					<key>WebRotorKey</key>
+					<string>SCRWebChooserMenuLines</string>
+				</dict>
+			</array>
 			<key>SCRCUserDefaultsWebpageLoadingBehavior</key>
 			<integer>1</integer>
+			<key>SCRCategories_SCRCategoryElementType_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
+			<string>com.apple.speech.synthesis.voice.tom.premium</string>
+			<key>SCRCategories_SCRCategoryElementType_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
+			<true/>
 			<key>SCRCategories_SCRCategoryGuide_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
 			<false/>
 			<key>SCRCategories_SCRCategoryStatus_SCRSpeechComponentSettings_SCRPitchAsPercent</key>
@@ -56,6 +181,12 @@
 			<integer>28</integer>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
 			<string>com.apple.speech.synthesis.voice.samantha.premium</string>
+			<key>SCRCategories_SCRCategoryTextAttributes_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
+			<string>com.apple.speech.synthesis.voice.tom.premium</string>
+			<key>SCRCategories_SCRCategoryTextAttributes_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
+			<true/>
+			<key>SCRConfigurationCursorTrackingVOToKBOnFirstEntry</key>
+			<false/>
 			<key>SCRDisplayTextEnabled</key>
 			<true/>
 			<key>SCRDisplayTextFontSize</key>
@@ -70,10 +201,16 @@
 			<real>0.73684209585189819</real>
 			<key>SCRDisplayTextWidth</key>
 			<real>1429.65625</real>
+			<key>SCREchoLockKeysEnabled</key>
+			<false/>
+			<key>SCREchoModifierKeysEnabled</key>
+			<false/>
 			<key>SCREnableAppleScript</key>
 			<true/>
 			<key>SCRGuideViewFontSize</key>
 			<real>20</real>
+			<key>SCRRotorLastRotor</key>
+			<string>SCRWebChooserMenuHeadings</string>
 			<key>SCRShouldOutputVOInstructions</key>
 			<false/>
 			<key>SCRTypingEchoFeedback</key>
