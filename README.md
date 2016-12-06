@@ -412,6 +412,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 - [ ] Delete setup files (`README.md`, `.osx`, etc.)
 - [ ] Turn `LoginLaunch.applescript` into an app and add to Login Items
 - [ ] Set up Control Plane contexts for system automation
+- [ ] Set up [Caps Lock as Insert for Windows](https://www.paciellogroup.com/blog/2013/08/insert-key-usage-in-windows-on-a-mac/)
 
 
 ## References
