@@ -180,6 +180,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
     - [ ] Colors
         - [ ] [andrewfiorillo/sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes)
     - [ ] Generators
+        - [ ] [abynim/UserFlows](https://github.com/abynim/UserFlows)
         - [ ] [ichord/sketch-divine-proportions](https://github.com/ichord/sketch-divine-proportions)
         - [ ] [nathco/Generate-ICNS](https://github.com/nathco/Generate-ICNS)
         - [ ] [tadija/AEFlowchart](https://github.com/tadija/aeflowchart)
