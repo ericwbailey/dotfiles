@@ -132,7 +132,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - [ ] Key Repeat: **1 position lower than Fast**
 - [ ] Delay Until Repeat: **2 positions after Long**
 - [ ] ☑ Adjust keyboard brightness in low light
-- [ ] Turn off when computer is not used for: **5 mins**
+- [ ] ☑ Turn off when computer is not used for: **5 mins**
 
 ### Shortcuts
 - [ ] Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: **All controls**
@@ -247,6 +247,26 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - [ ] Install app updates
 - [ ] Install system data files and security updates
 - [ ] ◻ Automatically download apps purchased on other Macs
+
+
+## Accessibility
+
+### Zoom
+- [ ] ◻ Use keyboard shortcuts to zoom
+- [ ] Use scroll gensure with modifier keys to zoom: **^ Control**
+- [ ] ☑ Smooth images
+- [ ] ☑ Zoom follows keyboard focus
+- [ ] Zoon style: **Fullscreen**
+
+### Display
+- [ ] ☑ Reduce motion
+- [ ] ☑ Reduce transparency
+
+### Speech
+- [ ] System Voice: **Samantha**
+- [ ] Speaking Rate: **One tick to the left of Normal**
+- [ ] ◻ Enable announcements
+- [ ] Speak selected text when the key is pressed: **Command+Option_Control+R**
 
 
 ## Dictation & Speech
