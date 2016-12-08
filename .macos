@@ -1,270 +1,359 @@
-## Navigation #################################################################
+#!/usr/bin/env bash
 
-# Navigate to Root
-alias ~="cd ~"
+# ~/.osx — Modified from: https://mths.be/osx
 
-# Navigate to previous working directory
-alias -- -="cd -"
+echo ""
+echo "Administrator password:"
+sudo -v
 
-# Navigate 1 directory down
-alias ..="cd .."
+# Keep-alive: update existing `sudo` time stamp until `.osx` has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# Navigate 2 directories down
-alias ...="cd ../.."
+echo ""
+echo "Setting OSX preferences"
 
-# Navigate 3 directories down
-alias ....="cd ../../.."
+## General ####################################################################
 
-# Navigate 4 directories down
-alias .....="cd ../../../.."
+# Set standby delay to 24 hours (default is 1 hour)
+sudo pmset -a standbydelay 86400
 
-# Navigate 5 directories down
-alias ......="cd ../../../../.."
+# Disable automatic termination of inactive apps
+defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
+# Reveal IP address, hostname, OS version, etc. when clicking the clock in the login window
+sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 
+## Finder #####################################################################
 
-## Shortcuts ##################################################################
+# Disable transparency in the menu bar and elsewhere on Yosemite
+defaults write com.apple.universalaccess reduceTransparency -bool true
 
-# Projects
-alias work="cd ~/Desktop/Sherpath/angular-content-player && nvm use 4.2.3"
-alias cantina="cd ~/Documents/cantina.co"
-alias beacon="cd ~/Documents/hancock.lighting"
+# Menu bar: hide the Time Machine, Volume, and User icons
+for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
+    defaults write "${domain}" dontAutoLoad -array \
+        "/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
+        "/System/Library/CoreServices/Menu Extras/Volume.menu" \
+        "/System/Library/CoreServices/Menu Extras/User.menu"
+done
+defaults write com.apple.systemuiserver menuExtras -array \
+    "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+    "/System/Library/CoreServices/Menu Extras/AirPort.menu" \
+    "/System/Library/CoreServices/Menu Extras/Battery.menu" \
+    "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
-# Applications
-alias apps="cd /Applications"
+# Set sidebar icon size to medium
+defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
-# Applications
-alias desk="cd ~/Desktop"
+# Always show scrollbars (possible values: `WhenScrolling`, `Automatic` and `Always`)
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
-# Documents
-# alias docs="cd ~/Documents"
+# Increase window resize speed for Cocoa applications
+defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
-# Downloads
-alias down="cd ~/Downloads"
+# Increase Number of Recent Places
+defaults write .GlobalPreferences NSNavRecentPlacesLimit -int 15
 
-# Dropbox
-alias drop="cd ~/Dropbox"
-alias box="cd ~/Dropbox"
+# Expand save panels by default
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
-# System Fonts
-alias sysfonts="cd ~/Library/Fonts"
-alias systemfonts="cd ~/Library/Fonts"
+# Expand print panel by default
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
-# Font Explorer X
-alias fonts="cd ~/FontExplorer\ X"
+# Save to disk (not to iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
-# htdocs
-alias htdocs="cd /Applications/XAMPP/xamppfiles/htdocs/"
+# Automatically quit printer app once the print jobs complete
+defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
-# Library
-alias lib="cd ~/Library"
-alias library="cd ~/Library"
+# Remove duplicates in the “Open With” menu (also see `lscleanup` alias)
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
 
-# Movies
-alias mov="cd ~/Movies"
-alias movies="cd ~/Movies"
+# Set Desktop as the default location for new Finder windows (for other paths, use `PfLo` and `file:///full/path/here/`)
+defaults write com.apple.finder NewWindowTarget -string "PfDe"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
 
-# Music
-alias music="cd ~/Music"
+# Show icons for hard drives, servers, and removable media on the desktop
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
-# Pictures
-alias pics="cd ~/Pictures"
+# Show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
-# Public
-alias pub="cd ~/Public"
+# Show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Sites
-alias sites="cd ~/Sites"
+# Require password immediately after sleep or screen saver begins
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-# System Library
-alias syslib="cd /Library"
-alias systemlibrary="cd /Library"
+# Show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
 
+# Finder: allow text selection in Quick Look
+defaults write com.apple.finder QLEnableTextSelection -bool true
 
+# When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
+# Enable spring loading for directories
+defaults write NSGlobalDomain com.apple.springing.enabled -bool true
 
-## Commands ###################################################################
+# Disable creation of .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
+# Disable creation of .DS_Store files on USB volumes
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
-## Sudoing
+# Show item info near icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 
-# Keep things polite
-alias pls="sudo"
+# Show item info to the right of the icons on the desktop
+/usr/libexec/PlistBuddy -c "Set DesktopViewSettings:IconViewSettings:labelOnBottom false" ~/Library/Preferences/com.apple.finder.plist
 
-# Enable sudoing aliases
-alias sudo="sudo "
+# Enable snap-to-grid for icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
+# Increase grid spacing for icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
 
-## Linking
+# Increase the size of icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
 
-# Create a symbolic link
-alias link="ln -s"
+# Use column view in all Finder windows by default (four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`)
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
-# Deletes a symbolic link. Don't include trailing slash for the folder name
-alias unlink="rm "
+# Show the ~/Library folder
+chflags nohidden ~/Library
 
+# Change minimize/maximize window effect
+defaults write com.apple.dock mineffect -string "scale"
 
-## Finding
 
-# Find files in current directory
-alias findhere="find . -name "
+## Input ######################################################################
 
-# Colors grep output
-alias grep="grep --color=auto"
+# Disable “natural” (Lion-style) scrolling
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
+# Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-## Listing
+# Use scroll gesture with the Ctrl (^) modifier key to zoom
+defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+# Follow the keyboard focus while zoomed in
+defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
-# Detect which `ls` flavor is in use
-if ls --color > /dev/null 2>&1; then # GNU `ls`
-    colorflag="--color"
-else # OS X `ls`
-    colorflag="-G"
-fi
+# Disable press-and-hold for keys in favor of key repeat
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# Include directory entries whose names begin with "."
-alias ls="ls -aF ${colorflag}"
+# Set a somewhat fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 7
 
-# Include directory entries whose names begin with ".", list in long format.
-# Ownership, Date/Time, etc.
-alias la="ls -AlF ${colorflag}"
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-# Sort by extension
-alias lx="ls -lXB ${colorflag}"
-alias lext="ls -lXB ${colorflag}"
 
-# Sort by size, biggest last
-alias lk="ls -lSr ${colorflag}"
-alias lsize="ls -lSr ${colorflag}"
+## Screen ######################################################################
 
-# List all directories in current directory in long list format
-alias ld="ls -al ${colorflag} | grep --color=never '^d'"
-alias ldir="ls -al ${colorflag} | grep --color=never '^d'"
+# Save screenshots to the desktop
+defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 
-# Always use color output for `ls`
-alias ls="command ls ${colorflag}"
-export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
+# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+defaults write com.apple.screencapture type -string "png"
 
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
 
-## Clearing
 
-# Clear the screen
-alias cl="clear"
+## Dock, Mission Control, Hot Corners, etc. ###################################
 
-# Clear the screen and list files
-alias cls="clear;ls"
+# Set the icon size of Dock items to 36 pixels
+defaults write com.apple.dock tilesize -int 36
 
-# Clear the screen and list directories
-alias cla="clear;la"
+# Show indicator lights for open applications in the Dock
+defaults write com.apple.dock show-process-indicators -bool true
 
+# Speed up Mission Control animations
+defaults write com.apple.dock expose-animation-duration -float 0.1
 
-## History
+# Disable Dashboard
+defaults write com.apple.dashboard mcx-disabled -bool true
 
-# Lists the last 15 commands
-alias his="history 15"
+# Don’t show Dashboard as a Space
+defaults write com.apple.dock dashboard-in-overlay -bool true
 
+# Don’t automatically rearrange Spaces based on most recent use
+defaults write com.apple.dock mru-spaces -bool false
 
-## File manipulating
+ # Disable the Launchpad gesture (pinch with thumb and three fingers)
+defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 
-# Prompt before deletion
-alias rm="rm -i"
+# Hot corners
+# Possible values:
+# 0: no-op
+# 2: Mission Control
+# 3: Show application windows
+# 4: Desktop
+# 5: Start screen saver
+# 6: Disable screen saver
+# 7: Dashboard
+# 10: Put display to sleep
+# 11: Launchpad
+# 12: Notification Center
 
-# Prompt before overwrite
-alias cp="cp -i"
+# Top right screen corner: Application Windows
+defaults write com.apple.dock wvous-tr-corner -int 4
+defaults write com.apple.dock wvous-tr-modifier -int 0
+# Bottom left screen corner: Mission Control
+defaults write com.apple.dock wvous-bl-corner -int 2
+defaults write com.apple.dock wvous-bl-modifier -int 0
+# Bottom right screen corner: Mission Control
+defaults write com.apple.dock wvous-br-corner -int 4
+defaults write com.apple.dock wvous-br-modifier -int 0
 
-# Prompt before overwrite
-alias mv="mv -i"
+# Use Notification Center for crash reports: http://lifehacker.com/send-app-crash-reports-to-the-notification-center-in-os-1753833411
+defaults write com.apple.CrashReporter UseUNC 1
 
 
-## Cleaning up
+## Safari/Webkit ##############################################################
 
-# Recursively delete `.DS_Store` files
-alias dscleanup="find . -type f -name '*.DS_Store' -ls -delete"
+# Privacy: don’t send search queries to Apple
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
-# Clean up LaunchServices to remove duplicates in the “Open With” menu
-alias launchcleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+# Press Tab to highlight each item on a web page
+defaults write com.apple.Safari WebKitTabToLinksPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2TabsToLinks -bool true
 
-# Flush Directory Service cache
-alias dircleanup="dscacheutil -flushcache && killall -HUP mDNSResponder"
+# Show the full URL in the address bar (note: this still hides the scheme)
+defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 
-# Clear the icon cache: https://gist.github.com/fabiofl/5873100
-alias iconcleanup="sudo find /private/var/folders/ -name com.apple.dock.iconcache -exec rm {} \;"
+# Set Safari’s home page to `about:blank` for faster loading
+defaults write com.apple.Safari HomePage -string "about:blank"
 
+# Allow hitting the Backspace key to go to the previous page in history
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
-## Updating
+# Enable Safari’s debug menu
+defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 
-# Get updates for OS X Software, Homebrew, NPM, Heroku, Pip, and all
-# packages/gems
-alias update="sudo softwareupdate -i -a && mas upgrade && brew update; brew upgrade; brew cleanup && npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && pip install --upgrade pip && mackup backup;"
-alias updatesoftware="sudo softwareupdate -i -a && mas upgrade"
-alias updatehomebrew="sudo brew update; brew upgrade; brew cleanup"
-alias updatenpm="sudo npm install npm -g; npm update -g; sudo gem update --system; sudo gem update"
-alias updateheroku="sudo heroku update"
-alias updatepip="sudo pip install --upgrade pip"
-alias updatemackup="sudo mackup backup;"
+# Make Safari’s search banners default to Contains instead of Starts With
+defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 
+# Enable the Develop menu and the Web Inspector in Safari
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
-## Reloading
-alias reload="exec $SHELL -l"    # Reloads the shell (i.e. invoke as a login shell)
+# Add a context menu item for showing the Web Inspector in web views
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 
+## Terminal ###################################################################
 
+# Only use UTF-8 in Terminal.app
+defaults write com.apple.terminal StringEncodings -array 4
 
-## Applications ###############################################################
+# Enable “focus follows mouse” for Terminal.app (i.e. hover over a window and start typing in it without clicking first)
+defaults write com.apple.terminal FocusFollowsMouse -bool true
 
 
-## Fuck
-alias fuck='$(thefuck $(fc -ln -1))'
+## Time Machine ###############################################################
 
+# Prevent Time Machine from prompting to use new hard drives as backup volume
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
-## Git
+# Disable local Time Machine backups
+hash tmutil &> /dev/null && sudo tmutil disablelocal
 
-# Other git aliases stored in `.gitconfig`
-alias g="git"
-alias gh="~/Dropbox/Scripts/Bash/gh.sh"
 
+## Activity Monitor ###########################################################
 
-## Gulp
-alias glp="gulp"
-alias glpw="gulp watch"
+# Show all processes in Activity Monitor
+defaults write com.apple.ActivityMonitor ShowCategory -int 0
 
+# Sort Activity Monitor results by CPU usage
+defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
+defaults write com.apple.ActivityMonitor SortDirection -int 0
 
-## Gulp
-alias gnt="grunt"
-alias gntc="grunt clean"
-alias gntb="grunt build"
-alias gnts="grunt serve"
 
+## Miscellaneous Apps #########################################################
 
-## NPM
-alias npmi="npm install"
-alias npmu="npm update"
-alias npmlg="la `npm root -g`"
-alias npmdi="trash node_modules && npm install"
+## App Store
+# Enable the WebKit Developer Tools in the Mac App Store
+defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 
+## TextEdit
+# Use plain text mode for new TextEdit documents
+defaults write com.apple.TextEdit RichText -int 0
 
-## Open DNS public IP address
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+# Open and save files as UTF-8 in TextEdit
+defaults write com.apple.TextEdit PlainTextEncoding -int 4
+defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
+## Google Chrome
+# Disable backswipe on trackpads and Magic Mouse
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false
 
-## pageres, https://github.com/sindresorhus/pageres
-alias pageshot="pageres"
-alias screenshot="pageres"
-alias siteshot="pageres"
+# Use the system-native print preview dialog
+defaults write com.google.Chrome DisablePrintPreview -bool true
+defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 
 
-# Pings a resource 10 times
-alias ping="ping -c 10"
+## Mas ########################################################################
+# https://github.com/mas-cli/mas
 
+mas install 443987910  # 1Password
+mas install 1002970923 # Arranged
+mas install 687450044  # Blind
+mas install 411643860  # DaisyDisk
+mas install 668208984  # GIPHY CAPTURE
+mas install 416987633  # Glyphs
+mas install 449830122  # HyperDock
+mas install 439697913  # Icon Slate
+mas install 513610341  # Integrity
+mas install 498944723  # JPEGmini
+mas install 808154494  # Mail Notifr
+mas install 992076693  # MindNode
+mas install 533978766  # Monotony
+mas install 915542151  # Monity
+mas install 946873079  # Raster
+mas install 446107677  # Screens
+mas install 413965349  # Soulver
+mas install 693112260  # Sim Daltonism
+mas install 442168834  # SiteSucker
+mas install 1114363220 # TermHere
+mas install 896450579  # Textual 5
+mas install 585829637  # Todoist
+mas install 623795237  # Ulysses
+mas install 423123087  # UnPlugged
+mas install 858446756  # World Clock
 
-## Vagrant
-alias vg="vagrant"
 
+## Wrap-up ####################################################################
 
+# Kill and relaunch affected applications
+for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" \
+"cfprefsd" "Dock" "Finder" "Mail" "Messages" "Safari"  \
+"SystemUIServer" "Terminal" "Transmission" "iCal"; do
+killall "${app}" > /dev/null 2>&1
+done
 
-
-## Servers ####################################################################
-
-# connects to serverfoo via .ssh/config
-alias serverfoo="ssh serverfoo"
+echo ""
+echo "Done. Restart to ensure all changes take effect."
