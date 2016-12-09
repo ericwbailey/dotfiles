@@ -81,6 +81,7 @@
 ### App Store
 - [ ] [Blind](https://itunes.apple.com/us/app/blind-1x-browser/id687450044) `687450044`
 - [ ] [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860) `411643860`
+- [ ] [Fantastical 2](https://itunes.apple.com/us/app/fantastical-2-calendar-reminders/id975937182?mt=12) `975937182`
 - [ ] [GIF Brewery 3](https://itunes.apple.com/us/app/gif-brewery-3-video-to-gif/id1081413713) `1081413713`
 - [ ] [GIPHY CAPTURE](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984) `668208984 `
 - [ ] [Glyphs](https://itunes.apple.com/us/app/glyphs-mini/id469036911) `416987633`
