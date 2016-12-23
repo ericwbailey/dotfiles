@@ -326,9 +326,7 @@ slim`
 - [ ] Duo (Assign to All Desktops)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] Sketch (Assign to None)
-- [ ] Photoshop (Assign to None)
-- [ ] Illustrator (Assign to None)
-- [ ] InDesign (Assign to None)
+- [ ] Pixelmator (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 
 ### Finder view preferences
