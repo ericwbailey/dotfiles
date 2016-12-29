@@ -84,6 +84,7 @@ brew install m-cli
 brew install node
 brew install optipng
 brew install phantomjs
+brew install pidof
 brew install pkg-config
 brew install python
 brew install readline
