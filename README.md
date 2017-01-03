@@ -235,6 +235,7 @@ get-port
 git-labelmaker
 git-open
 gitjk
+http-server
 internal-ip
 itunes-remote
 is-up
