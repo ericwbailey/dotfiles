@@ -95,6 +95,10 @@
     # Detect whitespace errors when applying a patch
     whitespace = fix
 
+[commit]
+    # Uses commit template
+    template = ~/.git-commit-template
+
 [diff]
     # Detect copies as well as renames
     renames = copies
