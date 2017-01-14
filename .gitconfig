@@ -31,7 +31,8 @@
     # http://stackoverflow.com/questions/136178/git-diff-handling-long-lines
     pager = less -r
 
-
+    # Sets Atom as the default editor
+    editor = atom
 
 
 ## Aliases ####################################################################
@@ -180,3 +181,7 @@
 
 [difftool]
     prompt = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
