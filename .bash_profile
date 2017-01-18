@@ -62,10 +62,8 @@ complete -W "NSGlobalDomain" defaults;
 
 ## Rbenv ######################################################################
 
-# https://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
-eval "$(rbenv init -)"
-
 # Enable rbenv shims and autocompletion add to your profile:
+# https://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 eval "$(rbenv init -)"
 
