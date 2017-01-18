@@ -37,7 +37,7 @@
 1. [ ] `cd ~ && git clone https://github.com/ericwbailey/dotfiles.git`
 
 
-### Updates, syncing, and password/licenses access
+### Updates, syncing, and password/license access
 1. [ ] Check for system and app updates, reboot if necessary
 - [ ] Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES` 
 - [ ] Install [Dropbox](https://www.dropbox.com/downloading?src=index) and start syncing
@@ -281,7 +281,9 @@ stylelint`
 
 ### Ruby
 1. [ ] Install [rbenv](https://github.com/sstephenson/rbenv)
-- [ ] Ensure that the `.bash_profile` points to the new version of Ruby
+- [ ] `rbenv install 2.4.0`
+- [ ] `rbenv global 2.4.0`
+- [ ] Ensure that `.bash_profile` points to the new version of Ruby
 - [ ] `gem install
 bundler
 foreman
