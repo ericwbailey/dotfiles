@@ -231,6 +231,8 @@ alias gh="~/Dropbox/Scripts/Bash/gh.sh"
 ## Gulp
 alias glp="gulp"
 alias glpw="gulp watch"
+alias glpt="gulp test"
+alias glpd="gulp deploy"
 
 
 ## Gulp
