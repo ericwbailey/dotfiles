@@ -177,6 +177,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
     - [ ] [Sketch Runner](http://sketchrunner.com/)
     - [ ] [State Machine](https://evilmartians.com/chronicles/state-machine-the-state-switcher)
     - [ ] Artboards
+        - [ ] [Auto Layout](https://animaapp.github.io/Auto-Layout/)
         - [ ] [frankko/Artboard-Tools](https://github.com/frankko/Artboard-Tools)
     - [ ] Colors
         - [ ] [andrewfiorillo/sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes)
@@ -186,6 +187,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [preciousforever/sketch-data-populator](https://github.com/preciousforever/sketch-data-populator)
         - [ ] [utom/sketch-measure](https://github.com/utom/sketch-measure)
     - [ ] Layers
+        - [ ] [hrescak/Sketch-Layer-Tools](https://github.com/hrescak/Sketch-Layer-Tools) 
     - [ ] Pages
     - [ ] Selection
         - [ ] [sebj/Select-By-Name](https://github.com/sebj/Select-By-Name)
