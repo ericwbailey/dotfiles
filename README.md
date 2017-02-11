@@ -176,6 +176,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
     - [ ] [MagicSketch/MagicPresenter](https://github.com/MagicSketch/MagicPresenter)
     - [ ] [Sketch Runner](http://sketchrunner.com/)
     - [ ] [State Machine](https://evilmartians.com/chronicles/state-machine-the-state-switcher)
+    - [ ] [svgo-compressor](https://github.com/BohemianCoding/svgo-compressor)
     - [ ] Artboards
         - [ ] [Auto Layout](https://animaapp.github.io/Auto-Layout/)
         - [ ] [frankko/Artboard-Tools](https://github.com/frankko/Artboard-Tools)
