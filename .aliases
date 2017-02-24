@@ -247,6 +247,7 @@ alias npmi="npm install"
 alias npmu="npm update"
 alias npmlg="la `npm root -g`"
 alias npmdi="trash node_modules && npm install"
+alias ughhh="trash node_modules && trash bower_components && npm install && bower install && bower update"
 
 
 ## Open DNS public IP address
