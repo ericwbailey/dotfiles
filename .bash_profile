@@ -69,7 +69,7 @@ eval "$(rbenv init -)"
 
 
 ## Autojump ###################################################################
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 
 ## autoenv ####################################################################
