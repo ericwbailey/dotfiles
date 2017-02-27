@@ -80,6 +80,7 @@ brew install libyaml
 brew install lynx
 brew install mackup
 brew install mas
+brew install micro
 brew install mysql
 brew install m-cli
 brew install node
@@ -197,11 +198,6 @@ brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
 brew cask install vlc
-
-
-# Install unstable apps
-brew tap zyedidia/micro
-brew install --devel micro
 
 
 # Ensure that Alfred can find installed apps
