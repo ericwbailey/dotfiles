@@ -188,7 +188,8 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [preciousforever/sketch-data-populator](https://github.com/preciousforever/sketch-data-populator)
         - [ ] [utom/sketch-measure](https://github.com/utom/sketch-measure)
     - [ ] Layers
-        - [ ] [hrescak/Sketch-Layer-Tools](https://github.com/hrescak/Sketch-Layer-Tools) 
+        - [ ] [hrescak/Sketch-Layer-Tools](https://github.com/hrescak/Sketch-Layer-Tools)
+        - [ ] [https://github.com/rodi01/RenameIt)(rodi01/RenameIt)
     - [ ] Pages
     - [ ] Selection
         - [ ] [sebj/Select-By-Name](https://github.com/sebj/Select-By-Name)
@@ -198,7 +199,6 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [ScottSavarie/Clipboard-Fill](https://github.com/ScottSavarie/Clipboard-Fill)
     - [ ] Styles
     - [ ] Text and Typography
-        - [ ] [mscodemonkey/Sketch-Find-And-Replace](https://github.com/mscodemonkey/Sketch-Find-And-Replace)
         - [ ] [nolastan/sync.sketchplugin](https://github.com/nolastan/sync.sketchplugin)
 
 ### NVM
