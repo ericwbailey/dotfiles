@@ -218,6 +218,7 @@ caniuse-cmd
 commandcar
 cpy
 empty-trash-cli
+firebase-tools
 get-port
 git-labelmaker
 git-open
