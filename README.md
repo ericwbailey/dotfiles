@@ -221,6 +221,7 @@ firebase-tools
 get-port
 git-labelmaker
 git-open
+git-standup
 gitjk
 http-server
 internal-ip
