@@ -6,7 +6,7 @@
 
 [github]
     user = ericwbailey
-    token = TOKEN
+    token = %TOKEN%
 
 
 
@@ -33,6 +33,8 @@
 
     # Sets Atom as the default editor
     editor = atom
+
+
 
 
 ## Aliases ####################################################################
@@ -78,14 +80,18 @@
     contributors = shortlog --summary --numbered
 
     # Human git aliases: http://gggritso.com/human-git-aliases
-    branches = branch -a
-    tags = tag
-    stashes = stash list
-    unstage = reset -q HEAD --
-    discard = checkout --
-    uncommit = reset --mixed HEAD~
     amend = commit --amend
+    branches = branch -a
+    discard = checkout --
     nevermind = !git reset --hard HEAD && git clean -d -f
+    prune = fetch --prune
+    stash = stash save --include-untracked
+    stashes = stash list
+    tags = tag
+    undo = reset --soft HEAD^
+    uncommit = reset --mixed HEAD~
+    unstage = reset -q HEAD --
+
 
 
 
@@ -116,6 +122,11 @@
 [push]
     # Use the Git 1.x.x default to avoid errors on machines with old Git installations. To use `simple` instead, add this to your `~/.extra` file: `git config --global push.default simple`. See http://git.io/mMah-w.
     default = matching
+    followTags = true
+
+[status]
+    # Sometimes a newly-added folder, since it's only one line in git status, can slip under the radar.
+    showUntrackedFiles = all
 
 
 
@@ -185,6 +196,7 @@
 
 [difftool]
     prompt = false
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
