@@ -153,6 +153,7 @@ brew cask install adwaremedic
 brew cask install adium
 brew cask install alfred
 brew cask install appdelete
+brew cask install atext
 brew cask install atom
 brew cask install bartender
 brew cask install beamer
