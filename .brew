@@ -151,8 +151,9 @@ brew cask install qlvideo
 brew cask install colorpicker-skalacolor
 
 # Apps
-brew cask install adwaremedic
+brew cask install adapter
 brew cask install adium
+brew cask install adwaremedic
 brew cask install alfred
 brew cask install appdelete
 brew cask install atext
