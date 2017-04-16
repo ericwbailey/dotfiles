@@ -144,6 +144,8 @@ brew cask install betterzipql
 brew cask install webpquicklook
 brew cask install scriptql
 brew cask install suspicious-package
+brew cask install quicklookase
+brew cask install qlvideo
 
 # Color Pickers
 brew cask install colorpicker-skalacolor
