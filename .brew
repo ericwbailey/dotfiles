@@ -201,6 +201,7 @@ brew cask install skype
 brew cask install the-tagger
 brew cask install tower
 brew cask install transmit
+brew cask install tunnelblick
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
