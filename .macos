@@ -141,6 +141,9 @@ chflags nohidden ~/Library
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
 
+# Adds Quit Finder to the  menu
+defaults write com.apple.finder QuitMenuItem -bool YES
+
 
 ## Input ######################################################################
 
