@@ -182,6 +182,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
     - [ ] Generators
         - [ ] [abynim/UserFlows](https://github.com/abynim/UserFlows)
         - [ ] [tadija/AEFlowchart](https://github.com/tadija/aeflowchart)
+        - [ ] [Looper](http://www.sureskumar.com/looper/)
         - [ ] [preciousforever/sketch-data-populator](https://github.com/preciousforever/sketch-data-populator)
         - [ ] [utom/sketch-measure](https://github.com/utom/sketch-measure)
     - [ ] Layers
