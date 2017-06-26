@@ -3,9 +3,6 @@
 # Navigate to Root
 alias ~="cd ~"
 
-# Navigate to previous working directory
-alias -- -="cd -"
-
 # Navigate 1 directory down
 alias ..="cd .."
 
