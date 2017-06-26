@@ -27,9 +27,10 @@ alias ......="cd ../../../../.."
 ## Shortcuts ##################################################################
 
 # Projects
-alias work="cd ~/Desktop/Sherpath/angular-content-player && nvm use 4.2.3"
+alias work="cd ~/Desktop/Elsevier/eols-eaq-app && itermocil work"
 alias cantina="cd ~/Documents/cantina.co"
 alias beacon="cd ~/Documents/hancock.lighting"
+alias eric="cd ~/Documents/ericwbailey.design"
 
 # Applications
 alias apps="cd /Applications"
@@ -199,9 +200,9 @@ alias iconcleanup="sudo find /private/var/folders/ -name com.apple.dock.iconcach
 
 # Get updates for OS X Software, Homebrew, NPM, Heroku, Pip, and all
 # packages/gems
-alias update="sudo softwareupdate -i -a && mas upgrade && brew update; brew upgrade; brew cleanup && npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && pip install --upgrade pip && mackup backup;"
+alias update="sudo softwareupdate -i -a && mas upgrade; brew upgrade && brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && pip install --upgrade pip && mackup backup;"
 alias updatesoftware="sudo softwareupdate -i -a && mas upgrade"
-alias updatehomebrew="sudo brew update; brew upgrade; brew cleanup"
+alias updatehomebrew="sudo brew upgrade && brew cleanup"
 alias updatenpm="sudo npm install npm -g; npm update -g; sudo gem update --system; sudo gem update"
 alias updateheroku="sudo heroku update"
 alias updatepip="sudo pip install --upgrade pip"
@@ -235,10 +236,11 @@ alias glpt="gulp test"
 alias glpd="gulp deploy"
 
 
-## Gulp
+## Grunt
 alias gnt="grunt"
 alias gntc="grunt clean"
 alias gntb="grunt build"
+alias gnts="grunt run"
 alias gnts="grunt serve"
 
 
@@ -248,6 +250,12 @@ alias npmu="npm update"
 alias npmlg="la `npm root -g`"
 alias npmdi="trash node_modules && npm install"
 alias ughhh="trash node_modules && trash bower_components && npm install && bower install && bower update"
+
+
+## Bower
+alias bowi="bower install"
+alias bowu="bower update"
+alias bowdi="trash bower_components && bower install && bower update"
 
 
 ## Open DNS public IP address
