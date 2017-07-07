@@ -190,6 +190,7 @@ brew cask install makemkv
 brew cask install mamp
 brew cask install metaz
 brew cask install mullvad
+brew cask install muzzle
 brew cask install quitter
 brew cask install reflector
 brew cask install renamer
