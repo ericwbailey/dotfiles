@@ -122,7 +122,8 @@ else # OS X `ls`
 fi
 
 # Include directory entries whose names begin with "."
-alias ls="ls -aF ${colorflag}"
+# alias ls="ls -aF ${colorflag}"
+alias ls="exa -la --header --group --git"
 
 # Include directory entries whose names begin with ".", list in long format.
 # Ownership, Date/Time, etc.
