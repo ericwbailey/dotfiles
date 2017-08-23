@@ -88,7 +88,10 @@ alias systemlibrary="cd /Library"
 ## Sudoing
 
 # Keep things polite
-alias pls="sudo"
+alias pls="sudo "
+
+# Or not so polite
+alias fucking="sudo "
 
 # Enable sudoing aliases
 alias sudo="sudo "
