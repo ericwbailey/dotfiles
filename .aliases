@@ -88,10 +88,10 @@ alias systemlibrary="cd /Library"
 ## Sudoing
 
 # Keep things polite
-alias pls="sudo "
+alias pls="sudo"
 
 # Or not so polite
-alias fucking="sudo "
+alias fucking="sudo"
 
 # Enable sudoing aliases
 alias sudo="sudo "
@@ -107,6 +107,9 @@ alias unlink="rm "
 
 
 ## Finding
+
+# Cat with color output
+alias cat=ccat
 
 # Find files in current directory
 alias findhere="find . -name "
