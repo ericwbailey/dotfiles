@@ -115,8 +115,9 @@
 ### Non-app Store
 These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew).
 
-- [ ] [CrashPlan](https://www.code42.com/crashplan/)
+- [ ] [CSS Grid Builder](https://cssgrid.cc/)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
+- [ ] [Gifmock](https://gifmock.com/)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
 - [ ] [Lookback](https://lookback.io/usb)
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
