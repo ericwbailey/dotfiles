@@ -193,6 +193,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
     - [ ] Pages
     - [ ] Selection
         - [ ] [sebj/Select-By-Name](https://github.com/sebj/Select-By-Name)
+        - [ ] [thierryc/Sketch-Find-And-Replace](https://github.com/thierryc/Sketch-Find-And-Replace)
     - [ ] Sorting, Moving and Placing
         - [ ] [ozzik/push-and-shove](https://github.com/ozzik/push-and-shove)
         - [ ] [romashamin/compo-sketch](https://github.com/romashamin/compo-sketch)
