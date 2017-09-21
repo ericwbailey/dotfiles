@@ -26,6 +26,7 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 - [ ] [Report Symbols](https://addons.nvda-project.org/addons/reportSymbols.en.html)
 
 ### Firefox
+- [ ] [aXe Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
 - [ ] [WAVE Evaluation Tool](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
 
 
