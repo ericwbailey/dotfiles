@@ -22,11 +22,13 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 - [ ] [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US)
 - [ ] [ChromeVox](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn)
 - [ ] [High Contrast](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en-US)
+- [ ] [Landmarks](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp)
 - [ ] [NoCoffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US)
 - [ ] [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US)
 
 ### Firefox
 - [ ] [aXe Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
+- [ ] [Landmarks](https://addons.mozilla.org/en-US/firefox/addon/landmarks/)
 - [ ] [WAVE Evaluation Tool](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
 
 ### NVDA
