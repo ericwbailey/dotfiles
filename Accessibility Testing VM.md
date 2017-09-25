@@ -13,6 +13,10 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 
 ## Extensions and Plugins
 
+### Bookmarklets
+- [ ] [Alix](https://github.com/ireade/alix)
+- [ ] [tota11y](http://khan.github.io/tota11y/)
+
 ### Chrome
 - [ ] [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en-US)
 - [ ] [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US)
@@ -21,15 +25,15 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 - [ ] [NoCoffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US)
 - [ ] [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US)
 
+### Firefox
+- [ ] [aXe Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
+- [ ] [WAVE Evaluation Tool](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
+
 ### NVDA
 - [ ] [FocusHighlight](https://addons.nvda-project.org/addons/focusHighlight.en.html)
 - [ ] [Remote Support](https://addons.nvda-project.org/addons/nvdaremote.en.html)
 - [ ] [Report Symbols](https://addons.nvda-project.org/addons/reportSymbols.en.html)
 
-### Firefox
-- [ ] [aXe Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
-- [ ] [WAVE Evaluation Tool](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
-
 
 ## Bookmarks
-- [Basic screen reader commands for accessibility testing | The Paciello Group](https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/)
+- [ ] [Basic screen reader commands for accessibility testing | The Paciello Group](https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/)
