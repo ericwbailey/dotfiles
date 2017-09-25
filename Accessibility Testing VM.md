@@ -31,4 +31,4 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 
 
 ## Bookmarks
-- [NVDA Keyboard Shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
+- [Basic screen reader commands for accessibility testing | The Paciello Group](https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/)
