@@ -1,6 +1,6 @@
 # Accessibility Testing VM
 
-Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/), or host one on [Amazon WorkSpaces](https://aws.amazon.com/workspaces/).
+Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/), or host one on [Amazon WorkSpaces](https://aws.amazon.com/workspaces/). Check out Joe Watkins' article on [remapping keyboard functionality](https://joe-watkins.io/accessibility/up-and-running-with-jaws-on-a-mac/).
 
 
 ## Programs
