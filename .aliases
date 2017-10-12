@@ -111,6 +111,9 @@ alias unlink="rm "
 # Cat with color output
 alias cat=ccat
 
+# fd, https://github.com/sharkdp/fd
+alias fd="fd -HL --full-path"
+
 # Find files in current directory
 alias findhere="find . -name "
 
@@ -190,7 +193,7 @@ alias mv="mv -i"
 # Recursively delete `.DS_Store` files
 alias dscleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
-# Clean up LaunchServices to remove duplicates in the âOpen Withâ menu
+# Clean up LaunchServices to remove duplicates in the “Open With” menu
 alias launchcleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
 
 # Flush Directory Service cache
