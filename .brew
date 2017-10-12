@@ -62,6 +62,7 @@ brew install cmake
 brew install colordiff
 brew install doxygen
 brew install exa
+brew install fd
 brew install ffmpeg
 brew install freetds
 brew install freetype
