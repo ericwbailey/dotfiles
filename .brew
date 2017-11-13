@@ -173,7 +173,7 @@ brew cask install dictater
 brew cask install dropzone
 brew cask install duet
 brew cask install fluid
-brew cask install fontprep
+brew cask install fontplop
 brew cask install fsmonitor
 brew cask install gitup
 brew cask install handbrake
