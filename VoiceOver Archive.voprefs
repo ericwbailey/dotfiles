@@ -5,9 +5,9 @@
 	<key>ArchiveType</key>
 	<integer>1</integer>
 	<key>ArchiveVersion</key>
-	<string>426.42</string>
+	<string>477.40.6</string>
 	<key>ArchiveVersionOS</key>
-	<string>101100</string>
+	<string>101200</string>
 	<key>ArchiveVersionVO</key>
 	<integer>4</integer>
 	<key>export</key>
@@ -16,6 +16,8 @@
 		<dict/>
 		<key>default</key>
 		<dict>
+			<key>SCRCInvertedTCommanderCaptureEnabled</key>
+			<true/>
 			<key>SCRCTrackpadCommanderEnabled</key>
 			<false/>
 			<key>SCRCUserDefaultsAutomaticallySpeakWebPage</key>
@@ -151,8 +153,14 @@
 			</array>
 			<key>SCRCUserDefaultsWebpageLoadingBehavior</key>
 			<integer>1</integer>
-			<key>SCRCategories_SCRCategoryElementType_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
+			<key>SCRCategories_SCRCategoryContent_SCRSpeechComponentSettings_SCRRateAsPercent</key>
+			<real>40</real>
+			<key>SCRCategories_SCRCategoryContent_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
 			<string>com.apple.speech.synthesis.voice.tom.premium</string>
+			<key>SCRCategories_SCRCategoryContent_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
+			<true/>
+			<key>SCRCategories_SCRCategoryElementType_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
+			<string>com.apple.speech.synthesis.voice.samantha.premium</string>
 			<key>SCRCategories_SCRCategoryElementType_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
 			<true/>
 			<key>SCRCategories_SCRCategoryGuide_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
@@ -162,7 +170,7 @@
 			<key>SCRCategories_SCRCategoryStatus_SCRSpeechComponentSettings_SCRRateAsPercent</key>
 			<integer>38</integer>
 			<key>SCRCategories_SCRCategoryStatus_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
-			<string>com.apple.speech.synthesis.voice.tom.premium</string>
+			<string>com.apple.speech.synthesis.voice.samantha.premium</string>
 			<key>SCRCategories_SCRCategoryStatus_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
 			<true/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRAudioOutputSelectorDeviceName</key>
@@ -182,7 +190,7 @@
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
 			<string>com.apple.speech.synthesis.voice.samantha.premium</string>
 			<key>SCRCategories_SCRCategoryTextAttributes_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
-			<string>com.apple.speech.synthesis.voice.tom.premium</string>
+			<string>com.apple.speech.synthesis.voice.samantha.premium</string>
 			<key>SCRCategories_SCRCategoryTextAttributes_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
 			<true/>
 			<key>SCRConfigurationCursorTrackingVOToKBOnFirstEntry</key>
@@ -192,15 +200,15 @@
 			<key>SCRDisplayTextFontSize</key>
 			<real>13</real>
 			<key>SCRDisplayTextLocationX</key>
-			<real>4</real>
+			<real>8.32421875</real>
 			<key>SCRDisplayTextLocationY</key>
-			<real>27</real>
+			<real>33</real>
 			<key>SCRDisplayTextNumberOfRows</key>
-			<real>3</real>
+			<integer>3</integer>
 			<key>SCRDisplayTextTransparency</key>
 			<real>0.73684209585189819</real>
 			<key>SCRDisplayTextWidth</key>
-			<real>1433.0546875</real>
+			<real>938</real>
 			<key>SCREchoLockKeysEnabled</key>
 			<false/>
 			<key>SCREchoModifierKeysEnabled</key>
@@ -210,9 +218,9 @@
 			<key>SCRGuideViewFontSize</key>
 			<real>20</real>
 			<key>SCRKeysToUseForVOModifier</key>
-			<string>SCRVOModifierCapsLock</string>
+			<string>SCRVOModifierControlOptionOrCapsLock</string>
 			<key>SCRRotorLastRotor</key>
-			<string>SCRWebChooserMenuVisitedLinks</string>
+			<string>SCRWebChooserMenuLandmarks</string>
 			<key>SCRShouldOutputVOInstructions</key>
 			<true/>
 			<key>SCRTypingEchoFeedback</key>
@@ -605,6 +613,8 @@
 				<key>SCRSubTextKey</key>
 				<string></string>
 			</dict>
+			<key>loginGreeting</key>
+			<string>VoiceOver on.</string>
 		</dict>
 	</dict>
 </dict>
