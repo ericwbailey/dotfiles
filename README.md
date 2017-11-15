@@ -183,6 +183,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [andrewfiorillo/sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes)
     - [ ] Generators
         - [ ] [abynim/UserFlows](https://github.com/abynim/UserFlows)
+        - [ ] [danielguillan/sketch-syntax-highlighter](https://github.com/danielguillan/sketch-syntax-highlighter/)
         - [ ] [tadija/AEFlowchart](https://github.com/tadija/aeflowchart)
         - [ ] [Looper](http://www.sureskumar.com/looper/)
         - [ ] [preciousforever/sketch-data-populator](https://github.com/preciousforever/sketch-data-populator)
