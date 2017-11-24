@@ -111,7 +111,7 @@ alias unlink="rm "
 # Cat with color output
 alias cat=ccat
 
-# fd, https://github.com/sharkdp/fd
+# fd: https://github.com/sharkdp/fd
 alias fd="fd -HL --full-path"
 
 # Find files in current directory
@@ -207,13 +207,14 @@ alias iconcleanup="sudo find /private/var/folders/ -name com.apple.dock.iconcach
 
 # Get updates for OS X Software, Homebrew, NPM, Heroku, Pip, and all
 # packages/gems
-alias update="sudo softwareupdate -i -a && mas upgrade; brew upgrade && brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && mackup backup;"
+alias update="sudo softwareupdate -i -a && mas upgrade; brew upgrade && brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && tldr --update && mackup backup;"
 alias updatesoftware="sudo softwareupdate -i -a && mas upgrade"
 alias updatehomebrew="sudo brew upgrade && brew cleanup"
 alias updatenpm="sudo npm install npm -g; npm update -g; sudo gem update --system; sudo gem update"
 alias updateheroku="sudo heroku update"
 alias updatepip="sudo pip install --upgrade pip"
 alias updatemackup="sudo mackup backup;"
+alias updatetldr="tldr --update"
 
 
 ## Reloading
@@ -275,12 +276,16 @@ alias screenshot="pageres"
 alias siteshot="pageres"
 
 
-# Pings a resource 10 times
+## Pings a resource 10 times
 alias ping="ping -c 10"
 
 
 ## Vagrant
 alias vg="vagrant"
+
+
+## TLDR
+alias tldr="tldr --theme ocean"
 
 
 
