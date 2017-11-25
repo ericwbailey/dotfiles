@@ -214,6 +214,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
 ### NPM
 1. [ ] Check to see if Homebrew is installed
 - [ ] `npm install -g 
+axe-cli
 bower
 browserify
 caniuse-cmd
