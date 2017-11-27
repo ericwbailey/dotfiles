@@ -241,6 +241,7 @@ opn
 pageres
 pageres-cli
 public-ip
+stacks-cli
 tldr
 trash-cli
 vtop
