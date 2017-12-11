@@ -182,6 +182,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [frankko/Artboard-Tools](https://github.com/frankko/Artboard-Tools)
     - [ ] Colors
         - [ ] [andrewfiorillo/sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes)
+        - [ ] [petterheterjag/chromatic-sketch](https://github.com/petterheterjag/chromatic-sketch)
     - [ ] Generators
         - [ ] [abynim/UserFlows](https://github.com/abynim/UserFlows)
         - [ ] [danielguillan/sketch-syntax-highlighter](https://github.com/danielguillan/sketch-syntax-highlighter/)
