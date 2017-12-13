@@ -123,6 +123,7 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [ ] [Origami](http://facebook.github.io/origami/download/)
 - [ ] [Screenotate](https://screenotate.com/)
+- [ ] [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
 - [ ] [Sketch](http://www.sketchapp.com/)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
