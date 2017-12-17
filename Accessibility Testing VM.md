@@ -8,7 +8,7 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 - [ ] [NVDA](https://www.nvaccess.org/)
 - [ ] [SuperNova Magnifier](https://yourdolphin.com/supernova-magnifier)
 - [ ] [Window-Eyes](http://www.gwmicro.com/Window-Eyes/)
-- [ ] [ZoomText](https://www.zoomtext.com/products/zoomtext-magnifierreader/)
+- [ ] [ZoomText Fusion](https://www.zoomtext.com/products/zoomtext-fusion/)
 
 
 ## Extensions and Plugins
