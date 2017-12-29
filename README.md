@@ -90,7 +90,7 @@
 - [ ] [Integrity](https://itunes.apple.com/us/app/integrity/id513610341) `513610341`
 - [ ] [JPEGmini](https://itunes.apple.com/us/app/jpegmini/id498944723) `498944723`
 - [ ] [Mail Notifr](https://itunes.apple.com/us/app/mail-notifr/id808154494) `808154494` 🔒
-- [ ] [MindNode](https://itunes.apple.com/us/app/mindnode-2-delightful-mind/) `992076693`
+- [ ] [MindNode 5](https://itunes.apple.com/us/app/mindnode-5/id1289197285) `1289197285`
 - [ ] [Monity](https://itunes.apple.com/us/app/monity/id915542151?mt=12) `915542151 `
 - [ ] [Monotony](https://itunes.apple.com/us/app/monotony/id533978766?mt=12) `533978766`
 - [ ] [Page Layers](https://itunes.apple.com/us/app/page-layers-website-screenshots/id437835477)
