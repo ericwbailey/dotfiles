@@ -14,22 +14,22 @@ prompt_git() {
 
 			# Check for uncommitted changes in the index.
 			if ! $(git diff --quiet --ignore-submodules --cached); then
-				s+='+';
+				s+='uncommitted changes';
 			fi;
 
 			# Check for unstaged changes.
 			if ! $(git diff-files --quiet --ignore-submodules --); then
-				s+='!';
+				s+='unstaged changes';
 			fi;
 
 			# Check for untracked files.
 			if [ -n "$(git ls-files --others --exclude-standard)" ]; then
-				s+='?';
+				s+='untracked files';
 			fi;
 
 			# Check for stashed files.
 			if $(git rev-parse --verify refs/stash &>/dev/null); then
-				s+='$';
+				s+='stashed files';
 			fi;
 
 		fi;
@@ -41,9 +41,9 @@ prompt_git() {
 			git rev-parse --short HEAD 2> /dev/null || \
 			echo '(unknown)')";
 
-		[ -n "${s}" ] && s=" [${s}]";
+		[ -n "${s}" ] && s=" ${s}";
 
-		echo -e "${black} on ${1}${branchName}${2}${s}";
+		echo -e "${black} on ${1}${branchName}${2} ${black}with${2}${s}";
 	else
 		return;
 	fi;
