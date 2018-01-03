@@ -14,22 +14,22 @@ prompt_git() {
 
 			# Check for uncommitted changes in the index.
 			if ! $(git diff --quiet --ignore-submodules --cached); then
-				s+='uncommitted changes ';
+				s+='+uncommitted changes ';
 			fi;
 
 			# Check for unstaged changes.
 			if ! $(git diff-files --quiet --ignore-submodules --); then
-				s+='unstaged changes ';
+				s+='+unstaged changes ';
 			fi;
 
 			# Check for untracked files.
 			if [ -n "$(git ls-files --others --exclude-standard)" ]; then
-				s+='untracked files ';
+				s+='+untracked files ';
 			fi;
 
 			# Check for stashed files.
 			if $(git rev-parse --verify refs/stash &>/dev/null); then
-				s+='stashed files ';
+				s+='+stashed files ';
 			fi;
 
 		fi;
