@@ -187,11 +187,14 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [petterheterjag/chromatic-sketch](https://github.com/petterheterjag/chromatic-sketch)
     - [ ] Generators
         - [ ] [abynim/UserFlows](https://github.com/abynim/UserFlows)
+        - [ ] [AMoreaux/Sketch-Icons](https://github.com/AMoreaux/Sketch-Icons)
         - [ ] [danielguillan/sketch-syntax-highlighter](https://github.com/danielguillan/sketch-syntax-highlighter/)
+        - [ ] [FontRapid](https://fontrapid.com/)
         - [ ] [tadija/AEFlowchart](https://github.com/tadija/aeflowchart)
         - [ ] [Looper](http://www.sureskumar.com/looper/)
         - [ ] [preciousforever/sketch-data-populator](https://github.com/preciousforever/sketch-data-populator)
         - [ ] [utom/sketch-measure](https://github.com/utom/sketch-measure)
+
     - [ ] Layers
         - [ ] [hrescak/Sketch-Layer-Tools](https://github.com/hrescak/Sketch-Layer-Tools)
         - [ ] [https://github.com/rodi01/RenameIt)(rodi01/RenameIt)
