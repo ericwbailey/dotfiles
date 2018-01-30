@@ -323,6 +323,7 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 # https://github.com/mas-cli/mas
 
 mas install 443987910  # 1Password
+mas install 918207447  # Annotate
 mas install 1002970923 # Arranged
 mas install 687450044  # Blind
 mas install 1254981365 # Contrast
