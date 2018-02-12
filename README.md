@@ -80,6 +80,7 @@
 
 ### App Store
 - [ ] [Annotate](https://itunes.apple.com/us/app/annotate-capture-and-share/id918207447) `918207447`
+- [ ] [Bear](https://itunes.apple.com/us/app/bear/id1091189122) `1091189122`
 - [ ] [Blind](https://itunes.apple.com/us/app/blind-1x-browser/id687450044) `687450044`
 - [ ] [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860) `411643860`
 - [ ] [Contrast](https://itunes.apple.com/app/contrast/id1254981365) `1254981365`
