@@ -240,6 +240,7 @@ git-labelmaker
 git-open
 git-standup
 gitjk
+glyphhanger
 http-server
 internal-ip
 itunes-remote
