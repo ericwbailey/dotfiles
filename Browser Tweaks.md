@@ -16,7 +16,7 @@ Most settings *should* sync, but just in case:
             1. [Console](#console)
             1. [Extensions](#extensions)
             1. [DevTools](#devtools)
-        - [Experiments](#experiments)
+        1. [Experiments](#experiments)
 1. [Firefox](#firefox)
     1. [Search bar operators](#search-bar-operators)
     1. [about:config](#aboutconfig)
