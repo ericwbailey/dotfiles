@@ -8,7 +8,7 @@
     1. [Browsers](#browsers)
     1. [Disable SIP](#disable-sip)
     1. [Xcode](#xcode)
-- [Installs](#installs)
+1. [Installs](#installs)
     1. [App Store](#app-store)
     1. [Homebrew](#homebrew)
     1. [Non-app Store](#non-app-store)
@@ -17,7 +17,7 @@
     1. [NPM](#npm)
     1. [Python](#python)
     1. [Ruby](#ruby)
-- [System setup](#system-setup)
+1. [System setup](#system-setup)
     1. [System Preferences](#system-preferences)
     1. [Dock](#dock)
     1. [Finder view preferences](#finder-view-preferences)
@@ -27,8 +27,8 @@
     1. [Set up spaces, wallpapers, and custom app icons](#set-up-spaces-wallpapers-and-custom-app-icons)
     1. [Menu Bar](#menu-bar)
     1. [Fonts](#fonts)
-- [Wrapup](#wrapup)
-- [References](#references)
+1. [Wrapup](#wrapup)
+1. [References](#references)
 
 
 ## First steps
@@ -368,51 +368,52 @@ Be sure to set from system root level so preferences propagate up to all user di
     - [ ] Applications
     - [ ] Documents
     - [ ] Dropbox
-- Devices
-- Shared
+1. Devices
+1. Shared
 
 ### Notification Center
 1. [ ] World Clock
     1. [ ] Boston (Eastern)
-    - [ ] Chicago (Central)
-    - [ ] San Francisco (Western)
-- [ ] Monity
+    1. [ ] Chicago (Central)
+    1. [ ] San Francisco (Western)
+1. [ ] Monity
     1. [ ] System
-    - [ ] Memory
-    - [ ] Network
-    - [ ] Battery
+    1. [ ] Memory
+    1. [ ] Network
+    1. [ ] Battery
 
 ### Set up spaces, wallpapers, and custom app icons
 1. [ ] Set up spaces
-- [ ] Set wallpapers
-- [ ] Set custom icons
+1. [ ] Set wallpapers
+1. [ ] Set custom icons
+    - [ ] Visual Studio Code
     - [ ] Preview
 
 ### Menu Bar
 1. [ ] Mail Notifr 
-- [ ] Dropbox
-- [ ] Dropzone
-- [ ] Time
-- [ ] Itsycal
-- [ ] Battery
-- [ ] Bartender (left to right)
+1. [ ] Dropbox
+1. [ ] Dropzone
+1. [ ] Time
+1. [ ] Itsycal
+1. [ ] Battery
+1. [ ] Bartender (left to right)
     1. [ ] Location Services
-    - [ ] Bluetooth
-    - [ ] Adobe Creative Cloud
-    - [ ] ControlPlane
-    - [ ] 1Password Mini
-    - [ ] Better Window Manager
-    - [ ] AirPlay
-    - [ ] Quitter
-    - [ ] Username
-    - [ ] Bartender Preferences
-- [ ] Notification Center
+    1. [ ] Bluetooth
+    1. [ ] Adobe Creative Cloud
+    1. [ ] ControlPlane
+    1. [ ] 1Password Mini
+    1. [ ] Better Window Manager
+    1. [ ] AirPlay
+    1. [ ] Quitter
+    1. [ ] Username
+    1. [ ] Bartender Preferences
+1. [ ] Notification Center
 
 ### Fonts
 1. [ ] Download and set editors to use [FiraCode-Retina](https://github.com/tonsky/FiraCode)
     - [ ] LightPaper
     - [ ] iTerm
-- [ ] Migrate FontExplorer X sets and lists
+1. [ ] Migrate FontExplorer X sets and lists
 
 
 ## Wrapup
