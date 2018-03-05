@@ -201,7 +201,9 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [utom/sketch-measure](https://github.com/utom/sketch-measure)
     - [ ] Layers
         - [ ] [hrescak/Sketch-Layer-Tools](https://github.com/hrescak/Sketch-Layer-Tools)
-        - [ ] [https://github.com/rodi01/RenameIt)(rodi01/RenameIt)
+        - [ ] [rodi01/RenameIt](https://github.com/rodi01/RenameIt)
+        - [ ] [pberrecloth/butter-sketch-plugin](https://github.com/pberrecloth/butter-sketch-plugin)
+        - [ ] [kupe517/sketch-split-shape](https://github.com/kupe517/sketch-split-shape)
     - [ ] Pages
     - [ ] Selection
         - [ ] [sebj/Select-By-Name](https://github.com/sebj/Select-By-Name)
@@ -210,6 +212,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] [ozzik/push-and-shove](https://github.com/ozzik/push-and-shove)
         - [ ] [romashamin/compo-sketch](https://github.com/romashamin/compo-sketch)
         - [ ] [ScottSavarie/Clipboard-Fill](https://github.com/ScottSavarie/Clipboard-Fill)
+        - [ ] [Sketch Guides](https://celynxie.com/sources/sketchguides.html)
     - [ ] Styles
         - [ ] [DWilliames/paddy-sketch-plugin](https://github.com/DWilliames/paddy-sketch-plugin)
     - [ ] Text and Typography
