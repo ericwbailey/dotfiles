@@ -32,6 +32,7 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 - [ ] [WAVE Evaluation Tool](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
 
 ### NVDA
+- [ ] [DictationBridge](http://dictationbridge.com/2018/03/06/a-free-libre-open-source-dictation-solution-at-last-introducing-dictationbridge-1-0/)
 - [ ] [FocusHighlight](https://addons.nvda-project.org/addons/focusHighlight.en.html)
 - [ ] [Remote Support](https://addons.nvda-project.org/addons/nvdaremote.en.html)
 - [ ] [Report Symbols](https://addons.nvda-project.org/addons/reportSymbols.en.html)
