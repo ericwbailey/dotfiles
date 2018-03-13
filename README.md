@@ -86,6 +86,7 @@
 - [ ] [Contrast](https://itunes.apple.com/app/contrast/id1254981365) `1254981365`
 - [ ] [Expressions](https://itunes.apple.com/us/app/expressions/id913158085) `id913158085`
 - [ ] [GIF Brewery 3](https://itunes.apple.com/us/app/gif-brewery-3-video-to-gif/id1081413713) `1081413713`
+- [ ] [Gifski](https://itunes.apple.com/no/app/gifski/id1351639930) `1351639930`
 - [ ] [GIPHY CAPTURE](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984) `668208984 `
 - [ ] [Glyphs](https://itunes.apple.com/us/app/glyphs-mini/id469036911) `416987633`
 - [ ] [HyperDock](https://itunes.apple.com/us/app/hyperdock/id449830122) `449830122`
