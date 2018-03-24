@@ -84,6 +84,7 @@
 - [ ] [Bear](https://itunes.apple.com/us/app/bear/id1091189122) `1091189122`
 - [ ] [Blind](https://itunes.apple.com/us/app/blind-1x-browser/id687450044) `687450044`
 - [ ] [DaisyDisk](https://itunes.apple.com/us/app/daisydisk/id411643860) `411643860`
+- [ ] [Dropzone](https://itunes.apple.com/us/app/dropzone-3/id695406827) `695406827`
 - [ ] [Contrast](https://itunes.apple.com/app/contrast/id1254981365) `1254981365`
 - [ ] [Expressions](https://itunes.apple.com/us/app/expressions/id913158085) `id913158085`
 - [ ] [GIF Brewery 3](https://itunes.apple.com/us/app/gif-brewery-3-video-to-gif/id1081413713) `1081413713`
@@ -121,7 +122,6 @@
 ### Non-app Store
 These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew).
 
-- [ ] [CSS Grid Builder](https://cssgrid.cc/)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
 - [ ] [Gifmock](https://gifmock.com/)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
@@ -131,7 +131,6 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [PixelSnap](https://getpixelsnap.com/)
 - [ ] [Screenotate](https://screenotate.com/)
 - [ ] [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
-- [ ] [Sketch](http://www.sketchapp.com/)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
 - [ ] [Tripmode](https://www.tripmode.ch/)
