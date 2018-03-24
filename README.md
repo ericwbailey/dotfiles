@@ -293,8 +293,8 @@ stylelint`
 
 ### Ruby
 1. [ ] Install [rbenv](https://github.com/sstephenson/rbenv)
-- [ ] `rbenv install 2.4.0`
-- [ ] `rbenv global 2.4.0`
+- [ ] `rbenv install 2.5.0`
+- [ ] `rbenv global 2.5.0`
 - [ ] Ensure that `.bash_profile` points to the new version of Ruby
 - [ ] `gem install
 bundler
