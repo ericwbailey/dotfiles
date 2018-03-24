@@ -199,7 +199,6 @@ brew cask install reflector
 brew cask install renamer
 brew cask install sequel-pro
 brew cask install skala-preview
-brew cask install sketch-toolbox
 brew cask install skype
 brew cask install the-tagger
 brew cask install tower
