@@ -139,12 +139,6 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced. 
 
 ### Plugins
-- [ ] [Adium](https://adium.im/) 🔒
-    - [ ] Service Icons: Aqua
-    - [ ] Status Icons: [iPhone](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=4011)
-    - [ ] Menu Bar Icons: [Marten-nu](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=7801)
-    - [ ] Emoticons: None
-    - [ ] Dock Icon: [septi v2.2](http://www.adiumxtras.com/index.php?a=xtras&xtra_id=5403)
 - [ ] **Atom**
     - [ ] Install starred packages `apm stars --install`
 - [ ] **Sketch**
