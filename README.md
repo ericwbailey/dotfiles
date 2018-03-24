@@ -106,6 +106,7 @@
 - [ ] [Revisions](https://itunes.apple.com/us/app/revisions-for-dropbox/id819348619) `819348619`
 - [ ] [Screens VNC](https://itunes.apple.com/us/app/screens-vnc-remote-access/id446107677) `446107677`
 - [ ] [SiteSucker](https://itunes.apple.com/us/app/sitesucker/id442168834) `442168834`
+- [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) `803453959`
 - [ ] [Soulver](https://itunes.apple.com/us/app/soulver/id413965349) `413965349`
 - [ ] [Sim Daltonism](https://itunes.apple.com/us/app/sim-daltonism/id693112260) `693112260`
 - [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12)
