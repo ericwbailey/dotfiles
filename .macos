@@ -358,12 +358,12 @@ mas install 858446756  # World Clock
 
 ## Wrap-up ####################################################################
 
+echo ""
+echo "Done. Restart to ensure all changes take effect."
+
 # Kill and relaunch affected applications
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" \
 "cfprefsd" "Dock" "Finder" "Mail" "Messages" "Safari"  \
 "SystemUIServer" "Terminal" "Transmission" "iCal"; do
 killall "${app}" > /dev/null 2>&1
 done
-
-echo ""
-echo "Done. Restart to ensure all changes take effect."
