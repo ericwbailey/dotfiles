@@ -57,6 +57,7 @@ brew install autoconf
 brew install autoenv
 brew install bash-completion
 brew install brew-cask
+brew install brew-cask-completion
 brew install ccat
 brew install cmake
 brew install colordiff
@@ -144,7 +145,6 @@ brew cask install quicklook-json
 brew cask install qlimagesize
 brew cask install qlprettypatch
 brew cask install quicklook-csv
-brew cask install betterzipql
 brew cask install webpquicklook
 brew cask install scriptql
 brew cask install suspicious-package
@@ -157,7 +157,6 @@ brew cask install colorpicker-skalacolor
 # Apps
 brew cask install adapter
 brew cask install adium
-brew cask install adwaremedic
 brew cask install alfred
 brew cask install appdelete
 brew cask install atext
@@ -178,7 +177,6 @@ brew cask install fontplop
 brew cask install fsmonitor
 brew cask install gitup
 brew cask install handbrake
-brew cask install handbrakecli
 brew cask install hazel
 brew cask install imagealpha
 brew cask install imageoptim
@@ -193,12 +191,11 @@ brew cask install lightpaper
 brew cask install makemkv
 brew cask install mamp
 brew cask install metaz
-brew cask install mullvad
+brew cask install mullvadvpn
 brew cask install muzzle
 brew cask install quitter
 brew cask install reflector
 brew cask install renamer
-brew cask install seil
 brew cask install sequel-pro
 brew cask install skala-preview
 brew cask install sketch-toolbox
