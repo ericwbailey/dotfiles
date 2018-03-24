@@ -322,7 +322,6 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 ## Mas ########################################################################
 # https://github.com/mas-cli/mas
 
-mas install 443987910  # 1Password
 mas install 918207447  # Annotate
 mas install 1002970923 # Arranged
 mas install 1091189122 # Bear
@@ -334,13 +333,11 @@ mas install 1286743037 # Fenêtre
 mas install 1351639930 # Gifski
 mas install 668208984  # GIPHY CAPTURE
 mas install 416987633  # Glyphs
-mas install 449830122  # HyperDock
 mas install 439697913  # Icon Slate
 mas install 513610341  # Integrity
 mas install 498944723  # JPEGmini
 mas install 808154494  # Mail Notifr
 mas install 1289197285 # MindNode 5
-mas install 533978766  # Monotony
 mas install 915542151  # Monity
 mas install 1289583905 # Pixelmator
 mas install 946873079  # Raster
