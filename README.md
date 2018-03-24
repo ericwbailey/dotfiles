@@ -131,6 +131,7 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [PixelSnap](https://getpixelsnap.com/)
 - [ ] [Screenotate](https://screenotate.com/)
 - [ ] [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
+- [ ] [Sketch](https://sketchapp.com/get)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
 - [ ] [Tripmode](https://www.tripmode.ch/)
