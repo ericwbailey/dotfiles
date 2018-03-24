@@ -197,6 +197,7 @@ brew cask install muzzle
 brew cask install quitter
 brew cask install reflector
 brew cask install renamer
+brew cask install screenflick
 brew cask install sequel-pro
 brew cask install skala-preview
 brew cask install skype
