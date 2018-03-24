@@ -39,7 +39,7 @@
 
 ### Updates, syncing, and password/license access
 1. [ ] Check for system and app updates, reboot if necessary
-- [ ] Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES` 
+- [ ] Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES && killall -KILL Finder` 
 - [ ] Install [Dropbox](https://www.dropbox.com/downloading?src=index) and start syncing
 - [ ] Install [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12), and [browser extensions](https://agilebits.com/onepassword/extensions)
 - [ ] Sign in to relevant accounts in `System Preferences > Mail, Contacts, & Calendars`
@@ -48,6 +48,7 @@
 - [ ] [Blisk](https://blisk.io/)
 - [ ] [Chrome](https://www.google.com/chrome/)
     1. [ ] Set as default
+    1. [ ] Import Humble New Tab Page settings:   `{"column.0.0":"apps","column.0.1":"top","column.1.0":"closed","column.2.0":"weather","column.2.1":"1","column.2.2":"2","open.top":"true","open.weather":"true","options.fade":"0.344","options.hide_options":"1","options.shadow_blur":"0.463","options.show_devices":"0","options.show_recent":"0","options.slide":"0.344","options.spacing":"1.177","options.theme":"Elegant","options.weather_location":"Boston,  MA, United States","options.weather_location_id":"2367105","options.weather_units":"f"}`
 - [ ] [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
 - [ ] [Duo](https://itunes.apple.com/us/app/duo/id777886035?mt=12)
 - [ ] [Firefox](https://www.mozilla.org/en-US/firefox/new/)
@@ -322,17 +323,17 @@ slim`
 ### Dock
 1. [ ] Preview (Assign to None)
 - [ ] 1Password (Assign to None)
-- [ ] LightPaper (Assign to None)
 - [ ] FontExplorer X (Assign to All Desktops)
+- [ ] Bear (Assign to None)
+- [ ] LightPaper (Assign to None)
 - [ ] Todoist (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
+- [ ] Shift (Assign to All Desktops)
 - [ ] Slack (Assign to All Desktops)
-- [ ] Adium (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] iTerm (Assign to None)
 - [ ] Atom (Assign to All Desktops)
 - [ ] Tower (Assign to Desktop 2)
-- [ ] Kaleidoscope (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] Chrome (Assign to All Desktops)
 - [ ] Firefox (Assign to All Desktops)
@@ -341,7 +342,7 @@ slim`
 - [ ] Duo (Assign to All Desktops)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 - [ ] Sketch (Assign to None)
-- [ ] Pixelmator (Assign to None)
+- [ ] Pixelmator pro (Assign to None)
 - [ ] Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 
 ### Finder view preferences
