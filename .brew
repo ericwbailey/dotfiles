@@ -201,6 +201,7 @@ brew cask install screenflick
 brew cask install sequel-pro
 brew cask install skala-preview
 brew cask install skype
+brew cask install sublime-text
 brew cask install the-tagger
 brew cask install tower
 brew cask install transmit
@@ -208,6 +209,7 @@ brew cask install tunnelblick
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
+brew cask install visual-studio-code
 brew cask install vlc
 
 
