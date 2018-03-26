@@ -132,6 +132,7 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [Screenflick](https://www.araelium.com/screenflick)
 - [ ] [Screenotate](https://screenotate.com/)
 - [ ] [Screens 4](https://www.edovia.com/screens-mac/)
+- [ ] [Shift](https://tryshift.com/)
 - [ ] [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
 - [ ] [Sketch](https://sketchapp.com/get)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
