@@ -161,8 +161,8 @@ brew cask install adapter
 brew cask install adium
 brew cask install alfred
 brew cask install appdelete
-brew cask install atext
 brew cask install atom
+brew cask install audio-hijack
 brew cask install bartender
 brew cask install beamer
 brew cask install better-window-manager
@@ -203,7 +203,9 @@ brew cask install screenflick
 brew cask install sequel-pro
 brew cask install skala-preview
 brew cask install skype
+brew cask install steam
 brew cask install sublime-text
+brew cask install textsoap
 brew cask install the-tagger
 brew cask install tower
 brew cask install transmit
