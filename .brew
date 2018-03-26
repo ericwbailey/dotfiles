@@ -195,6 +195,7 @@ brew cask install mamp
 brew cask install metaz
 brew cask install mullvadvpn
 brew cask install muzzle
+brew cask install optimage
 brew cask install quitter
 brew cask install reflector
 brew cask install renamer
