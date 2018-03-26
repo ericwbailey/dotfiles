@@ -130,6 +130,7 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [ ] [Origami](http://facebook.github.io/origami/download/)
 - [ ] [PixelSnap](https://getpixelsnap.com/)
+- [ ] [Screenflick](https://www.araelium.com/screenflick)
 - [ ] [Screenotate](https://screenotate.com/)
 - [ ] [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
 - [ ] [Sketch](https://sketchapp.com/get)
