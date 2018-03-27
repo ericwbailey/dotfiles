@@ -279,17 +279,14 @@ npm-package-updates`
 aws-shell
 Babel
 colout
-eg
 proselint
 Pygments
 pytz
 setuptools
 thefuck
-vboxapi
 waybackpack
 parker
-request
-stylelint`
+request`
 
 ### Ruby
 1. [ ] Install [rbenv](https://github.com/sstephenson/rbenv)
