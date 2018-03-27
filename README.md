@@ -275,7 +275,7 @@ npm-package-updates`
 
 ### Python
 1. [ ] Check to see if Homebrew is installed
-- [ ] `pip install 
+- [ ] `pip3 install 
 aws-shell
 Babel
 colout
