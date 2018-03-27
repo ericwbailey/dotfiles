@@ -312,7 +312,7 @@ slim`
 
 ### System Preferences
 1. [ ] Review [System Preferences settings](https://github.com/ericwbailey/dotfiles/blob/master/System%20Preferences.md)
-- [ ] Ensure that [color is properly set up for Adobe](http://bjango.com/articles/photoshop/)
+- [ ] Ensure that [color is properly set up for Adobe](http://bjango.com/articles/photoshop/) and [Sketch](https://bjango.com/articles/colourmanagementsettings/)
 - [ ] Install services
     - [ ] [TextFlow](https://github.com/vmdanilov/TextFlow)
     - [ ] [foldersstructure](https://www.dropbox.com/sh/7ua9gl8ppmkl7wk/AAA5sW3b1UgaYLH4vbeLpRMIa?dl=0)
@@ -414,7 +414,6 @@ Be sure to set from system root level so preferences propagate up to all user di
 ### Fonts
 1. [ ] Download and set editors to use [FiraCode-Retina](https://github.com/tonsky/FiraCode)
     - [ ] LightPaper
-    - [ ] iTerm
 1. [ ] Migrate FontExplorer X sets and lists
 
 
