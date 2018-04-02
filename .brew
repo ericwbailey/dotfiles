@@ -72,6 +72,7 @@ brew install gifski
 brew install git
 brew install git-lfs
 brew install graphicsmagick
+brew install gron
 brew install heroku-toolbelt
 brew install hr
 brew install httpie
