@@ -62,6 +62,7 @@ brew install brew-cask-completion
 brew install ccat
 brew install cmake
 brew install colordiff
+brew install direnv
 brew install doxygen
 brew install exa
 brew install fd
