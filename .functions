@@ -11,13 +11,13 @@ function cdf() {
 
 
 # Change working directory to docs, with an optional argument for subdirectory
-docs() {
-    if [[ $1 ]]; then
-        cd ~/Documents && cd $1
-    else
-        cd ~/Documents
-    fi
-}
+# docs() {
+#     if [[ $1 ]]; then
+#         cd ~/Documents && cd $1
+#     else
+#         cd ~/Documents
+#     fi
+# }
 
 
 # Open localhost, optionally specifying the port
