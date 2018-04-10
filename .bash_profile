@@ -2,7 +2,7 @@
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
-for file in ~/.{path,colors,bash_prompt,bashrc,exports,aliases,functions}; do
+for file in ~/.{path,colors,bash_prompt,bashrc,aliases,functions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
@@ -68,8 +68,21 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 eval "$(rbenv init -)"
 
 
+## pipenv #####################################################################
+
+# Enable shell completion
+# https://github.com/pypa/pipenv
+eval "$(pipenv --completion)"
+
+
 ## Autojump ###################################################################
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+
+## direnv #####################################################################
+
+# https://github.com/direnv/direnv
+eval "$(direnv hook bash)"
 
 
 ## autoenv ####################################################################
@@ -77,4 +90,3 @@ eval "$(rbenv init -)"
 # Automatically set up directorys-specific variables using `.env` files
 ## https://github.com/kennethreitz/autoenv
 source /usr/local/opt/autoenv/activate.sh
-
