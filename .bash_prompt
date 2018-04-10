@@ -43,7 +43,7 @@ prompt_git() {
 
 		[ -n "${s}" ] && s=" ${s}";
 
-		echo -e "${black} on ${1}${branchName}${2} ${black}with${2}${s}";
+		echo -e "${black} on ${1}${branchName}${2}${black}${2}${s}";
 	else
 		return;
 	fi;
