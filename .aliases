@@ -1,5 +1,4 @@
 ## Navigation #################################################################
-
 # Navigate to Root
 alias ~="cd ~"
 
@@ -24,10 +23,7 @@ alias ......="cd ../../../../.."
 ## Shortcuts ##################################################################
 
 # Projects
-alias work="cd ~/Desktop/Elsevier/eols-eaq-app && itermocil work"
-alias cantina="cd ~/Documents/cantina.co"
-alias beacon="cd ~/Documents/hancock.lighting"
-alias eric="cd ~/Documents/ericwbailey.design"
+alias eric="cd ~/eric/ericwbailey.design"
 
 # Applications
 alias apps="cd /Applications"
@@ -36,7 +32,7 @@ alias apps="cd /Applications"
 alias desk="cd ~/Desktop"
 
 # Documents
-# alias docs="cd ~/Documents"
+alias docs="cd ~/Documents"
 
 # Downloads
 alias down="cd ~/Downloads"
@@ -207,14 +203,15 @@ alias iconcleanup="sudo find /private/var/folders/ -name com.apple.dock.iconcach
 
 # Get updates for OS X Software, Homebrew, NPM, Heroku, Pip, and all
 # packages/gems
-alias update="sudo softwareupdate -i -a && mas upgrade; brew upgrade && brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update && heroku update && tldr --update && mackup backup;"
-alias updatesoftware="sudo softwareupdate -i -a && mas upgrade"
-alias updatehomebrew="sudo brew upgrade && brew cleanup"
-alias updatenpm="sudo npm install npm -g; npm update -g; sudo gem update --system; sudo gem update"
-alias updateheroku="sudo heroku update"
-alias updatepip="sudo pip install --upgrade pip"
-alias updatemackup="sudo mackup backup;"
+alias updatesoftware="softwareupdate -i -a && mas upgrade"
+alias updatehomebrew="brew upgrade && brew cleanup"
+alias updatenpm="npm install npm -g && npm update -g"
+alias updateruby="gem update --system && gem update"
+alias updateheroku="brew upgrade heroku && heroku update"
+alias updatepip="pip3 install --upgrade pip"
+alias updatemackup="mackup backup"
 alias updatetldr="tldr --update"
+alias update="updatesoftware; updatehomebrew; updatenpm; updateruby; updateheroku; updatepip; updatetldr; updatemackup"
 
 
 ## Reloading
