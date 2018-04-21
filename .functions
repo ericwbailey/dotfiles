@@ -100,17 +100,24 @@ function tre() {
     tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
+
 # Displays useful host-related info
 hostinfo() {
     echo -e "\nYou are logged on ${red}$HOST"
     echo -e "\nAdditionnal information:$NC " ; uname -a
-    echo -e "\n${RED}Users logged on:$NC " ; w -h
-    echo -e "\n${RED}Current date :$NC " ; date
-    echo -e "\n${RED}Machine stats :$NC " ; uptime
-    echo -e "\n${RED}Current network location :$NC " ; scselect
-    echo -e "\n${RED}Public facing IP Address :$NC " ;ip
-    #echo -e "\n${RED}DNS Configuration:$NC " ; scutil --dns
+    echo -e "\n${CYAN}Users logged on:$NC " ; w -h
+    echo -e "\n${ORANGE}Current date :$NC " ; date
+    echo -e "\n${CYAN}Machine stats :$NC " ; uptime
+    echo -e "\n${ORANGE}Current network location :$NC " ; scselect
+    echo -e "\n${CYAN}Public facing IP Address :$NC " ;ip
+    echo -e "\n${RED}DNS Configuration:$NC " ; scutil --dns
     echo
+}
+
+
+# Clones a repository and navigates into it
+clone() {
+  git clone "$1" && cd "$(basename $1 .git)"
 }
 
 
