@@ -4,6 +4,7 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 
 
 ## Programs
+- [ ] [Amazon WorkSpaces](https://clients.amazonworkspaces.com/)
 - [ ] [aViewer](https://www.paciellogroup.com/resources/aviewer/)
 - [ ] [NVDA](https://www.nvaccess.org/)
 - [ ] [SuperNova Magnifier](https://yourdolphin.com/supernova-magnifier)
