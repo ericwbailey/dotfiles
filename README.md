@@ -106,7 +106,6 @@
 - [ ] [Raster](https://itunes.apple.com/us/app/raster/id946873079) `946873079`
 - [ ] [Revisions](https://itunes.apple.com/us/app/revisions-for-dropbox/id819348619) `819348619`
 - [ ] [SiteSucker](https://itunes.apple.com/us/app/sitesucker/id442168834) `442168834`
-- [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) `803453959`
 - [ ] [Soulver](https://itunes.apple.com/us/app/soulver/id413965349) `413965349`
 - [ ] [Sim Daltonism](https://itunes.apple.com/us/app/sim-daltonism/id693112260) `693112260`
 - [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12)
