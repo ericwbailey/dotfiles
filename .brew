@@ -206,6 +206,7 @@ brew cask install screenflick
 brew cask install sequel-pro
 brew cask install skala-preview
 brew cask install skype
+brew cask install slack
 brew cask install steam
 brew cask install sublime-text
 brew cask install textsoap
