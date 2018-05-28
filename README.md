@@ -316,6 +316,7 @@ slim`
 - [ ] Install services
     - [ ] [TextFlow](https://github.com/vmdanilov/TextFlow)
     - [ ] [foldersstructure](https://www.dropbox.com/sh/7ua9gl8ppmkl7wk/AAA5sW3b1UgaYLH4vbeLpRMIa?dl=0)
+- [ ] Set SlowQuitApps quit time: `defaults write com.dteoh.SlowQuitApps delay -int 500`
 
 ### Dock
 1. [ ] Preview (Assign to None)
