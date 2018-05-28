@@ -420,7 +420,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 ## Wrapup
 - [ ] Set general operating system preferences: `sh .macos`
 - [ ] Reboot and double check `System Preferences > Users & Groups > Login Items` and set a login picture
-- [ ] Reboot, install [Undercover](http://orbicule.com/undercover/mac/), then double-check it and Find My Mac's Location Services access
+- [ ] Reboot, install [Prey](https://www.preyproject.com/), then double-check it and Find My Mac's Location Services access
 - [ ] [Re-enable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil enable`
 - [ ] Set SlowQuitApps quit time: `killall SlowQuitApps ;; defaults write com.dteoh.SlowQuitApps delay -int 500`
 - [ ] Log laptop serial number in 1Password
