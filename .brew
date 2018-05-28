@@ -204,6 +204,7 @@ brew cask install reflector
 brew cask install renamer
 brew cask install screenflick
 brew cask install sequel-pro
+brew cask install slowquitapps
 brew cask install skala-preview
 brew cask install skype
 brew cask install slack
