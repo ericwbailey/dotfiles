@@ -109,7 +109,6 @@
 - [ ] [Soulver](https://itunes.apple.com/us/app/soulver/id413965349) `413965349`
 - [ ] [Sim Daltonism](https://itunes.apple.com/us/app/sim-daltonism/id693112260) `693112260`
 - [ ] [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12)
-- [ ] [SSH Tunnel](https://itunes.apple.com/us/app/ssh-tunnel/id734418810) `734418810`
 - [ ] [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220) `1114363220`
 - [ ] [Textual](https://itunes.apple.com/us/app/textual-5/id896450579) `896450579`
 - [ ] [Todoist](https://itunes.apple.com/us/app/todoist-to-do-list-task-list/id585829637) `585829637`
