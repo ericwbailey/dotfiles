@@ -263,6 +263,12 @@ alias bowu="bower update"
 alias bowdi="trash bower_components && bower install && bower update"
 
 
+## Docker
+alias d="docker"
+alias dc="docker-compose"
+alias dm="docker-machine"
+
+
 ## Open DNS public IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
