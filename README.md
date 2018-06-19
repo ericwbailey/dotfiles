@@ -127,6 +127,7 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [Lookback](https://lookback.io/usb)
 - [ ] [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [ ] [Origami](http://facebook.github.io/origami/download/)
+- [ ] [Oversight](https://objective-see.com/products/oversight.html)
 - [ ] [PixelSnap](https://getpixelsnap.com/)
 - [ ] [Screenflick](https://www.araelium.com/screenflick)
 - [ ] [Screenotate](https://screenotate.com/)
