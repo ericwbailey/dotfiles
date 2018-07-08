@@ -90,9 +90,11 @@ brew install lynx
 brew install mackup
 brew install mas
 brew install micro
+brew install mkcert
 brew install mysql
 brew install m-cli
 brew install node
+brew install nss
 brew install optipng
 brew install phantomjs
 brew install pidof
