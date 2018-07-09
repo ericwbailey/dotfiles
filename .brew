@@ -54,7 +54,6 @@ echo "Installing binaries"
 
 brew install ack
 brew install autoconf
-brew install autoenv
 brew install autojump
 brew install bash-completion
 brew install brew-cask
