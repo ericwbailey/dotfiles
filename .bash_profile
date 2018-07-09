@@ -83,10 +83,3 @@ eval "$(pipenv --completion)"
 
 # https://github.com/direnv/direnv
 eval "$(direnv hook bash)"
-
-
-## autoenv ####################################################################
-
-# Automatically set up directorys-specific variables using `.env` files
-## https://github.com/kennethreitz/autoenv
-source /usr/local/opt/autoenv/activate.sh
