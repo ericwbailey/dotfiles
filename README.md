@@ -121,6 +121,7 @@
 ### Non-app Store
 These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew).
 
+- [ ] [Captuocr](https://github.com/gragrance/CaptuocrToy)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
 - [ ] [Gifmock](https://gifmock.com/)
 - [ ] [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
