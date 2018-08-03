@@ -84,6 +84,7 @@
     branches = branch -a
     discard = checkout --
     nevermind = !git reset --hard HEAD && git clean -d -f
+    please = push --force-with-lease
     prune = fetch --prune
     stash = stash save --include-untracked
     stashes = stash list
