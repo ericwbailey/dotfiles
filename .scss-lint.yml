@@ -359,6 +359,7 @@ linters:
       - left
       - # Type
       - color
+      - color-adjust
       - direction
       - font
       - font-family
