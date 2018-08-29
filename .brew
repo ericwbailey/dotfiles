@@ -95,6 +95,7 @@ brew install m-cli
 brew install node
 brew install nss
 brew install optipng
+brew install pandoc
 brew install phantomjs
 brew install pidof
 brew install pipenv
