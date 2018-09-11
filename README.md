@@ -178,6 +178,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] Mirror
         - [ ] Share
     - [ ] [alssndro/sandros-sketch-plugins](https://github.com/alssndro/sandros-sketch-plugins)
+    - [ ] [bomberstudios/artboard-manager](https://github.com/bomberstudios/artboard-manager)
     - [ ] [InVision Craft](http://labs.invisionapp.com/craft)
     - [ ] [MagicSketch/MagicPresenter](https://github.com/MagicSketch/MagicPresenter)
     - [ ] [Sketch Runner](http://sketchrunner.com/)
