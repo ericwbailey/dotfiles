@@ -43,3 +43,4 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 
 ## Bookmarks
 - [ ] [Basic screen reader commands for accessibility testing | The Paciello Group](https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/)
+- [ ] [Shut up JAWS](https://developer.paciellogroup.com/blog/2017/07/shut-up-jaws/)
