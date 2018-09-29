@@ -247,6 +247,7 @@ git-open
 git-standup
 gitjk
 glyphhanger
+hint
 http-server
 internal-ip
 itunes-remote
