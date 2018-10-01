@@ -306,7 +306,6 @@ pg
 rails
 rmagick
 thin
-sass
 scss_lint
 slim`
 
