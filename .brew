@@ -103,6 +103,7 @@ brew install pkg-config
 brew install python
 brew install readline
 brew install rename
+brew install sass/sass/sass
 brew install speedtest_cli
 brew install tag
 brew install taglib
