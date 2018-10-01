@@ -262,6 +262,7 @@ opn
 pageres
 pageres-cli
 public-ip
+sass
 stacks-cli
 tldr
 trash-cli
