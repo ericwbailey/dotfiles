@@ -262,6 +262,7 @@ pageres
 pageres-cli
 public-ip
 sass
+siteaudit
 stacks-cli
 tldr
 trash-cli
