@@ -186,6 +186,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
     - [ ] [svgo-compressor](https://github.com/BohemianCoding/svgo-compressor)
     - [ ] Artboards
         - [ ] [Auto Layout](https://animaapp.github.io/Auto-Layout/)
+        - [ ] [Chuckland/sketch-number-artboards](https://github.com/Chuckland/sketch-number-artboards)
         - [ ] [frankko/Artboard-Tools](https://github.com/frankko/Artboard-Tools)
     - [ ] Colors
         - [ ] [andrewfiorillo/sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes)
