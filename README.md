@@ -232,6 +232,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
 1. [ ] Check to see if Homebrew is installed
 - [ ] `npm install -g 
 a11y
+autogit
 axe-cli
 bower
 browserify
