@@ -275,7 +275,7 @@ yo`
 axe-core
 browser-sync
 grunt-cli
-gulp
+gulp-cli
 jshint
 npm-package-updates`
 
