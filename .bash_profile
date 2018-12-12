@@ -11,7 +11,7 @@ unset file;
 ## General Options ############################################################
 
 # Use Micro as the default editor: https://github.com/zyedidia/micro
-export EDITOR=/usr/local/Cellar/micro/osx/bin/micro
+export EDITOR=/usr/local/Cellar/micro/
 
 # Prevent file overwrite on stdout redirection
 set -o noclobber
@@ -83,3 +83,11 @@ eval "$(pipenv --completion)"
 
 # https://github.com/direnv/direnv
 eval "$(direnv hook bash)"
+
+
+## mcfly ######################################################################
+
+# https://github.com/cantino/mcfly
+if [[ -f "$(brew --prefix)/opt/mcfly/mcfly.bash" ]]; then
+  source "$(brew --prefix)/opt/mcfly/mcfly.bash"
+fi
