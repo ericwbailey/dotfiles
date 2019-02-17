@@ -241,6 +241,7 @@ commandcar
 cpy
 empty-trash-cli
 firebase-tools
+fkill
 fkill-cli
 get-port
 git-labelmaker
