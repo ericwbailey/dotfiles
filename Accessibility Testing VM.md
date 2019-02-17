@@ -7,6 +7,7 @@ Download a [Microsoft Edge Windows 10 VM](https://developer.microsoft.com/en-us/
 - [ ] [Amazon WorkSpaces](https://clients.amazonworkspaces.com/)
 - [ ] [aViewer](https://www.paciellogroup.com/resources/aviewer/)
 - [ ] [NVDA](https://www.nvaccess.org/)
+- [ ] [OSX Accessibility Inspector](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html)
 - [ ] [SuperNova Magnifier](https://yourdolphin.com/supernova-magnifier)
 - [ ] [Window-Eyes](http://www.gwmicro.com/Window-Eyes/)
 - [ ] [ZoomText Fusion](https://www.zoomtext.com/products/zoomtext-fusion/)
