@@ -195,7 +195,6 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
 a11y
 autogit
 axe-cli
-bower
 browserify
 caniuse-cmd
 commandcar
@@ -221,7 +220,7 @@ nativefier
 node-gyp
 npm-run-all
 ntl
-opn
+open
 pageres
 pageres-cli
 public-ip
