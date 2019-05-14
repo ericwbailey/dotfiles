@@ -5,9 +5,9 @@
 
 1. [First steps](#first-steps)
     1. [Updates, syncing, and password/licenses access](#updates-syncing-and-passwordlicenses-access)
-    1. [Browsers](#browsers)
     1. [Disable SIP](#disable-sip)
     1. [Xcode](#xcode)
+    1. [Browsers](#browsers)
 1. [Installs](#installs)
     1. [App Store](#app-store)
     1. [Homebrew](#homebrew)
