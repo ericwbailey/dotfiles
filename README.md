@@ -44,6 +44,14 @@
 - [ ] Install [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12), and [browser extensions](https://agilebits.com/onepassword/extensions)
 - [ ] Sign in to relevant accounts in `System Preferences > Mail, Contacts, & Calendars`
 
+### Disable SIP
+1. [ ] [Disable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil disable`
+- [ ] Fix permissions on `/usr/local`: `sudo chflags norestricted /usr/local && sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local`
+
+### Xcode
+1. [ ] [Install Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) and get all and available Downloads in Preferences
+- [ ] Install Xcode Command Line Tools: `xcode-select --install`
+
 ### Browsers
 - [ ] [Blisk](https://blisk.io/)
 - [ ] [Chrome](https://www.google.com/chrome/)
@@ -59,14 +67,6 @@
 - [ ] [Opera Developer](http://www.opera.com/developer)
 - [ ] [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 - [ ] [Vivaldi](https://vivaldi.com/)
-
-### Disable SIP
-1. [ ] [Disable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil disable`
-- [ ] Fix permissions on `/usr/local`: `sudo chflags norestricted /usr/local && sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local`
-
-### Xcode
-1. [ ] [Install Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) and get all and available Downloads in Preferences
-- [ ] Install Xcode Command Line Tools: `xcode-select --install`
 
 
 ## Installs
