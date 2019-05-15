@@ -56,7 +56,7 @@
 - [ ] [Blisk](https://blisk.io/)
 - [ ] [Chrome](https://www.google.com/chrome/)
     1. [ ] Set as default
-    1. [ ] Import Humble New Tab Page settings:   `{"column.0.0":"apps","column.0.1":"top","column.1.0":"closed","column.2.0":"weather","column.2.1":"1","column.2.2":"2","open.top":"true","open.weather":"true","options.fade":"0.344","options.hide_options":"1","options.shadow_blur":"0.463","options.show_devices":"0","options.show_recent":"0","options.slide":"0.344","options.spacing":"1.177","options.theme":"Elegant","options.weather_location":"Boston,  MA, United States","options.weather_location_id":"2367105","options.weather_units":"f"}`
+    1. [ ] Import Humble New Tab Page settings:   `{"column.2.2":"devices","options.weather_units":"f","column.0.0":"top","column.1.0":"closed","options.hide_options":"1","options.width":"1.321","options.theme":"Elegant","column.2.0":"1","options.show_apps":"0","options.weather_location_id":"2367105","options.spacing":"1.086","options.h_pos":"1.465","options.number_closed":"15","options.lock":"1","options.weather_location":"Boston, MA","options.font_size":"18","column.2.1":"recent","options.show_2":"0"}`
 - [ ] [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
 - [ ] [Duo](https://itunes.apple.com/us/app/duo/id777886035?mt=12)
 - [ ] [Firefox](https://www.mozilla.org/en-US/firefox/new/)
