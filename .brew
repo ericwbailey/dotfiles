@@ -31,21 +31,21 @@ brew install moreutils
 brew install findutils
 
 # Install GNU `sed`, overwriting the built-in `sed`
-brew install gnu-sed --with-default-names
+brew install gnu-sed 
 
 # Install Bash 4
 brew install bash
 brew install bash-completion
 
-# Install `wget` with IRI support
-brew install wget --with-iri
+# Install `wget`
+brew install wget
 
 # Install more recent versions of some OS X tools
-brew install vim --override-system-vi
+brew install vim
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+brew install homebrew/php/php55
 
 
 ## Binaries ###################################################################
@@ -55,9 +55,6 @@ echo "Installing binaries"
 brew install ack
 brew install autoconf
 brew install autojump
-brew install bash-completion
-brew install brew-cask
-brew install brew-cask-completion
 brew install ccat
 brew install cmake
 brew install colordiff
