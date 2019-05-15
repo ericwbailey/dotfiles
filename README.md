@@ -98,6 +98,7 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 - [ ] [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
 - [ ] [Sketch](https://sketchapp.com/get)
 - [ ] [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
+- [ ] [Stay](https://cordlessdog.com/stay/)
 - [ ] [Switch](http://www.nch.com.au/switch/index.html)
 - [ ] [Tripmode](https://www.tripmode.ch/)
 
