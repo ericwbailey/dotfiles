@@ -389,7 +389,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 - [ ] Reboot and double check `System Preferences > Users & Groups > Login Items` and set a login picture
 - [ ] Reboot, install [Prey](https://www.preyproject.com/), then double-check it and Find My Mac's Location Services access
 - [ ] [Re-enable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil enable`
-- [ ] Set SlowQuitApps quit time: `killall SlowQuitApps ;; defaults write com.dteoh.SlowQuitApps delay -int 250`
+- [ ] Set SlowQuitApps quit time: `defaults write com.dteoh.SlowQuitApps delay -int 250`
 - [ ] Log laptop serial number in 1Password
 - [ ] Delete setup files (`README.md`, `.osx`, etc.)
 - [ ] Turn `LoginLaunch.applescript` into an app and add to Login Items
