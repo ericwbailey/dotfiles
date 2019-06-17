@@ -105,8 +105,6 @@ These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/
 Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced. 
 
 ### Plugins
-- [ ] **Atom**
-    - [ ] Install starred packages `apm stars --install`
 - [ ] **Sketch**
     - [ ] Toolbar Order
         - [ ] Artboard
@@ -141,6 +139,7 @@ Ensure preferences for Alfred, Hazel, iTerm, and Mackup are synced.
         - [ ] Share
     - [ ] [alssndro/sandros-sketch-plugins](https://github.com/alssndro/sandros-sketch-plugins)
     - [ ] [bomberstudios/artboard-manager](https://github.com/bomberstudios/artboard-manager)
+    - [ ] [Data Populator](https://www.datapopulator.com/)
     - [ ] [InVision Craft](http://labs.invisionapp.com/craft)
     - [ ] [MagicSketch/MagicPresenter](https://github.com/MagicSketch/MagicPresenter)
     - [ ] [Sketch Runner](http://sketchrunner.com/)
