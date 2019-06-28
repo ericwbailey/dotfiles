@@ -206,6 +206,7 @@ fkill-cli
 get-port
 git-labelmaker
 git-open
+git-pending
 git-standup
 gitjk
 glyphhanger
