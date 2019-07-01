@@ -82,6 +82,7 @@
 ### Non-app Store
 These apps can't be installed by [Homebrew Cask](https://github.com/ericwbailey/dotfiles/blob/master/.brew).
 
+- [ ] [Amazon Workspaces](https://clients.amazonworkspaces.com/)
 - [ ] [Captuocr](https://github.com/gragrance/CaptuocrToy)
 - [ ] [FontExplorer X Pro](https://www.fontexplorerx.com/)
 - [ ] [Gifmock](https://gifmock.com/)
