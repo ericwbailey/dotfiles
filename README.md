@@ -396,6 +396,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 - [ ] Turn `LoginLaunch.applescript` into an app and add to Login Items
 - [ ] Set up [Caps Lock as Insert for Windows](https://www.paciellogroup.com/blog/2013/08/insert-key-usage-in-windows-on-a-mac/)
 - [ ] Grant [chron jobs](https://blog.bejarano.io/fixing-cron-jobs-in-mojave.html) full disk access
+- [ ] Consider creating a self-signed cert for localhost
 
 
 ## References
