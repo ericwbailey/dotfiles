@@ -31,7 +31,7 @@ brew install moreutils
 brew install findutils
 
 # Install GNU `sed`, overwriting the built-in `sed`
-brew install gnu-sed 
+brew install gnu-sed
 
 # Install Bash 4
 brew install bash
@@ -165,9 +165,10 @@ brew cask install colorpicker-skalacolor
 # Apps
 brew cask install adapter
 brew cask install alfred
+brew cask install amazon-workspaces
 brew cask install appdelete
-brew cask install atom
 brew cask install audio-hijack
+brew cask install backblaze
 brew cask install bartender
 brew cask install beamer
 brew cask install bettertouchtool
@@ -179,7 +180,9 @@ brew cask install curb
 brew cask install dictater
 brew cask install dropzone
 brew cask install duet
+brew cask install figma
 brew cask install fluid
+brew cask install fontexplorer-x-pro
 brew cask install fontplop
 brew cask install fsmonitor
 brew cask install gifcapture
@@ -202,25 +205,32 @@ brew cask install metaz
 brew cask install mullvadvpn
 brew cask install muzzle
 brew cask install optimage
+brew cask install oversight
+brew cask install pixelsnap
 brew cask install quitter
 brew cask install reflector
 brew cask install renamer
 brew cask install screenflick
+brew cask install screens
+brew cask install screens-connect
 brew cask install sequel-pro
-brew tap dteoh/sqa
+brew cask install shift
 brew cask install slowquitapps
 brew cask install skala-preview
+brew cask install sketch
 brew cask install skype
 brew cask install slack
 brew cask install sloth
 brew cask install spectacle
+brew tap dteoh/sqa
+brew cask install stay
 brew cask install steam
-brew cask install sublime-text
+brew cask install switch
 brew cask install textsoap
 brew cask install the-tagger
 brew cask install tower
 brew cask install transmit
-brew cask install tunnelblick
+brew cask install tripmode
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
