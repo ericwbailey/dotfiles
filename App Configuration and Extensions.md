@@ -4,6 +4,8 @@
 ## Table of Contents
 - [App Configuration and Extensions](#app-configuration-and-extensions)
   - [Table of Contents](#table-of-contents)
+  - [Adobe](#adobe)
+    - [Illustrator](#illustrator)
   - [Sketch](#sketch)
     - [Toolbar Order](#toolbar-order)
     - [Plugins](#plugins)
@@ -11,6 +13,15 @@
     - [Toolbar Order](#toolbar-order-1)
   - [Quitter](#quitter)
 
+
+## Adobe
+
+Because Adobe will inevitably screw it up.
+
+### Illustrator
+
+- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Keyboard%20Shortcuts/ericwbailey.txt)
+- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Workspace/ericwbailey)
 
 ## Sketch
 
