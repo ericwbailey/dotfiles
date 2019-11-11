@@ -3,15 +3,15 @@
 
 ## Table of Contents
 
-1. [New System Setup](#new-system-setup)
-  1. [Table of Contents](#table-of-contents)
-  1. [First steps](#first-steps)
+
+1. [Table of Contents](#table-of-contents)
+1. [First steps](#first-steps)
     1. [Clone this repo](#clone-this-repo)
     1. [Updates, syncing, and password/license access](#updates-syncing-and-passwordlicense-access)
     1. [Disable SIP](#disable-sip)
     1. [Xcode](#xcode)
     1. [Browsers](#browsers)
-  1. [Installs](#installs)
+1. [Installs](#installs)
     1. [Homebrew](#homebrew)
     1. [mas](#mas)
     1. [Non-app Store](#non-app-store)
@@ -19,7 +19,7 @@
     1. [NPM](#npm)
     1. [Python](#python)
     1. [Ruby](#ruby)
-  1. [System setup](#system-setup)
+1. [System setup](#system-setup)
     1. [System Preferences](#system-preferences)
     1. [Dock](#dock)
     1. [Finder view preferences](#finder-view-preferences)
@@ -29,8 +29,8 @@
     1. [Set up spaces and wallpapers](#set-up-spaces-and-wallpapers)
     1. [Menu Bar](#menu-bar)
     1. [Fonts](#fonts)
-  1. [Wrapup](#wrapup)
-  1. [References](#references)
+1. [Wrapup](#wrapup)
+1. [References](#references)
 
 
 ## First steps
