@@ -3,8 +3,6 @@
 
 ## Table of Contents
 
-
-1. [Table of Contents](#table-of-contents)
 1. [First steps](#first-steps)
     1. [Clone this repo](#clone-this-repo)
     1. [Updates, syncing, and password/license access](#updates-syncing-and-passwordlicense-access)
