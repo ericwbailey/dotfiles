@@ -3,34 +3,32 @@
 
 ## Table of Contents
 
-- [New System Setup](#new-system-setup)
-  - [Table of Contents](#table-of-contents)
-  - [First steps](#first-steps)
-    - [Clone this repo](#clone-this-repo)
-    - [Updates, syncing, and password/license access](#updates-syncing-and-passwordlicense-access)
-    - [Disable SIP](#disable-sip)
-    - [Xcode](#xcode)
-    - [Browsers](#browsers)
-  - [Installs](#installs)
-    - [Homebrew](#homebrew)
-    - [mas](#mas)
-    - [Non-app Store](#non-app-store)
-    - [NVM](#nvm)
-    - [NPM](#npm)
-    - [Python](#python)
-    - [Ruby](#ruby)
-  - [System setup](#system-setup)
-    - [System Preferences](#system-preferences)
-    - [Dock](#dock)
-    - [Finder view preferences](#finder-view-preferences)
-    - [Finder toolbar](#finder-toolbar)
-    - [Finder sidebar](#finder-sidebar)
-    - [Notification Center](#notification-center)
-    - [Set up spaces and wallpapers](#set-up-spaces-and-wallpapers)
-    - [Menu Bar](#menu-bar)
-    - [Fonts](#fonts)
-  - [Wrapup](#wrapup)
-  - [References](#references)
+1. [First steps](#first-steps)
+    1. [Clone this repo](#clone-this-repo)
+    1. [Updates, syncing, and password/license access](#updates-syncing-and-passwordlicense-access)
+    1. [Disable SIP](#disable-sip)
+    1. [Xcode](#xcode)
+    1. [Browsers](#browsers)
+1. [Installs](#installs)
+    1. [Homebrew](#homebrew)
+    1. [mas](#mas)
+    1. [Non-app Store](#non-app-store)
+    1. [NVM](#nvm)
+    1. [NPM](#npm)
+    1. [Python](#python)
+    1. [Ruby](#ruby)
+1. [System setup](#system-setup)
+    1. [System Preferences](#system-preferences)
+    1. [Dock](#dock)
+    1. [Finder view preferences](#finder-view-preferences)
+    1. [Finder toolbar](#finder-toolbar)
+    1. [Finder sidebar](#finder-sidebar)
+    1. [Notification Center](#notification-center)
+    1. [Set up spaces and wallpapers](#set-up-spaces-and-wallpapers)
+    1. [Menu Bar](#menu-bar)
+    1. [Fonts](#fonts)
+1. [Wrapup](#wrapup)
+1. [References](#references)
 
 
 ## First steps
@@ -68,7 +66,7 @@
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
     1. Tweak Firefox config
     1. Sync uBlock settings
-    2. 1. Sync Stylus settings
+    1. Sync Stylus settings
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 - [Opera](http://www.opera.com/)
 - [Opera Developer](http://www.opera.com/developer)
@@ -98,7 +96,6 @@ These apps can't be installed by Homebrew Cask or mas.
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [Screenotate](https://screenotate.com/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
-- [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [Tripmode](https://www.tripmode.ch/)
 
 Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
@@ -263,11 +260,12 @@ Be sure to set from system root level so preferences propagate up to all user di
 ### Finder sidebar
 1. Favorites
     1. Desktop
-    - home
-    - AirDrop
-    - Applications
-    - Documents
-    - Dropbox
+    1. home
+    1. AirDrop
+    1. Applications
+    1. Documents
+    1. Sites
+    1. Dropbox
 1. Devices
 1. Shared
 
