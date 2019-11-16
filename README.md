@@ -96,7 +96,6 @@ These apps can't be installed by Homebrew Cask or mas.
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [Screenotate](https://screenotate.com/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
-- [SleepDisplay](http://www.macupdate.com/app/mac/26234/sleepdisplay)
 - [Tripmode](https://www.tripmode.ch/)
 
 Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
