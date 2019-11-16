@@ -1,0 +1,9 @@
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+
+
+# Use Homebrew's directories rather than ~/.rbenv add to your profile:
+export RBENV_ROOT=/usr/local/var/rbenv
+
+
+export NVM_DIR="/Users/eric/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

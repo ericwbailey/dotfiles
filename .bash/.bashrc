@@ -1,0 +1,1 @@
+/Users/eric/Dropbox/Apps/Mackup/.bashrc
