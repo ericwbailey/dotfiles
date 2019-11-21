@@ -2,16 +2,15 @@
 
 
 ## Table of Contents
-- [App Configuration and Extensions](#app-configuration-and-extensions)
-  - [Table of Contents](#table-of-contents)
-  - [Adobe](#adobe)
+- [Adobe](#adobe)
     - [Illustrator](#illustrator)
-  - [Sketch](#sketch)
+    - [Illustrator](#indesign)
+- [Sketch](#sketch)
     - [Toolbar Order](#toolbar-order)
     - [Plugins](#plugins)
-  - [FontExplorer X Pro](#fontexplorer-x-pro)
+- [FontExplorer X Pro](#fontexplorer-x-pro)
     - [Toolbar Order](#toolbar-order-1)
-  - [Quitter](#quitter)
+- [Quitter](#quitter)
 
 
 ## Adobe
@@ -22,6 +21,12 @@ Because Adobe will inevitably screw it up.
 
 - [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Keyboard%20Shortcuts/ericwbailey.txt)
 - [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Workspace/ericwbailey)
+
+### Illustrator
+
+- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Keyboard%20Shortcuts/ericwbailey.indk)
+- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Workspace/ericwbailey.xml)
+
 
 ## Sketch
 

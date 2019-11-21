@@ -1,0 +1,2713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shortcut-set platform="mac" file-version="4" application-version="15.0" build-number="155">
+	<shortcut>
+		<action-id value="0x100 + 1" name="KBSCE File menu: New: :Document..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 3" name="KBSCE File menu:&amp;Open..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 4" name="KBSCE File menu:&amp;Save"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 5" name="KBSCE File menu:Save &amp;As..."></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 6" name="KBSCE File menu:Save a Copy..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 7" name="KBSCE File menu:&amp;Close"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 9" name="KBSCE Edit menu:&amp;Undo Preferences"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 10" name="KBSCE Edit menu:&amp;Redo"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 11" name="KBSCE File menu:Quit"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+Q</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 13" name="KBSCE Edit menu:Cu&amp;t"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 14" name="KBSCE Edit menu:&amp;Copy_2"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 15" name="KBSCE Edit menu:&amp;Paste"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 16" name="KBSCE Edit menu:C&amp;lear"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 16" name="KBSCE Edit menu:C&amp;lear"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 16" name="KBSCE Edit menu:C&amp;lear"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Del_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 16" name="KBSCE Edit menu:C&amp;lear"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Del_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 17" name="KBSCE Edit menu:Paste in Place"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 18" name="KBSCE Edit menu:Paste Into"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 19" name="KBSCE Edit menu:&amp;Duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 20" name="KBSCE Edit menu:Select &amp;All"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 22" name="KBSCE Edit menu:Deselect Al&amp;l"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 24" name="KBSCE Object editing:Nudge up"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 25" name="KBSCE Object editing:Nudge down"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 26" name="KBSCE Object editing:Nudge left"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 27" name="KBSCE Object editing:Nudge right"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 33" name="KBSCE Window menu: Arrange: :#Minimize_Window"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 33" name="KBSCE Window menu: Arrange: :#Minimize_Window"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Cmd+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 36" name="KBSCE File menu:FileForBrowse"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 40" name="KBSCE Edit menu:Paste&amp;Unformatted"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 62" name="KBSCE Views, Navigation:Force Redraw"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 63" name="KBSCE Views, Navigation:New default document"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 68" name="KBSCE Views, Navigation:Put the text caret in the last used edit field"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 69" name="KBSCE Views, Navigation:Close all"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 70" name="KBSCE Views, Navigation:Save all"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 71" name="KBSCE Views, Navigation:Close document"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 73" name="KBSCE Views, Navigation:Next window"></action-id>
+		<context>FullScreenContext</context>
+		<string>Cmd+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 73" name="KBSCE Views, Navigation:Next window"></action-id>
+		<context>FullScreenContext</context>
+		<string>Cmd+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 74" name="KBSCE Views, Navigation:Previous window"></action-id>
+		<context>FullScreenContext</context>
+		<string>Shift+Cmd+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 74" name="KBSCE Views, Navigation:Previous window"></action-id>
+		<context>FullScreenContext</context>
+		<string>Shift+Cmd+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 169" name="KBSCE Object editing:Nudge up 1/10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 170" name="KBSCE Object editing:Nudge down 1/10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 171" name="KBSCE Object editing:Nudge left 1/10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 172" name="KBSCE Object editing:Nudge right 1/10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 173" name="KBSCE Object editing:Nudge up x10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 174" name="KBSCE Object editing:Nudge down x10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 175" name="KBSCE Object editing:Nudge left x10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 176" name="KBSCE Object editing:Nudge right x10"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 201" name="KBSCE Object editing:Nudge up duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 202" name="KBSCE Object editing:Nudge down duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 203" name="KBSCE Object editing:Nudge left duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 204" name="KBSCE Object editing:Nudge right duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 205" name="KBSCE Object editing:Nudge up 1/10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 206" name="KBSCE Object editing:Nudge down 1/10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 207" name="KBSCE Object editing:Nudge left 1/10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 208" name="KBSCE Object editing:Nudge right 1/10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 209" name="KBSCE Object editing:Nudge up x10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 210" name="KBSCE Object editing:Nudge down x10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 211" name="KBSCE Object editing:Nudge left x10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 212" name="KBSCE Object editing:Nudge right x10 duplicate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 6" name="KBSCE Alerts:Show dialog panel 1"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 7" name="KBSCE Alerts:Show dialog panel 2"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 8" name="KBSCE Alerts:Show dialog panel 3"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 9" name="KBSCE Alerts:Show dialog panel 4"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 10" name="KBSCE Alerts:Show dialog panel 5"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 11" name="KBSCE Alerts:Show dialog panel 6"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 12" name="KBSCE Alerts:Show dialog panel 7"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 13" name="KBSCE Alerts:Show dialog panel 8"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 14" name="KBSCE Alerts:Show dialog panel 9"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 15" name="KBSCE Alerts:Show dialog panel 10"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 16" name="KBSCE Alerts:Show previous dialog panel"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 16" name="KBSCE Alerts:Show previous dialog panel"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 17" name="KBSCE Alerts:Show next dialog panel"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 17" name="KBSCE Alerts:Show next dialog panel"></action-id>
+		<context>DialogContext</context>
+		<string>Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 18" name="KBSCE Alerts:Show first dialog panel"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 19" name="KBSCE Alerts:Show last dialog panel"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x900 + 1" name="KBSCE Tools:Rectangle Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x900 + 2" name="KBSCE Tools:Rectangle Frame Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xa00 + 3" name="KBSCE File menu:Print..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb00 + 1" name="KBSCE Tools:Line Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1800 + 1" name="KBSCE Window menu:Pages_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_F12</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1800 + 1" name="KBSCE Window menu:Pages_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F12</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1800 + 20" name="KBSCE Palette Menus: Pages: :Override All Master Page Items"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1e00 + 1" name="KBSCE Tools:Zoom Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 1" name="KBSCE Window menu: Styles: :CharStyles_Menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 1" name="KBSCE Window menu: Styles: :CharStyles_Menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 2" name="KBSCE Window menu: Styles: :ParaStyles_Menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 2" name="KBSCE Window menu: Styles: :ParaStyles_Menu"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 10" name="KBSCE Palette Menus: Paragraph Styles: :Redefine Style"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 11" name="KBSCE Palette Menus: Character Styles: :Redefine Style"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2300 + 1" name="KBSCE Tools:Oval Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 3" name="KBSCE Window menu:Stroke_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_F10</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 3" name="KBSCE Window menu:Stroke_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F10</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 11" name="KBSCE Tools:Toggle Fill and Stroke"></action-id>
+		<context>DefaultContext</context>
+		<string>X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 12" name="KBSCE Tools:Swap Fill and Stroke Colors"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 13" name="KBSCE Tools:Apply Default Fill and Stroke Colors"></action-id>
+		<context>DefaultContext</context>
+		<string>D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 14" name="KBSCE Tools:ApplyColor"></action-id>
+		<context>DefaultContext</context>
+		<string>,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 15" name="KBSCE Tools:ApplyGradient"></action-id>
+		<context>DefaultContext</context>
+		<string>.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 16" name="KBSCE Tools:ApplyNone"></action-id>
+		<context>DefaultContext</context>
+		<string>/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 16" name="KBSCE Tools:ApplyNone"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Num /</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 17" name="KBSCE Tools:Toggle Text and Object Control"></action-id>
+		<context>DefaultContext</context>
+		<string>J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 19" name="KBSCE Object menu: Arrange: :Bring To &amp;Front"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 20" name="KBSCE Object menu: Arrange: :Bring For&amp;ward"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 21" name="KBSCE Object menu: Arrange: :Send &amp;Backward"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 22" name="KBSCE Object menu: Arrange: :Send To Bac&amp;k"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 23" name="KBSCE Object menu: Select: :Next Object Above"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 24" name="KBSCE Object menu: Select: :Next Object Below"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 25" name="KBSCE Object menu: Select: :First Object Above"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 26" name="KBSCE Object menu: Select: :Last Object Below"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 27" name="KBSCE Object menu: Fitting: :Fit &amp;Frame to Content"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 28" name="KBSCE Object menu: Fitting: :Fit &amp;Content to Frame"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 29" name="KBSCE Object menu: Fitting: :Fit Content &amp;Proportionally"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 34" name="KBSCE Object editing:Increase object scale"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 35" name="KBSCE Object editing:Decrease object scale"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 36" name="KBSCE Object editing:Increase object scale x 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 37" name="KBSCE Object editing:Decrease object scale x 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 40" name="KBSCE Object menu:&amp;Lock Position"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 83" name="KBSCE Object menu: Fitting: :Fi&amp;ll Frame Proportionally"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 87" name="KBSCE Object menu: Select: :Select Container"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 88" name="KBSCE Object menu: Select: :Select Content"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 131" name="KBSCE Object menu:Unlock All on Spread Action"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 135" name="KBSCE Object menu: Fitting: :C&amp;ontent-Aware Fit"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3100 + 3" name="KBSCE Text and Tables:Use Typographer&apos;s Quotes"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3400 + 1" name="KBSCE View menu:Hide &amp;Rulers"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3400 + 56" name="KBSCE Views, Navigation:Toggle Measurement System"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3500 + 1" name="KBSCE Window menu:Text Wrap_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4000 + 1" name="KBSCE Window menu: Color: :Swatches_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4800 + 1" name="KBSCE Window menu:Layers_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 1" name="KBSCE Text and Tables:Load Find with selected text"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_F1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 2" name="KBSCE Text and Tables:Load Find and Find Next instance"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_F1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 3" name="KBSCE Text and Tables:Replace with Change To text and Find Next"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_F3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 4" name="KBSCE Text and Tables:Replace with Change To text"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_F3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 5" name="KBSCE Text and Tables:Load Replace with selected text"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_F2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 6" name="KBSCE Edit menu:EditMenu_FindChange"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 7" name="KBSCE Edit menu:Find Next"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 18" name="KBSCE Text and Tables:Find Next"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_F2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 83" name="KBSCE Edit menu:Killer Find..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Return_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5900 + 2" name="KBSCE Layout menu:Go Back"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5900 + 3" name="KBSCE Layout menu:Go Forward"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 5" name="KBSCE View menu: Grids Guides: :Hide G&amp;uides"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 6" name="KBSCE View menu: Grids Guides: :Loc&amp;k Guides"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 7" name="KBSCE View menu: Grids Guides: :Show &amp;Baseline Grid"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 8" name="KBSCE View menu: Grids Guides: :Snap to Gui&amp;des"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 9" name="KBSCE View menu: Grids Guides: :Show Document &amp;Grid"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 10" name="KBSCE View menu: Grids Guides: :S&amp;nap to Document Grid"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 11" name="KBSCE View menu: ExtrasSubmenu: :Hide Frame &amp;Edges"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Cmd+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 12" name="KBSCE View menu: ExtrasSubmenu: :Show Te&amp;xt Threads"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+Y</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 13" name="KBSCE Layout menu:&amp;First Page"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 14" name="KBSCE Layout menu:&amp;Last Page"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 15" name="KBSCE Layout menu:&amp;Next Page"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 15" name="KBSCE Layout menu:&amp;Next Page"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 16" name="KBSCE Layout menu:&amp;Previous Page"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 16" name="KBSCE Layout menu:&amp;Previous Page"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 26" name="KBSCE Layout menu: Pages: :Add New Page"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 29" name="KBSCE View menu: Grids Guides: :Show &amp;Smart Guides"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 30" name="KBSCE Tools:Page Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 40" name="KBSCE Object editing:kObjectConstraintMenuString_PinLeft"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 41" name="KBSCE Object editing:kObjectConstraintMenuString_PinRight"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 44" name="KBSCE Object editing:kObjectConstraintMenuString_PinTop"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 45" name="KBSCE Object editing:kObjectConstraintMenuString_PinBottom"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 47" name="KBSCE Object editing:kObjectConstraintMenuString_ResizeHorizontally"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 48" name="KBSCE Object editing:kObjectConstraintMenuString_ResizeVertically"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6100 + 1" name="KBSCE File menu:Document Setup..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6100 + 250" name="KBSCE File menu:AdjustLayout..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6500 + 1" name="KBSCE Window menu: Object &amp; Layout: :Align_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6700 + 4" name="KBSCE Type menu:Tabs_menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6900 + 15" name="KBSCE Text and Tables:Reset Kerning and Tracking"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Cmd+Q</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6900 + 16" name="KBSCE Window menu: Type &amp; Tables: :&amp;Character_menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 4" name="KBSCE Palette Menus: Paragraph: :Keep Options..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 5" name="KBSCE Palette Menus: Paragraph: :Paragraph Rules..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 6" name="KBSCE Palette Menus: Paragraph: :Justification..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 8" name="KBSCE Window menu: Type &amp; Tables: :&amp;Paragraph_menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 9" name="KBSCE Text and Tables:Auto-hyphenate on/off"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 99" name="KBSCE Palette Menus: Paragraph: :RunIn Styles..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x7200 + 3" name="KBSCE Window menu: Color: :Color_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x8800 + 1" name="KBSCE Object menu: Clipping Path: :Clipping Path..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x9700 + 1" name="KBSCE Help menu:InDesign Help..."></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Help</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x9900 + 1" name="KBSCE Apple menu:Preferences: :General..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x9c00 + 2" name="KBSCE File menu:Packa&amp;ge..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xa000 + 1" name="KBSCE Tools:Gradient Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xa000 + 2" name="KBSCE Tools:kGradientFeatherTool"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xa500 + 7" name="KBSCE Type menu: ChangesSubmenu: :TCMenu_PreviousChange"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xa500 + 8" name="KBSCE Type menu: ChangesSubmenu: :TCMenu_NextChange"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xaa00 + 1" name="KBSCE Edit menu:Step and Repeat..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xad00 + 1" name="KBSCE Object menu:Text &amp;Frame Options..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb200 + 1" name="KBSCE Tools:Free Transform Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb800 + 84" name="KBSCE Type menu: Insert Special Character: Quotation Marks: :Insert SDQ"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+Shift+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb800 + 85" name="KBSCE Type menu: Insert Special Character: Quotation Marks: :Insert SSQ"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb800 + 176" name="KBSCE Type menu:MarkerToEndnote"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xba00 + 1" name="KBSCE Tools:Eyedropper Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xba00 + 2" name="KBSCE Tools:Colortheme Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xbb00 + 20" name="KBSCE Type menu: NotesSubmenu: :NotesMenu_NotesMode"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_F8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xcc00 + 0" name="KBSCE Window menu: Utilities: :WindowsMenuScriptsPanelItem"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xd100 + 1" name="KBSCE Window menu: Type &amp; Tables: :&amp;Insert Glyphs_menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xef00 + 221" name="KBSCE Type menu:Create Outlines menu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xef00 + 222" name="KBSCE Type menu:Create outlines without deleting text"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 4" name="KBSCE Table menu: Cell Options: :kTablesMenuText..._&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Opt+Cmd+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 6" name="KBSCE Table menu:kTablesMenuCreate Table"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 6" name="KBSCE Table menu:kTablesMenuCreate Table"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 7" name="KBSCE Table menu: Insert: :kTablesMenuRow..._&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 8" name="KBSCE Table menu: Insert: :kTablesMenuColumn..._&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Opt+Cmd+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 9" name="KBSCE Table menu: Select: :kTablesMenuRow_&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 10" name="KBSCE Table menu: Select: :kTablesMenuColumn_&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Opt+Cmd+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 11" name="KBSCE Table menu: Select: :kTablesMenuTable_&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Opt+Cmd+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 12" name="KBSCE Table menu: Delete: :kTablesMenuRow_&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 13" name="KBSCE Table menu: Delete: :kTablesMenuColumn_&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 28" name="KBSCE Table menu: Select: :kTablesMenuCell_&amp;"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 31" name="KBSCE Text and Tables:Move to First Cell in Column"></action-id>
+		<context>TableContext</context>
+		<string>Opt+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 32" name="KBSCE Text and Tables:Move to Last Cell in Column"></action-id>
+		<context>TableContext</context>
+		<string>Opt+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 33" name="KBSCE Text and Tables:Move to First Cell in Row"></action-id>
+		<context>TableContext</context>
+		<string>Opt+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 34" name="KBSCE Text and Tables:Move to Last Cell in Row"></action-id>
+		<context>TableContext</context>
+		<string>Opt+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 35" name="KBSCE Text and Tables:Move to First Row in Frame"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 36" name="KBSCE Text and Tables:Move to Last Row in Frame"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 39" name="KBSCE Text and Tables:Switch From Cell Selection to Text Selection"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 40" name="KBSCE Text and Tables:Move to Next Cell"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 41" name="KBSCE Text and Tables:Move to Previous Cell"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 42" name="KBSCE Text and Tables:Move Down"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 43" name="KBSCE Text and Tables:Move Up"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 44" name="KBSCE Text and Tables:Move Left"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 45" name="KBSCE Text and Tables:Move Right"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 46" name="KBSCE Text and Tables:Select Cells Below"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 47" name="KBSCE Text and Tables:Select Cells Above"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 48" name="KBSCE Text and Tables:Select Cells to the Left"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 49" name="KBSCE Text and Tables:Select Cells to the Right"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 57" name="KBSCE Text and Tables:Start Row on Next Column"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Enter_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 58" name="KBSCE Text and Tables:Start Row on Next Frame"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Enter_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 60" name="KBSCE Table menu: Table Options: :TableSetup..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 62" name="KBSCE Window menu: Type &amp; Tables: :Table_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 71" name="KBSCE Text and Tables:kTablesClear"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 72" name="KBSCE Text and Tables:kTablesDelete"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Del_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 104" name="KBSCE Text and Tables:Object Right"></action-id>
+		<context>TableObjectContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 105" name="KBSCE Text and Tables:Object Left"></action-id>
+		<context>TableObjectContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 106" name="KBSCE Text and Tables:Object Up"></action-id>
+		<context>TableObjectContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 107" name="KBSCE Text and Tables:Object Down"></action-id>
+		<context>TableObjectContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 108" name="KBSCE Text and Tables:Object Escape"></action-id>
+		<context>TableObjectContext</context>
+		<string>#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 109" name="KBSCE Text and Tables:Object Move to Next Cell"></action-id>
+		<context>TableObjectContext</context>
+		<string>#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 110" name="KBSCE Text and Tables:Object Move to Prev Cell"></action-id>
+		<context>TableObjectContext</context>
+		<string>Shift+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 112" name="KBSCE Text and Tables:Increase Cell Width"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 113" name="KBSCE Text and Tables:Decrease Cell Width"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 114" name="KBSCE Text and Tables:Increase Cell Height"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 115" name="KBSCE Text and Tables:Decrease Cell Height"></action-id>
+		<context>TableContext</context>
+		<string>Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10700 + 55" name="KBSCE Views, Navigation:Show/Hide all palettes"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10700 + 56" name="KBSCE Views, Navigation:Show/Hide all palettes except toolbox"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10900 + 1" name="KBSCE Window menu:Transparency_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_F10</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10900 + 28" name="KBSCE Object menu: Effects: :kFXMenuDropShadow"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11500 + 1" name="KBSCE Window menu:Control Panel"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11500 + 2" name="KBSCE Views, Navigation:SetControlPanelFocus"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11500 + 3" name="KBSCE Views, Navigation:ToggleControlPanelTextMode"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11800 + 1" name="KBSCE Tools:Measure Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 1" name="KBSCE Window menu: Output: :SepPrv_Submenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 2" name="KBSCE View menu:Overprint Preview"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+Y</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 20" name="KBSCE Views, Navigation:FlatPrvShowAllPlates"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 21" name="KBSCE Views, Navigation:FlatPrvShowCyanPlate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 22" name="KBSCE Views, Navigation:FlatPrvShowMagentaPlate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 23" name="KBSCE Views, Navigation:FlatPrvShowYellowPlate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 24" name="KBSCE Views, Navigation:FlatPrvShowBlackPlate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 25" name="KBSCE Views, Navigation:FlatPrvShow1stSpotPlate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 26" name="KBSCE Views, Navigation:FlatPrvShow2ndSpotPlate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 27" name="KBSCE Views, Navigation:FlatPrvShow3rdSpotPlate"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x12600 + 1" name="KBSCE File menu:File Information..."></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13100 + 1" name="KBSCE Window menu: Type &amp; Tables: :Index_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13100 + 2" name="KBSCE Palette Menus: Index: :NewMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13100 + 18" name="KBSCE Palette Menus: Index: :Add new index entry"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13100 + 19" name="KBSCE Palette Menus: Index: :Add new index entry (reversed)"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 2" name="KBSCE View menu: Display Performance: :High Quality Display Menu Item"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Opt+Cmd+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 3" name="KBSCE View menu: Display Performance: :Typical Display Menu Item"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 4" name="KBSCE View menu: Display Performance: :Optimized Display Menu Item"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 11" name="KBSCE View menu: Display Performance: :Clear Local Display Settings Menu Item"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_F2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 21" name="KBSCE View menu:kCPUPreview"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 61" name="KBSCE View menu: Structure: :View_ShowStructure"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 62" name="KBSCE Structure navigation:Structure_MoveXMLSelectionToNextNode"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 63" name="KBSCE Structure navigation:Structure_MoveXMLSelectionToPreviousNode"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 64" name="KBSCE Structure navigation:Structure_AddNextNodeToSelection"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 65" name="KBSCE Structure navigation:Structure_AddPreviousNodeToSelection"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 66" name="KBSCE Structure navigation:Structure_SelectFirstXMLNode"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 67" name="KBSCE Structure navigation:Structure_SelectLastXMLNode"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 68" name="KBSCE Structure navigation:Structure_ScrollUp"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 69" name="KBSCE Structure navigation:Structure_ScrollDown"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 70" name="KBSCE Structure navigation:Structure_ExpandElement"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 71" name="KBSCE Structure navigation:Structure_CollapseElement"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 72" name="KBSCE Structure navigation:Structure_ExpandElementAndChildren"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Opt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 73" name="KBSCE Structure navigation:Structure_CollapseElementAndChildren"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Opt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 75" name="KBSCE Structure navigation:Structure_SelectThroughFirstXMLNode"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 76" name="KBSCE Structure navigation:Structure_SelectThroughLastXMLNode"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 81" name="KBSCE Structure navigation:Structure_ViewPreviousValidationError"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 82" name="KBSCE Structure navigation:Structure_ViewNextValidationError"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 223" name="KBSCE Palette Menus: Tag: :Tag_AutoTag"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x15c00 + 1" name="KBSCE Window menu:Info_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x16400 + 90" name="KBSCE Views, Navigation:Open/Close all Stashed Palettes"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 1" name="KBSCE Object menu: Paths: :Make"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 2" name="KBSCE Object menu: Paths: :Release"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 4" name="KBSCE Tools:Pen Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 5" name="KBSCE Tools:Add Anchor Point Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 6" name="KBSCE Tools:Remove Anchor Point Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 7" name="KBSCE Tools:Pencil Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 9" name="KBSCE Tools:Convert Direction Point Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 10" name="KBSCE Tools:Scissors Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 38" name="KBSCE Object editing:End Path Drawing"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Enter_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 38" name="KBSCE Object editing:End Path Drawing"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Return_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18f00 + 5" name="KBSCE Edit menu:Edit in InDesign"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18f00 + 7" name="KBSCE Edit menu:Submit Story"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18f00 + 11" name="KBSCE Edit menu:Update Story in InDesign"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Cmd+#Keyboard_F5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18f00 + 12" name="KBSCE Edit menu:Submit All Stories in InDesign"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1ba00 + 1" name="KBSCE Window menu: Styles: :Object Styles"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1bb00 + 1" name="KBSCE File menu:&amp;Place..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1bb00 + 3" name="KBSCE File menu:Export..."></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 1" name="KBSCE View menu:Zoom &amp;In"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 1" name="KBSCE View menu:Zoom &amp;In"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num +</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 2" name="KBSCE View menu:Zoom &amp;Out"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 2" name="KBSCE View menu:Zoom &amp;Out"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num -</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 3" name="KBSCE View menu:Fit Spread In Window"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 4" name="KBSCE View menu:Fit Page In Window"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 5" name="KBSCE View menu:Entire Pasteboard"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 6" name="KBSCE Views, Navigation:Fit Selection in Window"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 7" name="KBSCE View menu:Actual Size"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 8" name="KBSCE Views, Navigation:Zoom View to 200 Percent"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 9" name="KBSCE Views, Navigation:Zoom View to 400 Percent"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 10" name="KBSCE Views, Navigation:Zoom View to 50 Percent"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 14" name="KBSCE Tools:ToggleViewSetting"></action-id>
+		<context>DefaultContext</context>
+		<string>W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 15" name="KBSCE Object menu: Transform: :&amp;Move..."></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 22" name="KBSCE Views, Navigation:Toggle Between the Last Two View Percentages"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 23" name="KBSCE Layout menu:Go to &amp;Page..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 24" name="KBSCE Views, Navigation:Set Focus to Scale Editbox"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 31" name="KBSCE Views, Navigation:Scroll down one Screen"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 31" name="KBSCE Views, Navigation:Scroll down one Screen"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 32" name="KBSCE Views, Navigation:Scroll up one Screen"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 32" name="KBSCE Views, Navigation:Scroll up one Screen"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 33" name="KBSCE Layout menu:Pr&amp;evious Spread"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 33" name="KBSCE Layout menu:Pr&amp;evious Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>Shift+#Keyboard_Space</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 33" name="KBSCE Layout menu:Pr&amp;evious Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 33" name="KBSCE Layout menu:Pr&amp;evious Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 33" name="KBSCE Layout menu:Pr&amp;evious Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 34" name="KBSCE Layout menu:Ne&amp;xt Spread"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 34" name="KBSCE Layout menu:Ne&amp;xt Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Space</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 34" name="KBSCE Layout menu:Ne&amp;xt Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 34" name="KBSCE Layout menu:Ne&amp;xt Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Return_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 34" name="KBSCE Layout menu:Ne&amp;xt Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 35" name="KBSCE Views, Navigation:First Spread"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 35" name="KBSCE Views, Navigation:First Spread"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 35" name="KBSCE Views, Navigation:First Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 36" name="KBSCE Views, Navigation:Last Spread"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 36" name="KBSCE Views, Navigation:Last Spread"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 36" name="KBSCE Views, Navigation:Last Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 37" name="KBSCE Tools:Toggle between Select and Direct Select tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 37" name="KBSCE Tools:Toggle between Select and Direct Select tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 37" name="KBSCE Tools:Toggle between Select and Direct Select tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Cmd+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 38" name="KBSCE Tools:Selection Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 38" name="KBSCE Tools:Selection Tool"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 39" name="KBSCE Tools:Direct Selection Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 40" name="KBSCE Tools:Rotate Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 41" name="KBSCE Tools:Scale Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 42" name="KBSCE Tools:Grabber Hand Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 43" name="KBSCE Tools:Shear Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 49" name="KBSCE Object editing:Select All Guides"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 53" name="KBSCE Object menu: Transform Again: :Transform Sequence Again"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 60" name="KBSCE Object menu:&amp;Group"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 61" name="KBSCE Object menu:&amp;Ungroup"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 72" name="KBSCE Object menu:Hide Page Item Action"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 73" name="KBSCE Object menu:Show All on Spread Action"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 74" name="KBSCE Object editing:kToggleLiveEditingMode"></action-id>
+		<context>DefaultContext</context>
+		<string>4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 75" name="KBSCE Layout menu:Left Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 76" name="KBSCE Layout menu:Right Spread"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 77" name="KBSCE View menu: Screen Mode: :kPresentationBackgroundBlackMenuItem"></action-id>
+		<context>FullScreenContext</context>
+		<string>B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 78" name="KBSCE View menu: Screen Mode: :kPresentationBackgroundGrayMenuItem"></action-id>
+		<context>FullScreenContext</context>
+		<string>G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 79" name="KBSCE View menu: Screen Mode: :kPresentationBackgroundWhiteMenuItem"></action-id>
+		<context>FullScreenContext</context>
+		<string>W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 80" name="KBSCE View menu: Screen Mode: :kPresentationMenuItem"></action-id>
+		<context>FullScreenContext</context>
+		<string>#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 80" name="KBSCE View menu: Screen Mode: :kPresentationMenuItem"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 80" name="KBSCE View menu: Screen Mode: :kPresentationMenuItem"></action-id>
+		<context>FullScreenContext</context>
+		<string>Shift+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d100 + 3" name="KBSCE Tools:Path Type Horz Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 1" name="KBSCE Type menu:Show Hidden Characters"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 4" name="KBSCE Text and Tables:Move to the right one character"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 5" name="KBSCE Text and Tables:Move to the left one character"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 6" name="KBSCE Text and Tables:Move up one line"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 7" name="KBSCE Text and Tables:Move down one line "></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 8" name="KBSCE Text and Tables:Move to the right one word"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 9" name="KBSCE Text and Tables:Move to the left one word"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 10" name="KBSCE Text and Tables:Move to the start of the line"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 11" name="KBSCE Text and Tables:Move to the end of the line"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 12" name="KBSCE Text and Tables:Move to the previous para"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 13" name="KBSCE Text and Tables:Move to the next para "></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 14" name="KBSCE Text and Tables:Move to end of story"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 15" name="KBSCE Text and Tables:Move to begining of story"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 16" name="KBSCE Text and Tables:Select one character to the right"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 17" name="KBSCE Text and Tables:Select one character to the left"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 18" name="KBSCE Text and Tables:Select one word to the right"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 19" name="KBSCE Text and Tables:Select one word to the left"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 20" name="KBSCE Text and Tables:Select to the start of the line"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 21" name="KBSCE Text and Tables:Select to the end of the line"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 22" name="KBSCE Text and Tables:Select one line above"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 23" name="KBSCE Text and Tables:Select one line below"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 24" name="KBSCE Text and Tables:Select one paragraph before"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 25" name="KBSCE Text and Tables:Select one paragraph forward"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 27" name="KBSCE Text and Tables:Select to end of story"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 28" name="KBSCE Text and Tables:Select to beginning of story"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 29" name="KBSCE Text and Tables:Delete one character to the right"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Del_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 29" name="KBSCE Text and Tables:Delete one character to the right"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Del_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 30" name="KBSCE Text and Tables:Delete one character to the left"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 30" name="KBSCE Text and Tables:Delete one character to the left"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 31" name="KBSCE Type menu: Insert Special Character: Hyphens and Dashes: :Insert discretionary hyphen"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 32" name="KBSCE Type menu: Insert Break Character: :Soft return"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Return_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 33" name="KBSCE Type menu: Insert Special Character: Markers: :InsertSpecial Page Number"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 35" name="KBSCE Type menu: Insert Special Character: Hyphens and Dashes: :Insert non-breaking hyphen"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Cmd+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 37" name="KBSCE Type menu: Insert White Space: :Insert thin space"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 39" name="KBSCE Type menu: Insert White Space: :Insert em space"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 40" name="KBSCE Type menu: Insert White Space: :Insert en space"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 42" name="KBSCE Type menu: Insert White Space: :Insert non-breaking space"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Cmd+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 57" name="KBSCE Text and Tables:Apply normal"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+Y</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 58" name="KBSCE Text and Tables:Apply bold"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 59" name="KBSCE Text and Tables:Apply italic"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 60" name="KBSCE Palette Menus: Character: :Apply underline"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 62" name="KBSCE Palette Menus: Character: :Apply small caps"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 63" name="KBSCE Palette Menus: Character: :Apply all caps"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 64" name="KBSCE Palette Menus: Character: :Apply superscript"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 65" name="KBSCE Palette Menus: Character: :Apply subscript"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 66" name="KBSCE Palette Menus: Character: :Apply strikethru"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Shift+Cmd+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 66" name="KBSCE Palette Menus: Character: :Apply strikethru"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 70" name="KBSCE Text and Tables:Align left"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 71" name="KBSCE Text and Tables:Align center"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 72" name="KBSCE Text and Tables:Align right"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 73" name="KBSCE Text and Tables:Align justify"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 74" name="KBSCE Text and Tables:Align force justify"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 75" name="KBSCE Text and Tables:Align to baseline grid"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="KBSCE Text and Tables:Apply text style"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 77" name="KBSCE Views, Navigation:Go to next frame"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 78" name="KBSCE Views, Navigation:Go to previous frame"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 79" name="KBSCE Views, Navigation:Go to first frame"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 80" name="KBSCE Views, Navigation:Go to last frame"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 81" name="KBSCE Text and Tables:Increase point size"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 82" name="KBSCE Text and Tables:Decrease point size"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 83" name="KBSCE Text and Tables:Increase leading"></action-id>
+		<context>TextContext</context>
+		<string>Opt+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 84" name="KBSCE Text and Tables:Decrease leading"></action-id>
+		<context>TextContext</context>
+		<string>Opt+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 85" name="KBSCE Text and Tables:Increase kerning/tracking"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 85" name="KBSCE Text and Tables:Increase kerning/tracking"></action-id>
+		<context>TextContext</context>
+		<string>Opt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 86" name="KBSCE Text and Tables:Decrease kerning/tracking"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 86" name="KBSCE Text and Tables:Decrease kerning/tracking"></action-id>
+		<context>TextContext</context>
+		<string>Opt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 87" name="KBSCE Text and Tables:Increase kerning/tracking x 5"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Cmd+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 88" name="KBSCE Text and Tables:Decrease kerning/tracking x 5"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Cmd+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 89" name="KBSCE Text and Tables:Increase baseline shift"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 90" name="KBSCE Text and Tables:Decrease baseline shift"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 91" name="KBSCE Text and Tables:Increase baseline shift x 5"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 92" name="KBSCE Text and Tables:Decrease baseline shift x 5"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 93" name="KBSCE Text and Tables:Increase point size x 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 94" name="KBSCE Text and Tables:Decrease point size x 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 95" name="KBSCE Text and Tables:Increase leading x 5"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Cmd+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 96" name="KBSCE Text and Tables:Decrease leading x 5"></action-id>
+		<context>TextContext</context>
+		<string>Opt+Cmd+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 97" name="KBSCE Text and Tables:Normal horizontal text scale"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 98" name="KBSCE Text and Tables:Normal vertical text scale"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 99" name="KBSCE Text and Tables:Auto leading"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 101" name="KBSCE Text and Tables:Update missing font list"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 104" name="KBSCE Type menu: Insert Break Character: :Column Break"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Enter_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 105" name="KBSCE Type menu: Insert Break Character: :Frame Break"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Enter_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 106" name="KBSCE Type menu: Insert Break Character: :Page Break"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Enter_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 109" name="KBSCE Text and Tables:Select line"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Cmd+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 112" name="KBSCE Text and Tables:Increase word space"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 112" name="KBSCE Text and Tables:Increase word space"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Opt+Cmd+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 113" name="KBSCE Text and Tables:Increase word space x 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 114" name="KBSCE Text and Tables:Decrease word space"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 115" name="KBSCE Text and Tables:Decrease word space x 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 121" name="KBSCE Type menu: Insert Special Character: Other: :Right margin tab"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 122" name="KBSCE Type menu: Insert Special Character: Other: :Indent to here"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 130" name="KBSCE Tools:Type Tool"></action-id>
+		<context>DefaultContext</context>
+		<string>T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 133" name="KBSCE Text and Tables:Recompose all stories"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 241" name="KBSCE Edit menu:Edit Story"></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+Y</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 250" name="KBSCE Text and Tables:Delete one word to the right"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Del_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 251" name="KBSCE Text and Tables:Delete one word to the left"></action-id>
+		<context>TextContext</context>
+		<string>Cmd+#Keyboard_Delete_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1da00 + 1" name="KBSCE Edit menu: Spelling: :Check Spelling..."></action-id>
+		<context>DefaultContext</context>
+		<string>Cmd+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1f300 + 222" name="KBSCE Edit menu:Toggle_Direction"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Cmd+#Keyboard_Return_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x20600 + 1" name="KBSCE Window menu:Links_WinMenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x20b00 + 1" name="KBSCE Window menu: Output: :PreflightUI_Submenu"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+Shift+Cmd+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x20c00 + 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Return_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x20c00 + 5"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Cmd+#Keyboard_Enter_Mac</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x20f00 + 1" name="KBSCE Tools:kBasicGapToolStringKey"></action-id>
+		<context>DefaultContext</context>
+		<string>U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x21800 + 20" name="KBSCE View menu: ExtrasSubmenu: :kHideRibbonMenuItem"></action-id>
+		<context>DefaultContext</context>
+		<string>Opt+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x22400 + 1" name="KBSCE Tools:ToggleContentCollectorTool"></action-id>
+		<context>DefaultContext</context>
+		<string>B</string>
+	</shortcut>
+</shortcut-set>
