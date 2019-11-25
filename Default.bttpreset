@@ -147,7 +147,7 @@
     "showOtherTriggersTab" : true,
     "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612
   },
-  "BTTPresetUUID" : "2FA5ECBD-2D74-4FE0-A401-45946AA92068",
+  "BTTPresetUUID" : "706D2101-FAFE-481A-BB00-BD18F3040E10",
   "BTTPresetContent" : [
     {
       "BTTAppBundleIdentifier" : "BT.G",
@@ -219,7 +219,11 @@
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTOrder" : 4,
-          "BTTDisplayOrder" : 0
+          "BTTDisplayOrder" : 0,
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTGestureForceFeedbackPattern" : 16
+          }
         },
         {
           "BTTTouchBarButtonName" : "end",
@@ -342,7 +346,11 @@
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTOrder" : 3,
-          "BTTDisplayOrder" : 0
+          "BTTDisplayOrder" : 0,
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTGestureForceFeedbackPattern" : 16
+          }
         },
         {
           "BTTWidgetName" : "Mute or Unmute Audio",
