@@ -209,6 +209,7 @@ brew cask install optimage
 brew cask install oversight
 brew cask install pixelsnap
 brew cask install quitter
+brew cask install rectangle
 brew cask install reflector
 brew cask install renamer
 brew cask install screenflick
@@ -222,7 +223,6 @@ brew cask install sketch
 brew cask install skype
 brew cask install slack
 brew cask install sloth
-brew cask install spectacle
 brew tap dteoh/sqa
 brew cask install stay
 brew cask install steam
