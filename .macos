@@ -279,9 +279,6 @@ defaults write com.apple.terminal FocusFollowsMouse -bool true
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
-# Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
-
 
 ## Activity Monitor ###########################################################
 
@@ -329,9 +326,7 @@ mas install 687450044  # Blind
 mas install 483014855  # Browser Fairy
 mas install 1254981365 # Contrast
 mas install 411643860  # DaisyDisk
-mas install 411643860  # DaisyDisk
 mas install 695406827  # Dropzone 3
-mas install 777886035  # Duo
 mas install 913158085  # Expressions
 mas install 1351639930 # Gifski
 mas install 668208984  # GIPHY CAPTURE
