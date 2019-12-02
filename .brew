@@ -240,9 +240,6 @@ brew cask install vlc
 brew cask install webponize
 
 
-# Ensure that Alfred can find installed apps
-brew cask alfred link
-
 echo "Cleaning up"
 
 # Remove outdated versions from the cellar
