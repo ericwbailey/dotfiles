@@ -217,6 +217,7 @@ brew cask install screens
 brew cask install screens-connect
 brew cask install sequel-pro
 brew cask install shift
+brew tap dteoh/sqa
 brew cask install slowquitapps
 brew cask install skala-preview
 brew cask install sketch
