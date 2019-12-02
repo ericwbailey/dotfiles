@@ -159,8 +159,7 @@ axe-core
 browser-sync
 grunt-cli
 gulp-cli
-jshint
-npm-package-updates`
+jshint`
 
 ### Python
 
@@ -168,7 +167,6 @@ npm-package-updates`
 1. `pip3 install
 aws-shell
 Babel
-colout
 proselint
 Pygments
 pytz
@@ -180,7 +178,7 @@ request`
 
 ### Ruby
 
-1. Install [rbenv](https://github.com/sstephenson/rbenv)
+1. Install [rbenv](https://github.com/sstephenson/rbenv): `brew install rbenv`
 1. `rbenv install 2.6.5`
 1. `rbenv global 2.6.5`
 1. Ensure that `.bash_profile` points to the new version of Ruby
