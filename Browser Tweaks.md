@@ -5,7 +5,6 @@ Most settings *should* sync, but just in case:
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Chrome](#chrome)
   - [DevTools Settings](#devtools-settings)
     - [Preferences](#preferences)
@@ -186,6 +185,9 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 
 #### Remove "Recently Bookmarked" from the Bookmarks menu
 - `browser.bookmarks.showRecentlyBookmarked` `false`
+
+#### Number of entries in the Awesome Bar
+- `browser.urlbar.maxRichResults` `10`
 
 ### userChrome.css
 ```css
