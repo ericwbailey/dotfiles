@@ -5,56 +5,54 @@ Most settings *should* sync, but just in case:
 
 ## Table of Contents
 
-- [Browser Tweaks](#browser-tweaks)
-  - [Table of Contents](#table-of-contents)
-  - [Chrome](#chrome)
-    - [DevTools Settings](#devtools-settings)
-      - [Preferences](#preferences)
-        - [Appearance](#appearance)
-        - [Elements](#elements)
-        - [Sources](#sources)
-        - [Network](#network)
-        - [Profiles](#profiles)
-        - [Console](#console)
-        - [Extensions](#extensions)
-        - [DevTools](#devtools)
-    - [Experiments](#experiments)
-  - [Firefox](#firefox)
-    - [Search bar operators](#search-bar-operators)
-    - [about:config](#aboutconfig)
-      - [Adjust scrolling speed](#adjust-scrolling-speed)
-      - [Alt+Tab-esque Tab Previews](#alttab-esque-tab-previews)
-      - [Disable download complete notification](#disable-download-complete-notification)
-      - [Disable HTTP Referers](#disable-http-referers)
-      - [Disable installing new extensions delay](#disable-installing-new-extensions-delay)
-      - [Enable click to play](#enable-click-to-play)
-      - [Enable HTTP cache](#enable-http-cache)
-      - [Enable spellchecking in single-line input boxes](#enable-spellchecking-in-single-line-input-boxes)
-      - [Enable faster tab opening](#enable-faster-tab-opening)
-      - [Open new tabs at the end of the tab bar](#open-new-tabs-at-the-end-of-the-tab-bar)
-      - [Remove Awesome Bar search prompt](#remove-awesome-bar-search-prompt)
-      - [Remove "Search or enter address" from the navbar until focused](#remove-%22search-or-enter-address%22-from-the-navbar-until-focused)
-      - [Remove swipe back/forward gestures](#remove-swipe-backforward-gestures)
-      - [Show HTTP(S) in address bar](#show-https-in-address-bar)
-      - [Remove tab group animation](#remove-tab-group-animation)
-      - [Tracking protection](#tracking-protection)
-      - [Enable Electrolysis multiprocess](#enable-electrolysis-multiprocess)
-      - [Remove "Recently Bookmarked" from the Bookmarks menu](#remove-%22recently-bookmarked%22-from-the-bookmarks-menu)
-    - [userChrome.css](#userchromecss)
-    - [Adblocking](#adblocking)
-      - [Filters](#filters)
-      - [Custom rules](#custom-rules)
-    - [Developer Tools](#developer-tools)
-      - [Default Firefox Developer Tools](#default-firefox-developer-tools)
-      - [Developer Tools installed by add-ons](#developer-tools-installed-by-add-ons)
-      - [Available Toolbox Buttons](#available-toolbox-buttons)
-      - [Themes](#themes)
-      - [Common Preferences](#common-preferences)
-      - [Inspector](#inspector)
-      - [Web Console](#web-console)
-      - [Style Editor](#style-editor)
-      - [Editor Preferences](#editor-preferences)
-      - [Advanced settings](#advanced-settings)
+- [Table of Contents](#table-of-contents)
+- [Chrome](#chrome)
+  - [DevTools Settings](#devtools-settings)
+    - [Preferences](#preferences)
+      - [Appearance](#appearance)
+      - [Elements](#elements)
+      - [Sources](#sources)
+      - [Network](#network)
+      - [Profiles](#profiles)
+      - [Console](#console)
+      - [Extensions](#extensions)
+      - [DevTools](#devtools)
+- [Firefox](#firefox)
+  - [Search bar operators](#search-bar-operators)
+  - [about:config](#aboutconfig)
+    - [Adjust scrolling speed](#adjust-scrolling-speed)
+    - [Alt+Tab-esque Tab Previews](#alttab-esque-tab-previews)
+    - [Disable download complete notification](#disable-download-complete-notification)
+    - [Disable HTTP Referers](#disable-http-referers)
+    - [Disable installing new extensions delay](#disable-installing-new-extensions-delay)
+    - [Enable click to play](#enable-click-to-play)
+    - [Enable HTTP cache](#enable-http-cache)
+    - [Enable spellchecking in single-line input boxes](#enable-spellchecking-in-single-line-input-boxes)
+    - [Enable faster tab opening](#enable-faster-tab-opening)
+    - [Open new tabs at the end of the tab bar](#open-new-tabs-at-the-end-of-the-tab-bar)
+    - [Remove Awesome Bar search prompt](#remove-awesome-bar-search-prompt)
+    - [Remove "Search or enter address" from the navbar until focused](#remove-%22search-or-enter-address%22-from-the-navbar-until-focused)
+    - [Remove swipe back/forward gestures](#remove-swipe-backforward-gestures)
+    - [Show HTTP(S) in address bar](#show-https-in-address-bar)
+    - [Remove tab group animation](#remove-tab-group-animation)
+    - [Tracking protection](#tracking-protection)
+    - [Enable Electrolysis multiprocess](#enable-electrolysis-multiprocess)
+    - [Remove "Recently Bookmarked" from the Bookmarks menu](#remove-%22recently-bookmarked%22-from-the-bookmarks-menu)
+  - [userChrome.css](#userchromecss)
+  - [Adblocking](#adblocking)
+    - [Filters](#filters)
+    - [Custom rules](#custom-rules)
+  - [Developer Tools](#developer-tools)
+    - [Default Firefox Developer Tools](#default-firefox-developer-tools)
+    - [Developer Tools installed by add-ons](#developer-tools-installed-by-add-ons)
+    - [Available Toolbox Buttons](#available-toolbox-buttons)
+    - [Themes](#themes)
+    - [Common Preferences](#common-preferences)
+    - [Inspector](#inspector)
+    - [Web Console](#web-console)
+    - [Style Editor](#style-editor)
+    - [Editor Preferences](#editor-preferences)
+    - [Advanced settings](#advanced-settings)
 
 
 ## Chrome
@@ -114,17 +112,6 @@ Most settings *should* sync, but just in case:
 
 ##### DevTools
 - ⬜ Auto-open DevTools for popups
-
-### Experiments
-- ☑️ Accessibility Inspection
-- ☑️ Allow custom UI themes
-- ⬜ Continue to first invocation
-- ⬜ CPU throttling
-- ⬜ Empty sourcemap auto-stepping
-- ☑️ Layers panel
-- ⬜ Private script inspection
-- ⬜ Source diff
-- ⬜ Timeline recording perspectives UI
 
 
 ## Firefox
