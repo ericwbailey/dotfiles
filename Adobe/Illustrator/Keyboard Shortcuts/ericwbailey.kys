@@ -1,0 +1,794 @@
+Tools
+
+Selection	V
+Direct Selection	A
+Group Selection
+Magic Wand	Y
+Lasso	Q
+Artboard	Shift+O
+Pen	P
+Add Anchor Point	=
+Delete Anchor Point	-
+Anchor Point	Shift+C
+Curvature Tool	Shift+`
+Line Segment	\
+Arc
+Spiral
+Rectangular Grid
+Polar Grid
+Rectangle	M
+Rounded Rectangle
+Ellipse	L
+Polygon
+Star
+Flare
+Paintbrush	B
+Blob Brush	Shift+B
+Pencil	N
+Smooth
+Path Eraser
+Join Tool
+Shaper Tool	Shift+N
+Symbol Sprayer	Shift+S
+Symbol Shifter
+Symbol Scruncher
+Symbol Sizer
+Symbol Spinner
+Symbol Stainer
+Symbol Screener
+Symbol Styler
+Column Graph	J
+Stacked Column Graph
+Bar Graph
+Stacked Bar Graph
+Line Graph
+Area Graph
+Scatter Graph
+Pie Graph
+Radar Graph
+Slice	Shift+K
+Slice Selection
+Perspective Grid	Shift+P
+Perspective Selection	Shift+V
+Type	T
+Area Type
+Type on a Path
+Vertical Type
+Vertical Area Type
+Vertical Type on a Path
+Touch Type	Shift+T
+Gradient	G
+Mesh	U
+Shape Builder	Shift+M
+Live Paint Bucket	K
+Live Paint Selection	Shift+L
+Rotate	R
+Reflect	O
+Scale	S
+Shear
+Reshape
+Width	Shift+W
+Warp	Shift+R
+Twirl
+Pucker
+Bloat
+Scallop
+Crystallize
+Wrinkle
+Puppet Warp Tool
+Free Transform	E
+Eyedropper	I
+Measure
+Blend	W
+Eraser	Shift+E
+Scissors	C
+Knife
+Hand	H
+Print Tiling
+Zoom	Z
+Place
+Stencil
+Pattern Tile
+Toggle Fill/Stroke	X
+Default	D
+Swap Fill/Stroke	Shift+X
+Color	,
+Gradient	.
+None	/
+Toggle Screen Mode	F
+Show/Hide All Palettes	Tab
+Show/Hide All But Toolbox	Shift+Tab
+Increase Diameter	]
+Decrease Diameter	[
+Symbolism Tools - Increase Intensity	Shift+}
+Symbolism Tools - Decrease Intensity	Shift+{
+Opacity - 0%
+Opacity - 10%
+Opacity - 20%
+Opacity - 30%
+Opacity - 40%
+Opacity - 50%
+Opacity - 60%
+Opacity - 70%
+Opacity - 80%
+Opacity - 90%
+Opacity - 100%
+Blend Mode - Normal
+Blend Mode - Darken
+Blend Mode - Multiply
+Blend Mode - Color Burn
+Blend Mode - Lighten
+Blend Mode - Screen
+Blend Mode - Color Dodge
+Blend Mode - Overlay
+Blend Mode - Soft Light
+Blend Mode - Hard Light
+Blend Mode - Difference
+Blend Mode - Exclusion
+Blend Mode - Hue
+Blend Mode - Saturation
+Blend Mode - Color
+Blend Mode - Luminosity
+Blend Mode - Next Mode
+Blend Mode - Previous Mode
+Toggle Drawing Mode	Shift+D
+Presentation Mode	Shift+F
+
+Menu Commands
+
+Illustrator
+About Illustrator
+Preferences
+GeneralCmd+K
+Selection & Anchor Display
+Type
+UnitsCmd+,
+Guides & Grid
+Smart Guides
+Slices
+Hyphenation
+Plug-ins & Scratch Disks
+User Interface
+Performance
+File Handling & Clipboard
+Appearance of Black
+Hide Illustrator
+Hide OthersOpt+Cmd+H
+Show All
+Quit IllustratorCmd+Q
+File
+NewCmd+N
+New from TemplateShift+Cmd+N
+OpenCmd+O
+Browse in BridgeOpt+Cmd+O
+CloseCmd+W
+SaveCmd+S
+Save AsShift+Cmd+S
+Save a CopyOpt+Cmd+S
+Save as Template
+Save Selected Slices
+RevertOpt+Cmd+Z
+Search Adobe Stock
+PlaceShift+Cmd+P
+Export
+Export for ScreensShift+Cmd+E
+Export As
+Save for Web (Legacy)Opt+Shift+Cmd+S
+Export Selection
+PackageOpt+Shift+Cmd+P
+Scripts
+Other ScriptCmd+F12
+Document SetupOpt+Cmd+P
+Document Color Mode
+CMYK Color
+RGB Color
+File InfoOpt+Shift+Cmd+I
+PrintCmd+P
+Edit
+UndoCmd+Z
+RedoShift+Cmd+Z
+CutCmd+X
+CopyCmd+C
+PasteCmd+V
+Paste in FrontCmd+F
+Paste in BackCmd+B
+Paste in PlaceShift+Cmd+V
+Paste on All ArtboardsOpt+Shift+Cmd+V
+Clear
+Find and Replace
+Find Next
+Spelling
+Auto Spell Check
+Check SpellingCmd+I
+Edit Custom Dictionary
+Edit Colors
+Recolor Artwork
+Adjust Color Balance
+Blend Front to Back
+Blend Horizontally
+Blend Vertically
+Convert to CMYK
+Convert to Grayscale
+Convert to RGB
+Invert Colors
+Overprint Black
+Saturate
+Edit Original
+Transparency Flattener Presets
+Print Presets
+Adobe PDF Presets
+SWF Presets
+Perspective Grid Presets
+Color SettingsShift+Cmd+K
+Assign Profile
+Keyboard ShortcutsOpt+Shift+Cmd+K
+My Settings
+Export Settings
+Import Settings
+Object
+Transform
+Transform AgainCmd+D
+MoveShift+Cmd+M
+Rotate
+Reflect
+Scale
+Shear
+Transform EachOpt+Shift+Cmd+D
+Reset Bounding Box
+Arrange
+Bring to FrontShift+Cmd+]
+Bring ForwardCmd+]
+Send BackwardCmd+[
+Send to BackShift+Cmd+[
+Send to Current Layer
+Align
+Horizontal Align Left
+Horizontal Align Center
+Horizontal Align Right
+Vertical Align Top
+Vertical Align Center
+Vertical Align Bottom
+GroupCmd+G
+UngroupShift+Cmd+G
+Lock
+SelectionCmd+2
+All Artwork Above
+Other Layers
+Unlock AllOpt+Cmd+2
+Hide
+SelectionCmd+3
+All Artwork Above
+Other Layers
+Show AllOpt+Cmd+3
+Expand
+Expand Appearance
+Crop Image
+Rasterize
+Create Gradient Mesh
+Create Object Mosaic
+Create Trim Marks
+Flatten Transparency
+Make Pixel Perfect
+Slice
+Make
+Release
+Create from Guides
+Create from Selection
+Duplicate Slice
+Combine Slices
+Divide Slices
+Delete All
+Slice Options
+Clip to Artboard
+Path
+JoinCmd+J
+AverageOpt+Cmd+J
+Outline Stroke
+Offset Path
+Reverse Path Direction
+Simplify
+Add Anchor Points
+Remove Anchor Points
+Divide Objects Below
+Split Into Grid
+Clean Up
+Shape
+Convert to Shape
+Expand Shape
+Pattern
+Make
+Edit PatternShift+Cmd+F8
+Tile Edge Color
+Blend
+MakeOpt+Cmd+B
+ReleaseOpt+Shift+Cmd+B
+Blend Options
+Expand
+Replace Spine
+Reverse Spine
+Reverse Front to Back
+Envelope Distort
+Make with WarpOpt+Shift+Cmd+W
+Make with MeshOpt+Cmd+M
+Make with Top ObjectOpt+Cmd+C
+Release
+Envelope Options
+Expand
+Edit Contents
+Perspective
+Attach to Active Plane
+Release with Perspective
+Move Plane to Match Object
+Edit Text
+Live Paint
+MakeOpt+Cmd+X
+Merge
+Release
+Gap Options
+Expand
+Image Trace
+Make
+Make and Expand
+Release
+Expand
+Text Wrap
+Make
+Release
+Text Wrap Options
+Clipping Mask
+MakeCmd+7
+ReleaseOpt+Cmd+7
+Edit Contents
+Compound Path
+MakeCmd+8
+ReleaseOpt+Shift+Cmd+8
+Artboards
+Convert to Artboards
+Rearrange All Artboards
+Fit to Artwork Bounds
+Fit to Selected Art
+Graph
+Type
+Data
+Design
+Column
+Marker
+Collect For Export
+As Single Asset
+As Multiple Assets
+Type
+More from Adobe Fonts
+Glyphs
+Text Type Conversion
+Area Type Options
+Type on a Path
+Rainbow
+Skew
+3D Ribbon
+Stair Step
+Gravity
+Type on a Path Options
+Update Legacy Type on a Path
+Threaded Text
+Create
+Release Selection
+Remove Threading
+Fit Headline
+Resolve Missing Fonts
+Find Font
+Change Case
+UPPERCASE
+lowercase
+Title Case
+Sentence case
+Smart Punctuation
+Create OutlinesShift+Cmd+O
+Optical Margin Alignment
+Insert Special Character
+Symbols
+Bullet
+Copyright Symbol
+Ellipsis
+Paragraph Symbol
+Registered Trademark Symbol
+Section Symbol
+Trademark Symbol
+Hyphens And Dashes
+Em Dash
+En Dash
+Discretionary HyphenShift+Cmd+-
+Quotation Marks
+Double Left Quotation Marks
+Double Right Quotation Marks
+Single Left Quotation Marks
+Single Right Quotation Marks
+Insert WhiteSpace Character
+Em SpaceShift+Cmd+M
+En SpaceShift+Cmd+N
+Hair Space
+Thin SpaceOpt+Shift+Cmd+M
+Insert Break Character
+Forced Line Break
+Fill With PlaceHolder Text
+Show Hidden CharactersOpt+Cmd+I
+Type Orientation
+Horizontal
+Vertical
+Legacy Text
+Update All Legacy Text
+Update Selected Legacy Text
+Hide Copies
+Delete Copies
+Select Copies
+Select
+Object
+All on Same Layers
+Direction Handles
+Bristle Brush Strokes
+Brush Strokes
+Clipping Masks
+Stray Points
+All Text Objects
+Point Type Objects
+Area Type Objects
+AllCmd+A
+All on Active ArtboardOpt+Cmd+A
+DeselectShift+Cmd+A
+ReselectCmd+6
+Inverse
+Next Object AboveOpt+Cmd+]
+Next Object BelowOpt+Cmd+[
+Same
+Appearance
+Appearance Attribute
+Blending Mode
+Fill & Stroke
+Fill Color
+Opacity
+Stroke Color
+Stroke Weight
+Graphic Style
+Shape
+Symbol Instance
+Link Block Series
+Start Global Edit
+Save Selection
+Edit Selection
+Effect
+Apply Last EffectOpt+Cmd+E
+Last EffectOpt+Shift+Cmd+E
+Document Raster Effects Settings
+3D
+Extrude & Bevel
+Revolve
+Rotate
+Convert to Shape
+Rectangle
+Rounded Rectangle
+Ellipse
+Crop Marks
+Distort & Transform
+Free Distort
+Pucker & Bloat
+Roughen
+Transform
+Tweak
+Twist
+Zig Zag
+Path
+Offset Path
+Outline Object
+Outline Stroke
+Pathfinder
+Add
+Intersect
+Exclude
+Subtract
+Minus Back
+Divide
+Trim
+Merge
+Crop
+Outline
+Hard Mix
+Soft Mix
+Trap
+Rasterize
+Stylize
+Drop Shadow
+Feather
+Inner Glow
+Outer Glow
+Round Corners
+Scribble
+SVG Filters
+Apply SVG Filter
+Import SVG Filter
+Warp
+Arc
+Arc Lower
+Arc Upper
+Arch
+Bulge
+Shell Lower
+Shell Upper
+Flag
+Wave
+Fish
+Rise
+Fisheye
+Inflate
+Squeeze
+Twist
+Effect Gallery
+Artistic
+Colored Pencil
+Cutout
+Dry Brush
+Film Grain
+Fresco
+Neon Glow
+Paint Daubs
+Palette Knife
+Plastic Wrap
+Poster Edges
+Rough Pastels
+Smudge Stick
+Sponge
+Underpainting
+Watercolor
+Blur
+Gaussian Blur
+Radial Blur
+Smart Blur
+Brush Strokes
+Accented Edges
+Angled Strokes
+Crosshatch
+Dark Strokes
+Ink Outlines
+Spatter
+Sprayed Strokes
+Sumi-e
+Distort
+Diffuse Glow
+Glass
+Ocean Ripple
+Pixelate
+Color Halftone
+Crystallize
+Mezzotint
+Pointillize
+Sketch
+Bas Relief
+Chalk & Charcoal
+Charcoal
+Chrome
+Conté Crayon
+Graphic Pen
+Halftone Pattern
+Note Paper
+Photocopy
+Plaster
+Reticulation
+Stamp
+Torn Edges
+Water Paper
+Stylize
+Glowing Edges
+Texture
+Craquelure
+Grain
+Mosaic Tiles
+Patchwork
+Stained Glass
+Texturizer
+Video
+De-Interlace
+NTSC Colors
+View
+PreviewCmd+Y
+GPU PreviewCmd+E
+Overprint PreviewOpt+Shift+Cmd+Y
+Pixel PreviewOpt+Cmd+Y
+Trim View
+Presentation Mode
+Proof Setup
+Document CMYK: 
+Legacy Macintosh RGB (Gamma 1.8)
+Internet Standard RGB (sRGB)
+Monitor RGB
+Color blindness - Protanopia-type
+Color blindness - Deuteranopia-type
+Customize
+Proof Colors
+Zoom InCmd+=
+Zoom OutCmd+-
+Fit Artboard in WindowCmd+0
+Fit All in WindowOpt+Cmd+0
+Show Slices
+Lock Slices
+Actual SizeCmd+1
+Hide EdgesCmd+H
+Hide ArtboardsShift+Cmd+H
+Hide Print Tiling
+Hide Bounding BoxShift+Cmd+B
+Show Transparency GridShift+Cmd+D
+Show TemplateShift+Cmd+W
+Show Live Paint Gaps
+Hide Corner Widget
+Hide Gradient AnnotatorOpt+Cmd+G
+Smart GuidesCmd+U
+Perspective Grid
+Show GridShift+Cmd+I
+Show Rulers
+Snap to Grid
+Lock Grid
+Lock Station Point
+Define Grid
+Save Grid as Preset
+Rulers
+Show RulersShift+Cmd+R
+Change to Artboard RulersOpt+Cmd+R
+Show Video Rulers
+Show Text ThreadsShift+Cmd+Y
+Guides
+Hide GuidesCmd+;
+Lock GuidesOpt+Cmd+;
+Make GuidesCmd+5
+Release GuidesOpt+Cmd+5
+Clear Guides
+Show GridCmd+'
+Snap to GridShift+Cmd+'
+Snap to Pixel
+Snap to PointOpt+Cmd+'
+New View
+Edit Views
+Custom View 1
+Custom View 2
+Custom View 3
+Custom View 4
+Custom View 5
+Custom View 6
+Custom View 7
+Custom View 8
+Custom View 9
+Custom View 10
+Window
+New Window
+Arrange
+Cascade
+Tile
+Float in Window
+Float All in Windows
+Consolidate All Windows
+Minimize WindowCmd+M
+Bring All to Front
+Find Extensions on Exchange
+Workspace
+Reset "Current Workspace"
+New Workspace
+Manage Workspaces
+Application Frame
+Application Bar
+Control
+Toolbars
+Advanced
+Basic
+New Toolbar
+Manage Toolbars
+Actions
+AlignShift+F7
+AppearanceShift+F6
+Artboards
+Asset Export
+AttributesCmd+F11
+BrushesF5
+ColorF6
+Color GuideShift+F3
+Color Themes
+CSS Properties
+Document Info
+Flattener Preview
+GradientCmd+F9
+Graphic StylesShift+F5
+Image Trace
+InfoCmd+F8
+LayersF7
+Learn
+Libraries
+Links
+Magic Wand
+Navigator
+PathfinderShift+Cmd+F9
+Pattern Options
+Properties
+Separations Preview
+StrokeCmd+F10
+SVG Interactivity
+Swatches
+SymbolsShift+Cmd+F11
+TransformShift+F8
+TransparencyShift+Cmd+F10
+Type
+CharacterCmd+T
+Character Styles
+Glyphs
+OpenTypeOpt+Shift+Cmd+T
+ParagraphOpt+Cmd+T
+Paragraph Styles
+TabsShift+Cmd+T
+Variables
+Brush Libraries
+Other Library
+Graphic Style Libraries
+Other Library
+Swatch Libraries
+Other Library
+Symbol Libraries
+Other Library
+Help
+Illustrator HelpF1
+Illustrator Tutorials
+Submit Bug/Feature Request
+System Info
+Other Select
+Switch Selection ToolsOpt+Cmd+Tab
+Other Text
+Point Size UpShift+Cmd+.
+Point Size DownShift+Cmd+,
+Font Size Step UpOpt+Shift+Cmd+.
+Font Size Step DownOpt+Shift+Cmd+,
+Kern LooserShift+Cmd+]
+Kern TighterShift+Cmd+[
+TrackingOpt+Cmd+K
+Clear TrackingOpt+Cmd+Q
+SpacingOpt+Shift+Cmd+O
+Uniform TypeShift+Cmd+X
+Highlight FontOpt+Shift+Cmd+F
+Highlight Font (Secondary)Opt+Shift+Cmd+M
+Left Align TextShift+Cmd+L
+Center TextShift+Cmd+C
+Right Align Text
+Justify Text LeftShift+Cmd+J
+Justify Text Center
+Justify Text Right
+Justify All LinesShift+Cmd+F
+Toggle Auto HyphenationOpt+Shift+Cmd+H
+Toggle Line ComposerOpt+Shift+Cmd+C
+SubscriptOpt+Shift+Cmd+=
+SuperscriptShift+Cmd+=
+Other Object
+Lock OthersOpt+Shift+Cmd+2
+Hide OthersOpt+Shift+Cmd+3
+Repeat PathfinderCmd+4
+Average & JoinOpt+Shift+Cmd+J
+Isolate Selected Object
+Exit Isolation Mode
+Other Panel
+New SymbolF8
+Show Color Panel (Secondary)
+Actions Batch
+Add New FillCmd+/
+Add New StrokeOpt+Cmd+/
+New Graphic Style
+New LayerCmd+L
+New Layer with DialogOpt+Cmd+L
+Update Link
+New Swatch
+Other Misc
+Switch UnitsOpt+Shift+Cmd+U
+New File (No Dialog)Opt+Cmd+N
+Close AllOpt+Cmd+W
+Help (Secondary)
+Undo (Secondary)
+Cut (Secondary)F2
+Copy (Secondary)F3
+Paste (Secondary)F4
+Zoom In (Secondary)Cmd++
+Navigate to Next DocumentCmd+`
+Navigate to Previous DocumentShift+Cmd+`
+Navigate to Next Document GroupOpt+Cmd+`
+Navigate to Previous Document GroupOpt+Shift+Cmd+`
+Subscript (Secondary)
+Superscript (Secondary)
