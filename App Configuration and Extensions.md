@@ -19,17 +19,18 @@ Because Adobe will inevitably screw it up.
 
 ### Illustrator
 
-- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Keyboard%20Shortcuts/ericwbailey.kys): `user/Library/Preferences/Adobe Illustrator CC Settings/en_US/`
+- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/ericwbailey.kys): `user/Library/Preferences/Adobe Illustrator 24 Settings/en_US/`
 - [Settings](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/AI24Settings_Dec%202%2C%202019_9%2040%20PM) (Installs preferences and Workspace)
 
 ### InDesign
 
-- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Keyboard%20Shortcuts/ericwbailey.indk) `user/Library/Preferences/Adobe InDesign/version/en_US/InDesign Shortcut Sets/`
-- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Workspace/ericwbailey.xml) `user/Library/Preferences/Adobe InDesign/version/en_US/Workspaces/`
+- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/ericwbailey.indk) `user/Library/Preferences/Adobe InDesign/version/en_US/InDesign Shortcut Sets/`
+- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/ericwbailey.xml) `user/Library/Preferences/Adobe InDesign/version/en_US/Workspaces/`
 
 ### Photoshop
 
-
+- [Preferences](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Photoshop/Adobe%20Photoshop%202020%20Prefs.psp) `user/Library/Preferences/Adobe Photoshop 2020 Settings/`
+- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Photoshop/ericwbailey.psw) `user/Library/Preferences/Adobe Photoshop 2020 Settings/Workspaces/`
 
 
 ## Sketch
