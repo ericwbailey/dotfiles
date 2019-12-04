@@ -62,26 +62,26 @@ Because Adobe will inevitably screw it up.
 - [📈 Chart](https://github.com/pavelkuligin/chart)
 - Abstract
 - [AEFlowchart](https://github.com/tadija/aeflowchart)
-- [Artboard Tools](https://github.com/frankko/Artboard-Tools)
+- [Artboard Tools](https://github.com/frankko/Artboard-Tools) 🔽
 - [Butter](https://github.com/pberrecloth/butter-sketch-plugin)
 - [chromatic-sketch](https://github.com/petterheterjag/chromatic-sketch)
 - [Clipboard-Fill](https://github.com/ScottSavarie/Clipboard-Fill)
 - [Craft](https://labs.invisionapp.com/craft) 🔽
-- [Font Rapid](https://fontrapid.com/)
+- [Font Rapid](https://fontrapid.com/) 🔽
 - [Looper](http://sureskumar.com/looper/)
 - [push-and-shove](https://github.com/ozzik/push-and-shove)
 - [RenameIt](https://github.com/rodi01/RenameIt)
 - [sandros-sketch-plugins](https://github.com/alssndro/sandros-sketch-plugins)
-- [Select-By-Name](https://github.com/sebj/Select-By-Name)
+- [Select-By-Name](https://github.com/sebj/Select-By-Name) 🔽
 - [Sketch-Find-And-Replace](https://github.com/thierryc/Sketch-Find-And-Replace)
-- [Sketch Guides](https://celynxie.com/sources/sketchguides.html)
+- [Sketch Guides](https://celynxie.com/sources/sketchguides.html) 🔽
 - [Sketch-Icons](https://sketchicons.com/)
 - [Sketch-Layer-Tools](https://github.com/hrescak/Sketch-Layer-Tools)
 - [sketch-measure](https://github.com/utom/sketch-measure)
 - [sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes)
-- [Sketch Runner](https://sketchrunner.com/)
-- [sketch-syntax-highlighter](https://github.com/danielguillan/sketch-syntax-highlighter)
-- [split-shape](https://github.com/kupe517/sketch-split-shape)
+- [Sketch Runner](https://sketchrunner.com/) 🔽
+- [sketch-syntax-highlighter](https://github.com/danielguillan/sketch-syntax-highlighter) 🔽
+- [split-shape](https://github.com/kupe517/sketch-split-shape) 🔽
 - [User Flows](https://abynim.github.io/UserFlows/)
 - [Zeplin](https://zeplin.io/) 🔽
 
