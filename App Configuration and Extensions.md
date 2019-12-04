@@ -19,13 +19,17 @@ Because Adobe will inevitably screw it up.
 
 ### Illustrator
 
-- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Keyboard%20Shortcuts/ericwbailey.txt): `user/Library/Preferences/Illustrator CC Settings/en_US/`
-- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Workspace/ericwbailey)
+- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Keyboard%20Shortcuts/ericwbailey.kys): `user/Library/Preferences/Adobe Illustrator CC Settings/en_US/`
+- [Settings](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/AI24Settings_Dec%202%2C%202019_9%2040%20PM) (Installs preferences and Workspace)
 
-### Illustrator
+### InDesign
 
-- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Keyboard%20Shortcuts/ericwbailey.indk)
-- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Workspace/ericwbailey.xml)
+- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Keyboard%20Shortcuts/ericwbailey.indk) `user/Library/Preferences/Adobe InDesign/version/en_US/InDesign Shortcut Sets/`
+- [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/InDesign/Workspace/ericwbailey.xml) `user/Library/Preferences/Adobe InDesign/version/en_US/Workspaces/`
+
+### Photoshop
+
+
 
 
 ## Sketch
