@@ -19,7 +19,7 @@ Because Adobe will inevitably screw it up.
 
 ### Illustrator
 
-- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Keyboard%20Shortcuts/ericwbailey.txt)
+- [Keyboard Shortcuts](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Keyboard%20Shortcuts/ericwbailey.txt): `user/Library/Preferences/Illustrator CC Settings/en_US/`
 - [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Illustrator/Workspace/ericwbailey)
 
 ### Illustrator
