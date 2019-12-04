@@ -71,6 +71,8 @@ brew install git
 brew install git-lfs
 brew install graphicsmagick
 brew install gron
+brew tap heroku/brew
+brew install heroku
 brew install heroku-toolbelt
 brew install hr
 brew install httpie
