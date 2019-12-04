@@ -66,7 +66,7 @@ Because Adobe will inevitably screw it up.
 - [Butter](https://github.com/pberrecloth/butter-sketch-plugin)
 - [chromatic-sketch](https://github.com/petterheterjag/chromatic-sketch)
 - [Clipboard-Fill](https://github.com/ScottSavarie/Clipboard-Fill)
-- [Craft](https://labs.invisionapp.com/craft)
+- [Craft](https://labs.invisionapp.com/craft) 🔽
 - [Font Rapid](https://fontrapid.com/)
 - [Looper](http://sureskumar.com/looper/)
 - [push-and-shove](https://github.com/ozzik/push-and-shove)
@@ -83,7 +83,9 @@ Because Adobe will inevitably screw it up.
 - [sketch-syntax-highlighter](https://github.com/danielguillan/sketch-syntax-highlighter)
 - [split-shape](https://github.com/kupe517/sketch-split-shape)
 - [User Flows](https://abynim.github.io/UserFlows/)
-- Zeplin
+- [Zeplin](https://zeplin.io/) 🔽
+
+🔽 Can't be installed via [Sketchpacks](https://sketchpacks.com/)
 
 
 ## FontExplorer X Pro
