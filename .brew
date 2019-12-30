@@ -87,6 +87,7 @@ brew install libtool
 brew install libyaml
 brew install lynx
 brew install mackup
+brew install magic-wormhole
 brew install mas
 brew install micro
 brew install mkcert
