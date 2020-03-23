@@ -203,13 +203,13 @@ brew cask install karabiner-elements
 brew cask install keepingyouawake
 brew cask install lightpaper
 brew cask install makemkv
-brew cask install mamp
 brew cask install metaz
 brew cask install mullvadvpn
 brew cask install muzzle
 brew cask install optimage
 brew cask install oversight
 brew cask install pixelsnap
+brew cask install proxyman
 brew cask install quitter
 brew cask install rectangle
 brew cask install reflector
