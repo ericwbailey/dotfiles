@@ -340,6 +340,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 - http://jesseatkinson.org/writing/2013/9/8/setting-up-a-new-mac
 - https://github.com/herrbischoff/awesome-osx-command-line
 - https://blog.bejarano.io/hardening-macos.html
+- https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/
 
 
 🔒 Requires app-specific password
