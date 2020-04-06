@@ -95,6 +95,7 @@ These apps can't be installed by Homebrew Cask or mas.
 - [Lookback](https://lookback.io/usb)
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [Screenotate](https://screenotate.com/)
+- [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
 - [Sketchpacks](https://sketchpacks.com/)
 
