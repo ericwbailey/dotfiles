@@ -1,0 +1,174 @@
+export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
+
+
+# Navigation ##################################################################
+
+alias ..="cd .."                 # Navigate 1 directory down
+alias ...="cd ../.."             # Navigate 2 directories down
+alias ....="cd ../../.."         # Navigate 3 directories down
+alias .....="cd ../../../.."     # Navigate 4 directories down
+alias ......="cd ../../../../.." # Navigate 5 directories down
+
+
+# Shortcuts ###################################################################
+
+## Projects
+alias a11y="cd ~/Sites/a11yproject.com"
+alias a11yhtml="cd ~/Sites/accessible-html-content-patterns"
+alias enchilada="cd ~/Sites/enchilada"
+alias eric="cd ~/Sites/ericwbailey.design"
+
+## Local
+alias apps="cd /Applications"
+alias desk="cd ~/Desktop"
+alias docs="cd ~/Documents"
+alias down="cd ~/Downloads"
+alias lib="cd ~/Library"
+alias library="cd ~/Library"
+alias music="cd ~/Music"
+alias pics="cd ~/Pictures"
+alias pub="cd ~/Public"
+alias sysfonts="cd ~/Library/Fonts"
+alias systemfonts="cd ~/Library/Fonts"
+alias mov="cd ~/Movies"
+alias movies="cd ~/Movies"
+alias sites="cd ~/Sites"
+
+## Apps
+alias drop="cd ~/Dropbox\ \(Personal\)"
+alias box="cd ~/Dropbox\ \(Personal\)"
+alias fonts="cd ~/FontExplorer\ X"
+alias htdocs="cd /Applications/XAMPP/xamppfiles/htdocs/"
+
+
+# Commands ####################################################################
+
+## Sudoing
+alias pls="sudo"     # Keep things polite
+alias fucking="sudo" # Or not so polite
+alias sudo="sudo "   # Enable sudoing aliases
+
+## Linking
+alias link="ln -s" # Create a symbolic link
+alias unlink="rm " # Deletes a symbolic link. Don't include trailing slash for the folder name
+
+## Finding
+alias cat=ccat                 # Cat with color output
+alias fd="fd -HL --full-path"  # fd: https://github.com/sharkdp/fd
+alias findhere="find . -name " # Find files in current directory
+alias grep="grep --color=auto" # Colors grep output
+
+## Listing
+
+# Detect which `ls` flavor is in use
+if ls --color > /dev/null 2>&1; then # GNU `ls`
+  colorflag="--color"
+else # OS X `ls`
+  colorflag="-G"
+fi
+
+alias ls="ls -aF ${colorflag}"                             # Include directory entries whose names begin with "."
+alias la="exa -la --header --group --git"                  # Include directory entries whose names begin with ".", list in long format (ownership, date/time, etc.)
+alias lx="ls -lXB ${colorflag}"                            # Sort by extension
+alias lext="ls -lXB ${colorflag}"
+alias lk="ls -lSr ${colorflag}"                            # Sort by size, biggest last
+alias lsize="ls -lSr ${colorflag}"
+alias ld="ls -al ${colorflag} | grep --color=never '^d'"   # List all directories in current directory in long list format
+alias ldir="ls -al ${colorflag} | grep --color=never '^d'"
+alias ls="command ls ${colorflag}"                         # Always use color output for `ls`
+alias psa="ps auxww" # List all processes
+
+## Clearing
+alias cl="clear"     # Clear the screen
+alias cls="clear;ls" # Clear the screen and list files
+alias cla="clear;la" # Clear the screen and list directories
+
+## History
+alias his="history 15" # Lists the last 15 commands
+
+## File manipulation
+alias rm="rm -i" # Prompt before deletion
+alias cp="cp -i" # Prompt before overwrite
+alias mv="mv -i" # Prompt before overwrite
+
+## Cleaning up
+alias cleandns="find . -type f -name '*.DS_Store' -ls -delete" # Recursively delete `.DS_Store` files
+alias cleanlaunch="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder" # Clean up LaunchServices to remove duplicates in the “Open With” menu
+alias cleandir="dscacheutil -flushcache && killall -HUP mDNSResponder" # Flush Directory Service cache
+alias cleanicon="sudo find /private/var/folders/ -name com.apple.dock.iconcache -exec rm {} \;" # Clear the icon cache: https://gist.github.com/fabiofl/5873100
+
+## Updating
+alias updatesoftware="softwareupdate -i -a && mas upgrade"
+alias updateantigen="selfupdate && antigen update"
+alias updatehomebrew="brew upgrade && brew cleanup"
+alias updatenpm="npm install npm -g && npm update -g"
+alias updateruby="gem update --system && gem update"
+alias updateheroku="brew upgrade heroku && heroku update"
+alias updatepip="pip3 install --upgrade pip"
+alias updatemackup="mackup backup"
+alias updatetldr="tldr --update"
+alias update="updatesoftware; updateantigen; updatehomebrew; updatenpm; updateruby; updateheroku; updatepip; updatetldr; updatemackup"
+
+## Reloading
+alias reload="exec $SHELL -l" # Reloads the shell (i.e. invoke as a login shell)
+
+## Pinging
+alias ping="ping -c 5"    # Pings a resource 5 times
+alias ping10="ping -c 10" # Pings a resource 10 times
+alias ping25="ping -c 10" # Pings a resource 25 times
+
+
+# Applications ################################################################
+
+## Fuck
+alias fuck='$(thefuck $(fc -ln -1))'
+
+## Git (other git aliases stored in `.gitconfig`)
+alias g="git "
+alias gh="~/Dropbox/Scripts/Bash/gh.sh"
+
+## Gulp
+alias glp="gulp"
+alias glpw="gulp watch"
+alias glpt="gulp test"
+alias glpd="gulp deploy"
+
+## Grunt
+alias gnt="grunt"
+alias gntc="grunt clean"
+alias gntb="grunt build"
+alias gnts="grunt run"
+alias gnts="grunt serve"
+
+## NPM
+alias npmi="npm install"
+alias npmu="npm update"
+alias npmlg="la `npm root -g`"
+alias npmdi="trash node_modules && npm install"
+alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
+
+## Bower
+alias bowi="bower install"
+alias bowu="bower update"
+alias bowdi="trash bower_components && bower install && bower update"
+
+## Open DNS public IP address
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+## pageres: https://github.com/sindresorhus/pageres
+alias pageshot="pageres"
+alias screenshot="pageres"
+alias siteshot="pageres"
+
+## Vagrant
+alias vg="vagrant"
+
+
+## TLDR
+alias tldr="tldr --theme ocean"
+
+
+# Servers #####################################################################
+
+# Connect to servers via `.ssh/config`
+alias servername="ssh servername"
