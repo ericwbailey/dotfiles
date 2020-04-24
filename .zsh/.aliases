@@ -68,7 +68,7 @@ else # OS X `ls`
 fi
 
 alias ls="ls -aF ${colorflag}"                             # Include directory entries whose names begin with "."
-alias la="exa -la --header --group --git"                  # Include directory entries whose names begin with ".", list in long format (ownership, date/time, etc.)
+alias la="exa -laF --header --group --git"                  # Include directory entries whose names begin with ".", list in long format (ownership, date/time, etc.)
 alias lx="ls -lXB ${colorflag}"                            # Sort by extension
 alias lext="ls -lXB ${colorflag}"
 alias lk="ls -lSr ${colorflag}"                            # Sort by size, biggest last
