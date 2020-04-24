@@ -10,13 +10,14 @@
     1. [Xcode](#xcode)
     1. [Browsers](#browsers)
 1. [Installs](#installs)
+    1. [zsh](#zsh)
     1. [Homebrew](#homebrew)
-    1. [mas](#mas)
-    1. [Non-app Store](#non-app-store)
     1. [NVM](#nvm)
     1. [NPM](#npm)
     1. [Python](#python)
     1. [Ruby](#ruby)
+    1. [mas](#mas)
+    1. [Non-app Store](#non-app-store)
 1. [System setup](#system-setup)
     1. [System Preferences](#system-preferences)
     1. [Dock](#dock)
@@ -76,31 +77,15 @@
 
 ## Installs
 
+### zsh
+
+1. Install [Antigen](http://antigen.sharats.me/): `cd ~/.zsh && curl -L git.io/antigen > antigen.zsh`
+
 ### Homebrew
 
 1. Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Check which git and set the `$PATH`, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
 1. Install [`.brew`](https://github.com/ericwbailey/dotfiles/blob/master/.brew): `sh .brew`
-
-### mas
-
-1. Install [`.macos`](https://github.com/ericwbailey/dotfiles/blob/master/.macos): `sh .macos`
-
-### Non-app Store
-
-These apps can't be installed by Homebrew Cask or mas.
-
-- [Gifmock](https://gifmock.com/)
-- [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
-- [Lookback](https://lookback.io/usb)
-- [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
-- [Screenotate](https://screenotate.com/)
-- [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
-- [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
-- [Sketchpacks](https://sketchpacks.com/)
-
-Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
-
 
 ### NVM
 
@@ -195,6 +180,25 @@ rmagick
 thin
 scss_lint
 slim`
+
+### mas
+
+1. Install [`.macos`](https://github.com/ericwbailey/dotfiles/blob/master/.macos): `sh .macos`
+
+### Non-app Store
+
+These apps can't be installed by Homebrew Cask or mas.
+
+- [Gifmock](https://gifmock.com/)
+- [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
+- [Lookback](https://lookback.io/usb)
+- [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
+- [Screenotate](https://screenotate.com/)
+- [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
+- [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
+- [Sketchpacks](https://sketchpacks.com/)
+
+Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
 
 
 ## System setup
