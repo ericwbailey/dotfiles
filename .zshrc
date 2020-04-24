@@ -22,9 +22,11 @@ antigen bundle zdharma/fast-syntax-highlighting
 antigen bundle zpm-zsh/colorize
 antigen bundle zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-history-substring-search
 
 antigen apply
 
+plugins=(history-substring-search)
 
 # Configuration ###############################################################
 
@@ -73,3 +75,10 @@ setopt HIST_IGNORE_DUPS                 # Don't store duplicates
 setopt HIST_FIND_NO_DUPS                # Ignore duplicates when searching through history
 setopt HIST_REDUCE_BLANKS               # Remove blank lines from history
 setopt HIST_BEEP                        # Beep when accessing a non-existent history entry
+
+autoload -U history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+
+bindkey "^[[A" history-beginning-search-backward-end
+bindkey "^[[B" history-beginning-search-forward-end
