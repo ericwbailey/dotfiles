@@ -72,7 +72,7 @@
 - [Edge](https://www.microsoft.com/en-us/edge)
 - [Edge Insider](https://www.microsoftedgeinsider.com/en-us/)
 - [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
-- [Vivaldi](https://vivaldi.com/)
+- [Polypane](https://polypane.app/)
 
 
 ## Installs
@@ -232,7 +232,7 @@ Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are sync
 1. Firefox (Assign to All Desktops)
 1. Safari (Assign to All Desktops)
 1. Edge (Assign to All Desktops)
-1. Duo (Assign to All Desktops)
+1. Polypane (Assign to All Desktops)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 1. Sketch (Assign to None)
 1. Figma (Assign to None)
