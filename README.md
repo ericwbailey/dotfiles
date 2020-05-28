@@ -193,6 +193,7 @@ These apps can't be installed by Homebrew Cask or mas.
 - [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
 - [Lookback](https://lookback.io/usb)
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
+- [Obsidian](https://obsidian.md/)
 - [Screenotate](https://screenotate.com/)
 - [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
@@ -217,7 +218,7 @@ Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are sync
 1. 1Password (Assign to None)
 1. FontExplorer X (Assign to All Desktops)
 1. Bear (Assign to None)
-1. LightPaper (Assign to None)
+1. Obsidian (Assign to None)
 1. Todoist (Assign to None)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 1. Trello (Assign to None)
