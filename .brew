@@ -188,6 +188,7 @@ brew cask install fluid
 brew cask install fontexplorer-x-pro
 brew cask install fontplop
 brew cask install fsmonitor
+brew cask install g-desktop-suite
 brew cask install gifcapture
 brew cask install gitup
 brew cask install handbrake
