@@ -66,6 +66,7 @@ brew install fd
 brew install ffmpeg
 brew install freetds
 brew install freetype
+brew install fzf
 brew install gifski
 brew install git
 brew install git-lfs
