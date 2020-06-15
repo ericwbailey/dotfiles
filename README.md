@@ -132,12 +132,14 @@ ntl
 open
 pageres
 pageres-cli
+prettier
 public-ip
 sass
 siteaudit
 stacks-cli
 tldr
 trash-cli
+typescript
 vtop
 yo`
 1. Additionally, you might want to consider installing these packages globally: `npm install -g
