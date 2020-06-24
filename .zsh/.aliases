@@ -13,16 +13,20 @@ alias ......="cd ../../../../.." # Navigate 5 directories down
 # Shortcuts ###################################################################
 
 ## Projects
-alias a11y="cd ~/Sites/a11yproject.com"
-alias a11yhtml="cd ~/Sites/accessible-html-content-patterns"
-alias enchilada="cd ~/Sites/enchilada"
-alias eric="cd ~/Sites/ericwbailey.design"
+alias a11y="cd ~/Sites/a11yproject/a11yproject.com"
+alias a11yhtml="cd ~/Sites/ericwbailey/accessible-html-content-patterns"
+alias enchilada="cd ~/Sites/ericwbailey/enchilada"
+alias eric="cd ~/Sites/ericwbailey/ericwbailey.design"
 
 ## Local
 alias apps="cd /Applications"
+alias box="cd ~/Dropbox\ \(Personal\)"
 alias desk="cd ~/Desktop"
 alias docs="cd ~/Documents"
+alias drop="cd ~/Dropbox\ \(Personal\)"
 alias down="cd ~/Downloads"
+alias fonts="cd ~/FontExplorer\ X"
+alias htdocs="cd /Applications/XAMPP/xamppfiles/htdocs/"
 alias lib="cd ~/Library"
 alias library="cd ~/Library"
 alias music="cd ~/Music"
@@ -35,10 +39,23 @@ alias movies="cd ~/Movies"
 alias sites="cd ~/Sites"
 
 ## Apps
-alias drop="cd ~/Dropbox\ \(Personal\)"
-alias box="cd ~/Dropbox\ \(Personal\)"
-alias fonts="cd ~/FontExplorer\ X"
-alias htdocs="cd /Applications/XAMPP/xamppfiles/htdocs/"
+alias canary="open -a /Applications/Google\ Chrome\ Canary.app"
+alias chrome="open -a /Applications/Google\ Chrome.app"
+alias firefox="open -a /Applications/Firefox.app"
+alias ffdev="open -a /Applications/Firefox\ Developer\ Edition.app"
+alias music="open -a /Applications/Microsoft\ Edge.app"
+alias music="open -a /Applications/Music.app"
+alias music="open -a /Applications/Obsidian.app"
+alias safari="open -a /Applications/Safari.app"
+alias safaritech="open -a /Applications/Safari\ Technology\ Preview.app"
+alias todoist="open -a /Applications/Todoist.app"
+alias tower="open -a /Applications/Tower.app"
+
+## Files
+alias -s {css,elm,hbs,html,js,json,jsx,njk,rb,scss,ts,yml}=code
+alias -s {markdown,md}=obsidian
+
+
 
 
 # Commands ####################################################################
@@ -76,7 +93,7 @@ alias lsize="ls -lSr ${colorflag}"
 alias ld="ls -al ${colorflag} | grep --color=never '^d'"   # List all directories in current directory in long list format
 alias ldir="ls -al ${colorflag} | grep --color=never '^d'"
 alias ls="command ls ${colorflag}"                         # Always use color output for `ls`
-alias psa="ps auxww" # List all processes
+alias psa="ps auxww"                                       # List all processes
 
 ## Clearing
 alias cl="clear"     # Clear the screen
@@ -129,6 +146,7 @@ alias gh="~/Dropbox/Scripts/Bash/gh.sh"
 
 ## Gulp
 alias glp="gulp"
+alias glpc="gulp clean"
 alias glpw="gulp watch"
 alias glpt="gulp test"
 alias glpd="gulp deploy"
@@ -144,13 +162,13 @@ alias gnts="grunt serve"
 alias npmi="npm install"
 alias npmu="npm update"
 alias npmlg="la `npm root -g`"
-alias npmdi="trash node_modules && npm install"
+alias npmdi="rm -rf node_modules && npm install"
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
 
 ## Bower
 alias bowi="bower install"
 alias bowu="bower update"
-alias bowdi="trash bower_components && bower install && bower update"
+alias bowdi="rm -rf bower_components && bower install && bower update"
 
 ## Open DNS public IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -162,7 +180,6 @@ alias siteshot="pageres"
 
 ## Vagrant
 alias vg="vagrant"
-
 
 ## TLDR
 alias tldr="tldr --theme ocean"
