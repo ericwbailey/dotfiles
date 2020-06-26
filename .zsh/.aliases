@@ -165,6 +165,12 @@ alias npmlg="la `npm root -g`"
 alias npmdi="rm -rf node_modules && npm install"
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
 
+## Yarn
+alias yrni="npm install"
+alias yrnu="npm upgrade"
+alias yrndi="rm -rf node_modules && npm install"
+alias yarnplease="rm -rf node_modules/ && rm -f package-lock.json && yarn install"
+
 ## Bower
 alias bowi="bower install"
 alias bowu="bower update"
