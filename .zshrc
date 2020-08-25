@@ -5,6 +5,7 @@ autoload -Uz compinit && compinit     # Initialize zsh completion
 autoload bashcompinit && bashcompinit # Load bashcompinit for some old bash completions
 
 ## My stuff
+source ~/.zsh/.path
 source ~/.zsh/.aliases
 source ~/.zsh/.functions
 
@@ -20,6 +21,7 @@ antigen bundle nocttuam/autodotenv
 antigen bundle Tarrasch/zsh-command-not-found
 antigen bundle zdharma/fast-syntax-highlighting
 antigen bundle zpm-zsh/colorize
+antigen bundle zpm-zsh/colors
 antigen bundle zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-history-substring-search
@@ -82,3 +84,6 @@ zle -N history-beginning-search-forward-end history-search-end
 
 bindkey "^[[A" history-beginning-search-backward-end
 bindkey "^[[B" history-beginning-search-forward-end
+
+
+eval "$(rbenv init -)"
