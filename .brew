@@ -132,8 +132,7 @@ brew install TomAnthony/brews/itermocil
 brew install fpp
 brew install httpie
 
-brew tap cantino/mcfly https://github.com/cantino/mcfly
-brew install mcfly
+
 
 
 echo "Cleaning up"
