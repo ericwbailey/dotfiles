@@ -78,7 +78,8 @@
 
 ### Homebrew
 
-1. Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+1. Install [Homebrew](http://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+1. Check to make sure everything is working: `brew doctor`
 1. Check which git and set the `$PATH`, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
 1. Install [`.brew`](https://github.com/ericwbailey/dotfiles/blob/master/.brew): `sh .brew`
 
