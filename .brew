@@ -114,6 +114,7 @@ brew install wget
 brew install x264
 brew install yarn
 brew install zopfli
+brew install zsh
 
 
 echo "Cleaning up"
