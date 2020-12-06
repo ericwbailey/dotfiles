@@ -1,0 +1,104 @@
+# Create a new directory and enter it
+function mkd() {
+  mkdir -p "$@" && cd "$_";
+}
+
+
+# Change working directory to the top-most Finder window location
+function cdf() {
+  cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
+}
+
+
+# Open localhost, optionally specifying the port
+function ol() {
+  open "http://localhost:${1:-3000}"
+}
+
+
+# Start an HTTP server from a directory, optionally specifying the port
+function httpserver() {
+  local port="${1:-8000}";
+  sleep 1 && open "http://localhost:${port}/" &
+  # Set the default Content-Type to `text/plain` instead of
+  # `application/octet-stream`, and serve everything as UTF-8 (although not
+  # technically correct, this doesn't break anything for binary files)
+  python -c $'import SimpleHTTPServer;\nmap = SimpleHTTPServer.SimpleHTTPRequestHandler.extensions_map;\nmap[""] = "text/plain";\nfor key, value in map.items():\n\tmap[key] = value + ";charset=UTF-8";\nSimpleHTTPServer.test();' "$port";
+}
+
+
+# Start a PHP server from a directory, optionally specifying the
+# port (Requires PHP 5.4.0+.)
+function phpserver() {
+    local port="${1:-4000}";
+    local ip=$(ipconfig getifaddr en1);
+    sleep 1 && open "http://${ip}:${port}/" &
+    php -S "${ip}:${port}";
+}
+
+
+# `o` with no arguments opens the current directory, otherwise opens the
+# given location
+function o() {
+  if [ $# -eq 0 ]; then
+    open .;
+  else
+    open "$@";
+  fi;
+}
+
+
+# `c` with no arguments opens the current directory in VS Code, otherwise
+# opens the given location
+function c() {
+  if [ $# -eq 0 ]; then
+    code .;
+  else
+    code "$@";
+  fi;
+}
+
+
+# `tre` is a shorthand for `tree` with hidden files and color enabled, ignoring
+# the `.git` directory, listing directories first. The output gets piped into
+# `less` with options to preserve color and line numbers, unless the output is
+# small enough for one screen.
+function tre() {
+  tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
+}
+
+
+# Displays useful host-related info
+hostinfo() {
+  echo -e "\nYou are logged on $HOST"
+  echo -e "\nAdditionnal information:$NC " ; uname -a
+  echo -e "\nUsers logged on:$NC " ; w -h
+  echo -e "\nCurrent date :$NC " ; date
+  echo -e "\nMachine stats :$NC " ; uptime
+  echo -e "\nCurrent network location :$NC " ; scselect
+  echo -e "\nPublic facing IP Address :$NC " ;ip
+  echo
+}
+
+
+# https://github.com/nvm-sh/nvm#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file
+autoload -U add-zsh-hook
+load-nvmrc() {
+  local node_version="$(nvm version)"
+  local nvmrc_path="$(nvm_find_nvmrc)"
+
+  if [ -n "$nvmrc_path" ]; then
+    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+    if [ "$nvmrc_node_version" = "N/A" ]; then
+      nvm install
+    elif [ "$nvmrc_node_version" != "$node_version" ]; then
+      nvm use
+    fi
+  elif [ "$node_version" != "$(nvm version default)" ]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
