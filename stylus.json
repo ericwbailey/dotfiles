@@ -1,0 +1,98 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1575337763183,
+		"name": "Twitter",
+		"sections": [
+			{
+				"code": "/* Remove Logo */\n[aria-label=\"Twitter\"] {\n  display: none;\n}\n\n\n\n\n/*\n* LEFT COLUMN\n*/\n\n/* Remove nav I don't use */\n[aria-label=\"Search and explore\"],\n[aria-label=\"Bookmarks\"],\n[aria-label=\"Lists\"] {\n  display: none;\n}\n\n/* Less visual weight for nav options */\n[aria-label=\"Primary\"] [dir=\"auto\"] {\n  font-size: 1rem;\n  font-weight: 400;\n}\n\n/* Tigher grouping */\n[aria-label=\"Primary\"] a {\n  padding: 0;\n}\n\n/* Hide distracting profile toggle */\n[data-testid=\"SideNav_AccountSwitcher_Button\"] {\n  display: none;\n}\n\n\n/*\n* TWEET BUTTON\n*/\n\n/* Make button flatter, less loud */\n[aria-label=\"Tweet\"] {\n  border: none;\n  box-shadow: none;\n  background-color: #F4F8FA;\n}\n\n/* Style to look like other UI */\n[aria-label=\"Tweet\"] div {\n  color: #00A1F9;\n}\n\n[aria-label=\"Tweet\"]:hover {\n  filter: none;\n}\n\n[aria-label=\"Tweet\"]:hover {\n  background-color: #00A1F9;\n}\n\n[aria-label=\"Tweet\"]:hover div {\n  color: #F4F8FA;\n}\n\n\n\n\n/*\n* RIGHT COLUMN\n*/\n\n/* See ya later, racism aggregator */\n[aria-label=\"Timeline: Trending now\"] {\n  display: none;\n}\n\n/* Less visual weight for who to follow */\n[aria-label=\"Who to follow\"] [aria-level=\"2\"][role=\"heading\"] .r-1qd0xha {\n  font-size: 1rem;\n}\n\n/* Tone down unfollow */\n[data-testid=\"16515870-unfollow\"] {\n  filter: grayscale(1);\n  opacity: 0.5;\n}\n\n/* Remove the background color from Who to Follow */\n[data-testid=\"sidebarColumn\"] .r-1u4rsef {\n  background-color: transparent !important;\n}\n\n\n/*\n* DM DRAWER\n*/\n\n[data-testid=\"DMDrawer\"] {\n  display: none;\n}"
+			}
+		],
+		"updateDate": 1607296061408,
+		"id": 1,
+		"_id": "a24e53c6-af4a-4f36-b93a-488a41e7c9ae",
+		"_rev": 1607296061408
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1575337797281,
+		"name": "Feedly",
+		"sections": [
+			{
+				"code": ".LeftnavList {\n  width: 220px;\n}\n\n.LeftnavListRow__text {\n  width: 100px;\n}\n\n.feedlyChrome--leftnav-open .LeftnavPin {\n  left: 284px;\n}\n\n.feedlyChrome--leftnav-open #feedlyFrame {\n  margin-left: 294px;\n}\n\n.feedlyChrome--leftnav-open .fixed-bar {\n  left: 324px;\n}\n\n.fx button.primary.pro {\n  display: none;\n}\n\n.tertiary.button-icon-only[title=\"Create Team Newsletter\"],\n.tertiary.button-icon-only[title=\"Share with teammates\"]{\n  display: none;\n}"
+			}
+		],
+		"updateDate": 1607296096940,
+		"id": 2,
+		"_id": "16d5fb31-4b27-4270-84a0-ba11350cef94",
+		"_rev": 1607296096940
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1582206279656,
+		"name": "Panda",
+		"sections": [
+			{
+				"code": ".article-details {\n  display: none;\n}\n\n.entry-row.js-entry-row.shout {\n  display: none;\n}"
+			}
+		],
+		"updateDate": 1607296105115,
+		"id": 3,
+		"_id": "c97dc0d8-fed3-4ed0-b8fc-5cce2d3aa908",
+		"_rev": 1607296105115
+	},
+	{
+		"enabled": false,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1586102660452,
+		"name": "Gmail",
+		"sections": [
+			{
+				"code": "html.simpl:not(.splitView) .AO .aeF > .nH  {\n  max-width: 30000px !important;\n}\n\n.l7 {\n  background-color: transparent;\n  font-weight: normal;\n}\n",
+				"domains": [
+					"google.com"
+				]
+			}
+		],
+		"updateDate": 1607296089073,
+		"_id": "4b86e9a4-27db-4aab-b1be-631fbc290b4b",
+		"_rev": 1607296089073,
+		"id": 5
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1606863180769,
+		"name": "Reddit",
+		"sections": [
+			{
+				"code": "[data-test-id=\"comments-page-link-num-comments\"] {\n  display: none;\n}\n\n._1E9mcoVn4MYnuBQSVDt1gC {\n  display: none;\n}",
+				"urlPrefixes": [
+					"https://www.reddit.com/"
+				]
+			}
+		],
+		"updateDate": 1607296070947,
+		"_id": "fe41d69e-7c00-4e1b-8b06-92fe66cbca17",
+		"_rev": 1607296070947,
+		"id": 7
+	}
+]
