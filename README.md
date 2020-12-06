@@ -216,8 +216,10 @@ slim`
 1. LightPaper (Assign to None)
 1. Todoist (Assign to None)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
+1. Basecamp (Assign to None)
 1. Trello (Assign to None)
 1. Shift (Assign to All Desktops)
+1. Discord (Assign to All Desktops)
 1. Slack (Assign to All Desktops)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 1. iTerm (Assign to None)
@@ -227,8 +229,8 @@ slim`
 1. Chrome (Assign to All Desktops)
 1. Firefox (Assign to All Desktops)
 1. Safari (Assign to All Desktops)
-1. Opera (Assign to All Desktops)
-1. Duo (Assign to All Desktops)
+1. Polypane (Assign to All Desktops)
+1. Edge (Assign to All Desktops)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 1. Sketch (Assign to None)
 1. Figma (Assign to None)
