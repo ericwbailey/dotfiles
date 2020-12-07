@@ -291,23 +291,12 @@ Be sure to set from system root level so preferences propagate up to all user di
 
 ### Menu Bar
 
+1. Meeter
 1. Mail Notifr
-1. Dropbox
 1. Dropzone
-1. Time
+1. Dropbox
 1. Itsycal
-1. Battery
 1. Bartender (left to right)
-    1. Location Services
-    1. Bluetooth
-    1. Adobe Creative Cloud
-    1. ControlPlane
-    1. 1Password Mini
-    1. Better Window Manager
-    1. AirPlay
-    1. Quitter
-    1. Username
-    1. Bartender Preferences
 1. Notification Center
 
 ### Fonts
