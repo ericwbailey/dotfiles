@@ -73,6 +73,7 @@ brew install git-lfs
 brew install gh
 brew install graphicsmagick
 brew install gron
+brew install hazel
 brew tap heroku/brew
 brew install heroku
 brew install heroku-toolbelt
