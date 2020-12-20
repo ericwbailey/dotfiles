@@ -131,6 +131,7 @@ git-labelmaker
 git-open
 git-pending
 git-standup
+git-user-switch
 gitjk
 glyphhanger
 hint
