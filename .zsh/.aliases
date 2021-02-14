@@ -116,7 +116,7 @@ alias cleanicon="sudo find /private/var/folders/ -name com.apple.dock.iconcache 
 
 ## Updating
 alias updatesoftware="softwareupdate -i -a && mas upgrade"
-alias updateantigen="selfupdate && antigen update"
+alias updateantigen="antigen update"
 alias updatehomebrew="brew upgrade && brew cleanup"
 alias updatenpm="npm install npm -g && npm update -g"
 alias updateruby="gem update --system && gem update"
