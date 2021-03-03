@@ -103,6 +103,9 @@ alias cla="clear;la" # Clear the screen and list directories
 ## History
 alias his="history 15" # Lists the last 15 commands
 
+## Directories
+alias cdir="take" # Make a directory and navigate into it
+
 ## File manipulation
 alias rm="rm -i" # Prompt before deletion
 alias cp="cp -i" # Prompt before overwrite
@@ -170,11 +173,6 @@ alias yrni="npm install"
 alias yrnu="npm upgrade"
 alias yrndi="rm -rf node_modules && npm install"
 alias yarnplease="rm -rf node_modules/ && rm -f package-lock.json && yarn install"
-
-## Bower
-alias bowi="bower install"
-alias bowu="bower update"
-alias bowdi="rm -rf bower_components && bower install && bower update"
 
 ## Open DNS public IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
