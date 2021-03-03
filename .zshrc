@@ -18,6 +18,8 @@ antigen bundle dircycle
 antigen bundle git
 antigen bundle heroku
 antigen bundle nocttuam/autodotenv
+antigen bundle npm
+antigen bundle sudo
 antigen bundle Tarrasch/zsh-command-not-found
 antigen bundle zdharma/fast-syntax-highlighting
 antigen bundle zpm-zsh/colorize
