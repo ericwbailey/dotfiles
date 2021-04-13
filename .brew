@@ -53,6 +53,7 @@ brew install php
 echo "Installing binaries"
 
 brew install ack
+brew install antigen
 brew install autoconf
 brew install autojump
 brew install bat
