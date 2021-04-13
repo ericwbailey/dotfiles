@@ -35,6 +35,8 @@
 
 ### Clone this repo
 1. `cd ~ && git clone https://github.com/ericwbailey/dotfiles.git`
+1. Move files to appropriate locations
+1. [Install Antigen](https://github.com/zsh-users/antigen#installation) to `~/.zsh`
 
 
 ### Updates, syncing, and password/license access
@@ -62,16 +64,15 @@
     1. Set as default
     1. Import Humble New Tab Page settings:   `{"column.2.2":"devices","options.weather_units":"f","column.0.0":"top","column.1.0":"closed","options.hide_options":"1","options.width":"1.321","options.theme":"Elegant","column.2.0":"1","options.show_apps":"0","options.weather_location_id":"2367105","options.spacing":"1.086","options.h_pos":"1.465","options.number_closed":"15","options.lock":"1","options.weather_location":"Boston, MA","options.font_size":"18","column.2.1":"recent","options.show_2":"0"}`
 - [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
-- [Duo](https://itunes.apple.com/us/app/duo/id777886035?mt=12)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
     1. Tweak Firefox config
     1. Sync uBlock settings
     1. Sync Stylus settings
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
-- [Opera](http://www.opera.com/)
-- [Opera Developer](http://www.opera.com/developer)
 - [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 - [Vivaldi](https://vivaldi.com/)
+- [Esge](https://www.microsoft.com/en-us/edge)
+- [Polypane](https://polypane.app/)
 
 
 ## Installs
@@ -97,14 +98,13 @@ These apps can't be installed by Homebrew Cask or mas.
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [Screenotate](https://screenotate.com/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
-- [Sketchpacks](https://sketchpacks.com/)
 
 Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
 
 
 ### NVM
 
-1. Install via `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash`
+1. [Install the latest version](https://github.com/nvm-sh/nvm#installing-and-updating)
 1. Check for local node versions via `nvm ls`
 1. Check for remote versions via `nvm ls-remote`
 1. Install any remote versions as needed
@@ -181,9 +181,9 @@ request`
 ### Ruby
 
 1. Install [rbenv](https://github.com/sstephenson/rbenv): `brew install rbenv`
-1. `rbenv install 2.6.5`
-1. `rbenv global 2.6.5`
-1. Ensure that `.bash_profile` points to the new version of Ruby
+1. [Install the latest version](https://www.ruby-lang.org/en/downloads/)
+1. Set the latest version globally: `rbenv global x.x.x`
+1. Ensure that `.zshenv` points to the new version of Ruby
 1. `gem install
 bundler
 foreman
@@ -205,7 +205,6 @@ slim`
 1. Ensure that [color is properly set up for Adobe](http://bjango.com/articles/photoshop/) and [Sketch](https://bjango.com/articles/colourmanagementsettings/)
 1. Install services
     - [TextFlow](https://github.com/vmdanilov/TextFlow)
-    - [foldersstructure](https://www.dropbox.com/sh/7ua9gl8ppmkl7wk/AAA5sW3b1UgaYLH4vbeLpRMIa?dl=0)
 
 ### Dock
 
@@ -213,7 +212,7 @@ slim`
 1. iTunes (Assign to None)
 1. 1Password (Assign to None)
 1. FontExplorer X (Assign to All Desktops)
-1. Bear (Assign to None)
+1. Obsidian (Assign to None)
 1. LightPaper (Assign to None)
 1. Todoist (Assign to None)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
@@ -292,12 +291,13 @@ Be sure to set from system root level so preferences propagate up to all user di
 
 ### Menu Bar
 
-1. Meeter
+1. MeetingBar
 1. Mail Notifr
 1. Dropzone
 1. Dropbox
 1. Itsycal
 1. Bartender (left to right)
+1. Battery
 1. Notification Center
 
 ### Fonts
