@@ -270,18 +270,6 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. Devices
 1. Shared
 
-### Notification Center
-
-1. World Clock
-    1. Boston (Eastern)
-    1. Chicago (Central)
-    1. San Francisco (Western)
-    1. London (Greenwich)
-1. Monity
-    1. System
-    1. Memory
-    1. Network
-    1. Battery
 
 ### Set up spaces and wallpapers
 
