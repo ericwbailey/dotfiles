@@ -4,7 +4,8 @@
 ## Table of Contents
 - [Adobe](#adobe)
     - [Illustrator](#illustrator)
-    - [Illustrator](#indesign)
+    - [InDesign](#indesign)
+    - [Photoshop](#photoshop)
 - [Sketch](#sketch)
     - [Toolbar Order](#toolbar-order)
     - [Plugins](#plugins)
