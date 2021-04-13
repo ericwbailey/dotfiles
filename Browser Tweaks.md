@@ -6,6 +6,7 @@ Most settings *should* sync, but just in case:
 ## Table of Contents
 
 - [Chrome](#chrome)
+  - [Developer Tools Expiriments](#developer-tools-expiriments)
   - [DevTools Settings](#devtools-settings)
     - [Preferences](#preferences)
       - [Appearance](#appearance)
@@ -17,6 +18,7 @@ Most settings *should* sync, but just in case:
       - [Extensions](#extensions)
       - [DevTools](#devtools)
 - [Firefox](#firefox)
+  - [about:config](about-config)
   - [Search bar operators](#search-bar-operators)
   - [about:config](#aboutconfig)
     - [Adjust scrolling speed](#adjust-scrolling-speed)
@@ -55,6 +57,9 @@ Most settings *should* sync, but just in case:
 
 
 ## Chrome
+
+### Developer Tools Expiriments
+- chrome://flags/#omnibox-ui-hide-steady-state-url-path-query-and-ref-on-interaction
 
 ### DevTools Settings
 
