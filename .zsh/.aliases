@@ -94,6 +94,7 @@ alias ld="ls -al ${colorflag} | grep --color=never '^d'"   # List all directorie
 alias ldir="ls -al ${colorflag} | grep --color=never '^d'"
 alias ls="command ls ${colorflag}"                         # Always use color output for `ls`
 alias psa="ps auxww"                                       # List all processes
+alias ports="lsof -n +c 15 | grep LISTEN"                  # List all open ports
 
 ## Clearing
 alias cl="clear"     # Clear the screen
