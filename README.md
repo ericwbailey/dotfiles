@@ -5,18 +5,18 @@
 
 1. [First steps](#first-steps)
     1. [Clone this repo](#clone-this-repo)
-    1. [Updates, syncing, and password/license access](#updates-syncing-and-passwordlicense-access)
+    1. [NVM](#nvm)
     1. [Disable SIP](#disable-sip)
     1. [Xcode](#xcode)
+    1. [Updates, syncing, and password/license access](#updates-syncing-and-passwordlicense-access)
     1. [Browsers](#browsers)
 1. [Installs](#installs)
     1. [Homebrew](#homebrew)
     1. [mas](#mas)
-    1. [Non-app Store](#non-app-store)
-    1. [NVM](#nvm)
     1. [NPM](#npm)
     1. [Python](#python)
     1. [Ruby](#ruby)
+    1. [Non-app Store](#non-app-store)
 1. [System setup](#system-setup)
     1. [System Preferences](#system-preferences)
     1. [Dock](#dock)
@@ -39,13 +39,13 @@
 1. Move files to appropriate locations
 1. [Install Antigen](https://github.com/zsh-users/antigen#installation) to `~/.zsh`
 
+### NVM
 
-### Updates, syncing, and password/license access
-
-1. Check for system and app updates, reboot if necessary
-1. Install [Dropbox](https://www.dropbox.com/downloading?src=index) and start syncing
-1. Install [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12), and [browser extensions](https://agilebits.com/onepassword/extensions)
-1. Sign in to relevant accounts in `System Preferences > Mail, Contacts, & Calendars`
+1. [Install the latest version](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Check for local node versions via `nvm ls`
+1. Check for remote versions via `nvm ls-remote`
+1. Install any remote versions as needed
+1. Reinstall any packages installed to non-system versions via `nvm reinstall-packages system`
 
 ### Disable SIP
 
@@ -56,6 +56,13 @@
 
 1. [Install Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) and get all and available Downloads in Preferences
 1. Install Xcode Command Line Tools: `xcode-select --install`
+
+### Updates, syncing, and password/license access
+
+1. Check for system and app updates, reboot if necessary
+1. Sign in to relevant accounts in `System Preferences > Mail, Contacts, & Calendars`
+1. Install [Dropbox](https://www.dropbox.com/downloading?src=index) and start syncing
+1. Install [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12), and [browser extensions](https://agilebits.com/onepassword/extensions)
 
 ### Browsers
 
@@ -86,31 +93,6 @@
 ### mas
 
 1. Install [`.macos`](https://github.com/ericwbailey/dotfiles/blob/main/.macos): `sh .macos`
-
-### Non-app Store
-
-These apps can't be installed by Homebrew Cask or mas.
-
-- [Basecamp](https://basecamp.com/via)
-- [Creative Cloud](https://www.adobe.com/creativecloud/desktop-app.html)
-- [Gifmock](https://gifmock.com/)
-- [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
-- [JPEG Mini](https://www.jpegmini.com/)
-- [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
-- [Screenotate](https://screenotate.com/)
-- [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
-
-Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
-
-
-### NVM
-
-1. [Install the latest version](https://github.com/nvm-sh/nvm#installing-and-updating)
-1. Check for local node versions via `nvm ls`
-1. Check for remote versions via `nvm ls-remote`
-1. Install any remote versions as needed
-1. Reinstall any packages installed to non-system versions via `nvm reinstall-packages system`
-
 
 ### NPM
 
@@ -193,6 +175,21 @@ rmagick
 thin
 scss_lint
 slim`
+
+### Non-app Store
+
+These apps can't be installed by Homebrew Cask or mas.
+
+- [Basecamp](https://basecamp.com/via)
+- [Creative Cloud](https://www.adobe.com/creativecloud/desktop-app.html)
+- [Gifmock](https://gifmock.com/)
+- [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
+- [JPEG Mini](https://www.jpegmini.com/)
+- [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
+- [Screenotate](https://screenotate.com/)
+- [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
+
+Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
 
 
 ## System setup
