@@ -138,6 +138,8 @@ brew install httpie
 brew tap cantino/mcfly https://github.com/cantino/mcfly
 brew install mcfly
 
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
 
 echo "Cleaning up"
 
