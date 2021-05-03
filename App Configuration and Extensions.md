@@ -108,13 +108,12 @@ Because Adobe will inevitably screw it up.
 
 ## Quitter
 
-- Bear: `Hide` after `7` minutes
+- Obsidian: `Hide` after `7` minutes
 - VS Code: `Hide` after `5` minutes
 - Firefox: `Hide` after `7` minutes
 - FontExplorer X Pro: `Hide` after `5` minutes
-- iTerm2: `Hide` after `3` minutes
-- iTunes: `Hide` after `3` minutes
-- LightPaper: `Hide` after `7` minutes
+- iTerm: `Hide` after `3` minutes
+- Music: `Hide` after `3` minutes
 - Preview: `Hide` after `5` minutes
 - Slack: `Hide` after `10` minutes
 - Todoist: `Hide` after `3` minutes
