@@ -315,14 +315,16 @@ defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls
 defaults write com.google.Chrome DisablePrintPreview -bool true
 defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 
+# Create directories
+mkdir ~/Sites
+mkdir ~/Sites/ericwbailey
+
 
 ## Mas ########################################################################
 # https://github.com/mas-cli/mas
 
 mas install 766939888  # 1Keyboard
 mas install 918207447  # Annotate
-mas install 1002970923 # Arranged
-mas install 1091189122 # Bear
 mas install 687450044  # Blind
 mas install 483014855  # Browser Fairy
 mas install 1254981365 # Contrast
@@ -333,10 +335,8 @@ mas install 913158085  # Expressions
 mas install 1351639930 # Gifski
 mas install 668208984  # GIPHY CAPTURE
 mas install 416987633  # Glyphs
-mas install 430798174  # HazeOver
 mas install 439697913  # Icon Slate
 mas install 513610341  # Integrity
-mas install 498944723  # JPEGmini
 mas install 528183797  # Joystick Mapper
 mas install 808154494  # Mail Notifr
 mas install 1532419400 # MeetingBa‪r‬
