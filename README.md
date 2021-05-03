@@ -34,6 +34,7 @@
 ## First steps
 
 ### Clone this repo
+1. Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES && killall -KILL Finder`
 1. `cd ~ && git clone https://github.com/ericwbailey/dotfiles.git`
 1. Move files to appropriate locations
 1. [Install Antigen](https://github.com/zsh-users/antigen#installation) to `~/.zsh`
@@ -42,7 +43,6 @@
 ### Updates, syncing, and password/license access
 
 1. Check for system and app updates, reboot if necessary
-1. Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES && killall -KILL Finder`
 1. Install [Dropbox](https://www.dropbox.com/downloading?src=index) and start syncing
 1. Install [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12), and [browser extensions](https://agilebits.com/onepassword/extensions)
 1. Sign in to relevant accounts in `System Preferences > Mail, Contacts, & Calendars`
@@ -59,7 +59,6 @@
 
 ### Browsers
 
-- [Blisk](https://blisk.io/)
 - [Chrome](https://www.google.com/chrome/)
     1. Set as default
     1. Import Humble New Tab Page settings:   `{"column.2.2":"devices","options.weather_units":"f","column.0.0":"top","column.1.0":"closed","options.hide_options":"1","options.width":"1.321","options.theme":"Elegant","column.2.0":"1","options.show_apps":"0","options.weather_location_id":"2367105","options.spacing":"1.086","options.h_pos":"1.465","options.number_closed":"15","options.lock":"1","options.weather_location":"Boston, MA","options.font_size":"18","column.2.1":"recent","options.show_2":"0"}`
@@ -70,9 +69,8 @@
     1. Sync Stylus settings
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 - [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
-- [Vivaldi](https://vivaldi.com/)
-- [Esge](https://www.microsoft.com/en-us/edge)
-- [Polypane](https://polypane.app/)
+- [Edge](https://www.microsoft.com/en-us/edge)
+- [Polypane](https://polypane.app/download/)
 
 
 ## Installs
@@ -82,19 +80,22 @@
 1. Install [Homebrew](http://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 1. Check to make sure everything is working: `brew doctor`
 1. Check which git and set the `$PATH`, [see this article](http://sourabhbajaj.com/mac-setup/Homebrew/README.html)
-1. Install [`.brew`](https://github.com/ericwbailey/dotfiles/blob/master/.brew): `sh .brew`
+1. Install [`.brew`](https://github.com/ericwbailey/dotfiles/blob/main/.brew): `sh .brew`
+1. Rerun `brew doctor`
 
 ### mas
 
-1. Install [`.macos`](https://github.com/ericwbailey/dotfiles/blob/master/.macos): `sh .macos`
+1. Install [`.macos`](https://github.com/ericwbailey/dotfiles/blob/main/.macos): `sh .macos`
 
 ### Non-app Store
 
 These apps can't be installed by Homebrew Cask or mas.
 
+- [Basecamp](https://basecamp.com/via)
+- [Creative Cloud](https://www.adobe.com/creativecloud/desktop-app.html)
 - [Gifmock](https://gifmock.com/)
 - [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
-- [Lookback](https://lookback.io/usb)
+- [JPEG Mini](https://www.jpegmini.com/)
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [Screenotate](https://screenotate.com/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
@@ -113,7 +114,6 @@ Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are sync
 
 ### NPM
 
-1. Check to see if Homebrew is installed
 1. `npm install -g
 a11y
 autogit
@@ -165,7 +165,6 @@ jshint`
 
 ### Python
 
-1. Check to see if Homebrew is installed
 1. `pip3 install
 aws-shell
 Babel
@@ -174,9 +173,7 @@ Pygments
 pytz
 setuptools
 thefuck
-waybackpack
-parker
-request`
+waybackpack`
 
 ### Ruby
 
@@ -201,7 +198,7 @@ slim`
 ## System setup
 
 ### System Preferences
-1. Review [System Preferences settings](https://github.com/ericwbailey/dotfiles/blob/master/System%20Preferences.md)
+1. Review [System Preferences settings](https://github.com/ericwbailey/dotfiles/blob/main/System%20Preferences.md)
 1. Ensure that [color is properly set up for Adobe](http://bjango.com/articles/photoshop/) and [Sketch](https://bjango.com/articles/colourmanagementsettings/)
 1. Install services
     - [TextFlow](https://github.com/vmdanilov/TextFlow)
@@ -209,11 +206,10 @@ slim`
 ### Dock
 
 1. Preview (Assign to None)
-1. iTunes (Assign to None)
+1. Music (Assign to None)
 1. 1Password (Assign to None)
 1. FontExplorer X (Assign to All Desktops)
 1. Obsidian (Assign to None)
-1. LightPaper (Assign to None)
 1. Todoist (Assign to None)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 1. Basecamp (Assign to None)
@@ -229,13 +225,26 @@ slim`
 1. Chrome (Assign to All Desktops)
 1. Firefox (Assign to All Desktops)
 1. Safari (Assign to All Desktops)
-1. Polypane (Assign to All Desktops)
 1. Edge (Assign to All Desktops)
+1. Polypane (Assign to All Desktops)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 1. Sketch (Assign to None)
 1. Figma (Assign to None)
 1. Pixelmator pro (Assign to None)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
+
+### Desktop view preferences
+
+- Show Hard Drives in Finder preferences
+- Stack by none
+- Sort by Snap to Grid
+- Icon size: 48x48
+- Grid spacing: Largest
+- Text size: 12
+- Label position: Right
+- ☑️ Show item info
+- ☑️ Show icon position
+
 
 ### Finder view preferences
 
@@ -279,6 +288,8 @@ Be sure to set from system root level so preferences propagate up to all user di
 
 ### Menu Bar
 
+#### Shown
+
 1. MeetingBar
 1. Mail Notifr
 1. Dropzone
@@ -288,11 +299,16 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. Battery
 1. Notification Center
 
-### Fonts
-
-1. Download and set editors to use [FiraCode-Retina](https://github.com/tonsky/FiraCode)
-    - LightPaper
-1. Migrate FontExplorer X sets and lists
+#### Hidden
+ 
+1. Rectangle
+1. 1Password
+1. Stay
+1. Creative Cloud
+1. BetterTouchTool
+1. Quitter
+1. Bluetooth
+1. Backblaze
 
 
 ## Wrapup
@@ -302,16 +318,19 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. Reboot, install [Prey](https://www.preyproject.com/), then double-check it and Find My Mac's Location Services access
 1. [Re-enable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil enable`
 1. Set SlowQuitApps quit time: `defaults write com.dteoh.SlowQuitApps delay -int 250`
-1. Load [BetterTouchTool preferences](https://github.com/ericwbailey/dotfiles/blob/master/Default.bttpreset)
+1. Load BetterTouchTool preferences
 1. [Sync VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) settings
 1. Log laptop serial number in 1Password
 1. Delete setup files (`README.md`, `.osx`, etc.)
 1. Turn `LoginLaunch.applescript` into an app
 1. Store window sizes/positions in Stay
 1. Add Dropzone shortcuts
-1. Use TouchID for `sudo`
+1. Sync CiderTV with Apple TV
+1. Migrate FontExplorer X sets and lists
+1. Use [TouchID for `sudo`](https://davidwalsh.name/touch-sudo)
 1. Set up [Caps Lock as Insert for Windows](https://www.paciellogroup.com/blog/2013/08/insert-key-usage-in-windows-on-a-mac/)
 1. Grant [cron jobs](https://blog.bejarano.io/fixing-cron-jobs-in-mojave.html) full disk access
+1. Set up [GitHub personal access tokens](https://github.com/settings/tokens)
 
 
 ## References
@@ -322,6 +341,5 @@ Be sure to set from system root level so preferences propagate up to all user di
 - http://jesseatkinson.org/writing/2013/9/8/setting-up-a-new-mac
 - https://github.com/herrbischoff/awesome-osx-command-line
 - https://blog.bejarano.io/hardening-macos.html
-
 
 🔒 Requires app-specific password
