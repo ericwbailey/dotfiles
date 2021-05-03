@@ -6,11 +6,10 @@
     - [Illustrator](#illustrator)
     - [InDesign](#indesign)
     - [Photoshop](#photoshop)
+- [Simplify Gmail](#simplify-gmail)
 - [Sketch](#sketch)
     - [Toolbar Order](#toolbar-order)
     - [Plugins](#plugins)
-- [FontExplorer X Pro](#fontexplorer-x-pro)
-    - [Toolbar Order](#toolbar-order-1)
 - [Quitter](#quitter)
 
 
@@ -32,6 +31,47 @@ Because Adobe will inevitably screw it up.
 
 - [Preferences](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Photoshop/Adobe%20Photoshop%202020%20Prefs.psp) `user/Library/Preferences/Adobe Photoshop 2020 Settings/`
 - [Workspace](https://github.com/ericwbailey/dotfiles/blob/master/Adobe/Photoshop/ericwbailey.psw) `user/Library/Preferences/Adobe Photoshop 2020 Settings/Workspaces/`
+
+
+## Simplify Gmail
+
+### Conversations list
+
+- List width (large recommended): **Large (1100px)**
+- Message layout in side-by-side reading pane: **Automatic**
+- Inbox zero background: **No background**
+- Group emails by date: ⬜
+- Hide inbox tabs (on default inbox): ☑️
+- Hide select & refresh until hover: ⬜
+- Hide message count (1-100 of n) until hover: ⬜
+- Right align labels after snippet: ⬜
+- Hide empty sections  in Multiple inboxes: ⬜
+
+### Message view
+
+- Message width (small recommended):  **Large (1100px)**
+- Hide message number (1 of n) until hover: ⬜
+- Minimize email signatures: ⬜
+- Reverse order of messages in all conversations: ⬜
+
+### Compose
+
+- Only show some compose options: ☑️
+- Only show some formatting options: ⬜
+- Match default font size to sender & subject: ☑️
+- Show schedule send button inline: ☑️
+
+### Navigation
+
+- Hide unread count in nav: ⬜
+- Hide unread count in browser tab: ⬜
+- Hide Mail section title: ⬜
+- Add Purchases, Finance, and Trips categories: ⬜
+
+### Chat
+
+- Minimize chat roster to a floating button: ☑️
+- Show chat button when nav is closed: ⬜
 
 
 ## Sketch
@@ -92,18 +132,6 @@ Because Adobe will inevitably screw it up.
 - [Zeplin](https://zeplin.io/) 🔽
 
 🔽 Can't be installed via [Sketchpacks](https://sketchpacks.com/)
-
-
-## FontExplorer X Pro
-
-### Toolbar Order
-
-1. Reveal in Finder
-2. Export
-3. Information
-4. Space
-5. Activate
-6. Deactivate
 
 
 ## Quitter
