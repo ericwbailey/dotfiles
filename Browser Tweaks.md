@@ -21,24 +21,6 @@ Most settings *should* sync, but just in case:
   - [about:config](about-config)
   - [Search bar operators](#search-bar-operators)
   - [about:config](#aboutconfig)
-    - [Adjust scrolling speed](#adjust-scrolling-speed)
-    - [Alt+Tab-esque Tab Previews](#alttab-esque-tab-previews)
-    - [Disable download complete notification](#disable-download-complete-notification)
-    - [Disable HTTP Referers](#disable-http-referers)
-    - [Disable installing new extensions delay](#disable-installing-new-extensions-delay)
-    - [Enable click to play](#enable-click-to-play)
-    - [Enable HTTP cache](#enable-http-cache)
-    - [Enable spellchecking in single-line input boxes](#enable-spellchecking-in-single-line-input-boxes)
-    - [Enable faster tab opening](#enable-faster-tab-opening)
-    - [Open new tabs at the end of the tab bar](#open-new-tabs-at-the-end-of-the-tab-bar)
-    - [Remove Awesome Bar search prompt](#remove-awesome-bar-search-prompt)
-    - [Remove "Search or enter address" from the navbar until focused](#remove-%22search-or-enter-address%22-from-the-navbar-until-focused)
-    - [Remove swipe back/forward gestures](#remove-swipe-backforward-gestures)
-    - [Show HTTP(S) in address bar](#show-https-in-address-bar)
-    - [Remove tab group animation](#remove-tab-group-animation)
-    - [Tracking protection](#tracking-protection)
-    - [Enable Electrolysis multiprocess](#enable-electrolysis-multiprocess)
-    - [Remove "Recently Bookmarked" from the Bookmarks menu](#remove-%22recently-bookmarked%22-from-the-bookmarks-menu)
   - [userChrome.css](#userchromecss)
   - [Adblocking](#adblocking)
     - [Filters](#filters)
@@ -178,21 +160,24 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 #### [Show HTTP(S) in address bar](http://techdows.com/2011/09/show-http-in-firefox-7-address-bar.html)
 - `browser.urlbar.trimURLs` `false`
 
-#### Remove tab group animation
-- `browser.panorama.animate_zoom` `False`
-- `browser.fullscreen.animateUp` `0`
-
-#### Tracking protection
-- `privacy.trackingprotection.enabled` `true`
-
-#### Enable [Electrolysis multiprocess](https://wiki.mozilla.org/Electrolysis)
-- `browser.tabs.remote.autostart` `true`
-
 #### Remove "Recently Bookmarked" from the Bookmarks menu
 - `browser.bookmarks.showRecentlyBookmarked` `false`
 
 #### Number of entries in the Awesome Bar
-- `browser.urlbar.maxRichResults` `10`
+- `browser.urlbar.maxRichResults` `15`
+
+### Remove Awesome Bar search prompt
+- `browser.urlbar.unifiedcomplete` `false`
+
+### Remove "Search or enter address" from the navbar until focused
+- `dom.placeholder.show_on_focus` `false`
+
+### Disable one-click Search Engines
+- `browser.urlbar.oneOffSearches` `false`
+
+#### Show common sites on the Awesome Bar on click
+- `browser.urlbar.update1.intervention` `false`
+
 
 ### userChrome.css
 ```css
