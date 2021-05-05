@@ -89,7 +89,7 @@ brew install heroku-toolbelt
 brew install hr
 brew install httpie
 brew install hub
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install jpeg
 brew install jpegoptim
 brew install libevent
@@ -108,7 +108,6 @@ brew install node
 brew install nss
 brew install optipng
 brew install pandoc
-brew install phantomjs
 brew install pidof
 brew install pipenv
 brew install postgresql
