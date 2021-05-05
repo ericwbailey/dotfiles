@@ -96,6 +96,7 @@ brew install libevent
 brew install libpng
 brew install libtool
 brew install libyaml
+brew install luarocks
 brew install lynx
 brew install mackup
 brew install mas
