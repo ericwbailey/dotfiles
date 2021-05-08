@@ -201,8 +201,6 @@ brew install --cask cocktail
 brew install --cask curb
 brew install --cask dictater
 brew install --cask discord
-brew install --cask dropzone
-brew install --cask duet
 brew install --cask figma
 brew install --cask fluid
 brew install --cask fontexplorer-x-pro
@@ -221,7 +219,6 @@ brew install --cask kap
 brew install --cask karabiner-elements
 brew install --cask keepingyouawake
 brew install --cask makemkv
-brew install --cask mamp
 brew install --cask metaz
 brew install --cask muzzle
 brew install --cask obsidian
