@@ -42,6 +42,8 @@ Most settings *should* sync, but just in case:
 
 ### Developer Tools Expiriments
 - chrome://flags/#omnibox-ui-hide-steady-state-url-path-query-and-ref-on-interaction
+- chrome://flags/#read-later `Disabled`
+- Right click on the Address Bar to always show full URLs
 
 ### DevTools Settings
 
