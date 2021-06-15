@@ -61,6 +61,7 @@ echo -ne '\007'
 echo "Installing binaries"
 
 brew install ack
+brew install act
 brew install antigen
 brew install autoconf
 brew install autojump
