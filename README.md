@@ -291,7 +291,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. Mail Notifr
 1. Dropzone
 1. Dropbox
-1. Itsycal
+1. Dato
 1. Bartender (left to right)
 1. Battery
 1. Notification Center
