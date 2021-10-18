@@ -5,8 +5,8 @@
 
 1. [First steps](#first-steps)
     1. [Clone this repo](#clone-this-repo)
-    1. [NVM](#nvm)
     1. [Disable SIP](#disable-sip)
+    1. [NVM](#nvm)
     1. [Xcode](#xcode)
     1. [Updates, syncing, and password/license access](#updates-syncing-and-passwordlicense-access)
     1. [Browsers](#browsers)
@@ -39,6 +39,11 @@
 1. Move files to appropriate locations
 1. [Install Antigen](https://github.com/zsh-users/antigen#installation) to `~/.zsh`
 
+### Disable SIP
+
+1. [Disable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil disable`
+1. Fix permissions on `/usr/local`: `sudo chflags norestricted /usr/local && sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local`
+
 ### NVM
 
 1. [Install the latest version](https://github.com/nvm-sh/nvm#installing-and-updating)
@@ -46,11 +51,6 @@
 1. Check for remote versions via `nvm ls-remote`
 1. Install any remote versions as needed
 1. Reinstall any packages installed to non-system versions via `nvm reinstall-packages system`
-
-### Disable SIP
-
-1. [Disable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil disable`
-1. Fix permissions on `/usr/local`: `sudo chflags norestricted /usr/local && sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local`
 
 ### Xcode
 
