@@ -86,7 +86,6 @@ brew install gron
 brew install hazel
 brew tap heroku/brew
 brew install heroku
-brew install heroku-toolbelt
 brew install hr
 brew install httpie
 brew install hub
@@ -144,15 +143,14 @@ echo -ne '\007'
 echo -ne '\007' 
 echo "Installing apps"
 
-brew install TomAnthony/brews/itermocil
 brew install fpp
 brew install httpie
 
-brew tap cantino/mcfly https://github.com/cantino/mcfly
+brew tap cantino/mcfly
 brew install mcfly
 
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
+brew install font-fira-code
 
 echo "Cleaning up"
 
@@ -240,12 +238,10 @@ brew install --cask skala-preview
 brew install --cask sketch
 brew install --cask skype
 brew install --cask slack
-brew install --cask sloth
 brew install --cask spectacle
 brew install --cask stay
 brew install --cask steam
 brew install --cask switch
-brew install --cask textsoap
 brew install --cask the-tagger
 brew install --cask tower
 brew install --cask transmit
@@ -255,7 +251,6 @@ brew install --cask vagrant-manager
 brew install --cask virtualbox
 brew install --cask visual-studio-code
 brew install --cask vlc
-brew install --cask webponize
 brew install --cask zoom
 
 echo -ne '\007' 
