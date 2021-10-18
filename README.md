@@ -60,7 +60,7 @@
 ### Updates, syncing, and password/license access
 
 1. Check for system and app updates, reboot if necessary
-1. Sign in to relevant accounts in `System Preferences > Mail, Contacts, & Calendars`
+1. Sign in to relevant accounts in `System Preferences > Internet Accounts`
 1. Install [Dropbox](https://www.dropbox.com/downloading?src=index) and start syncing
 1. Install [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12), and [browser extensions](https://agilebits.com/onepassword/extensions)
 
@@ -180,7 +180,6 @@ slim`
 
 These apps can't be installed by Homebrew Cask or mas.
 
-- [Basecamp](https://basecamp.com/via)
 - [Creative Cloud](https://www.adobe.com/creativecloud/desktop-app.html)
 - [Gifmock](https://gifmock.com/)
 - [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
