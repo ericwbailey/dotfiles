@@ -50,20 +50,15 @@ zstyle ':completion:*' expand prefix suffix
 
 # Prompt ######################################################################
 
-# List current Git branch, if present
-# https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh
-autoload -Uz vcs_info
-precmd_vcs_info() { vcs_info }
-precmd_functions+=( precmd_vcs_info )
-setopt prompt_subst
-zstyle ':vcs_info:git:*' formats '%F{243}on%f %F{208}%b%f'
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/on %F{blue}\1%f/'
+}
 
-# http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html
-PROMPT='
-
-%F{cyan}%n%f %F{243}in%f %F{104}%m%f $vcs_info_msg_0_ $prompt_git
-%F{179}%~%f
-%(?.%F{243}.%F{red}):%f '
+setopt PROMPT_SUBST
+export PROMPT="
+%F{cyan}%n%f in %F{magenta}%M%f $(parse_git_branch)
+%F{yellow}%~%f
+: "
 
 
 # History #####################################################################
@@ -87,6 +82,5 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward-end
 bindkey "^[[B" history-beginning-search-forward-end
 
-# Evals
+
 eval "$(rbenv init -)"
-eval "$(mcfly init zsh)"
