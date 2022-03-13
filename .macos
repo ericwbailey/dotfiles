@@ -147,6 +147,10 @@ defaults write com.apple.dock mineffect -string "scale"
 # Adds Quit Finder to the  menu
 defaults write com.apple.finder QuitMenuItem -bool YES
 
+# Allow inspecting Inspecting Web Views in macOS
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+defaults write -g WebKitDeveloperExtras -bool YES
+
 
 ## Input ######################################################################
 
