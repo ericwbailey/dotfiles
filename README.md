@@ -147,7 +147,7 @@ jshint`
 
 ### Python
 
-1. `pip3 install
+1. `python -m pip3 install
 aws-shell
 Babel
 proselint
