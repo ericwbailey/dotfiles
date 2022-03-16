@@ -153,6 +153,9 @@ brew install mcfly
 brew tap homebrew/cask-fonts
 brew install font-fira-code
 
+brew tap cooklang/tap
+brew install cooklang/tap/cook
+
 echo "Cleaning up"
 
 # Remove outdated versions from the cellar
