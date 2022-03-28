@@ -205,6 +205,7 @@ brew install --cask curb
 brew install --cask dictater
 brew install --cask discord
 brew install --cask figma
+brew install --cask finicky
 brew install --cask fluid
 brew install --cask fontexplorer-x-pro
 brew install --cask fontplop
