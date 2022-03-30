@@ -44,6 +44,7 @@ Most settings *should* sync, but just in case:
 ### Developer Tools Expiriments
 - chrome://flags/#omnibox-ui-hide-steady-state-url-path-query-and-ref-on-interaction
 - chrome://flags/#read-later `Disabled`
+- chrome://flags/#side-panel_name `Disabled`
 
 ### DevTools Settings
 
