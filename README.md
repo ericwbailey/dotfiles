@@ -96,7 +96,7 @@
 
 ### NPM
 
-1. `npm install -g a11y autogit caniuse-cmd commandcar cpy empty-trash-cli fkill fkill-cli get-port git-labelmaker git-open git-pending git-standup git-user-switch gitjk glyphhanger hint http-server internal-ip itunes-remote is-up less mkdirp npm-run-all ntl open pageres pageres-cli public-ip siteaudit stacks-cli tldr trash-cli vtop`
+1. `npm install -g a11y autogit caniuse-cmd commandcar cpy empty-trash-cli fkill fkill-cli get-port git-labelmaker git-open git-pending git-standup git-user-switch gitjk glyphhanger hint http-server internal-ip itunes-remote is-up less mkdirp npm-run-all ntl open pageres-cli public-ip stacks-cli tldr trash-cli vtop`
 
 ### Python
 
