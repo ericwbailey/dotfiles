@@ -96,54 +96,7 @@
 
 ### NPM
 
-1. `npm install -g
-a11y
-autogit
-axe-cli
-browserify
-caniuse-cmd
-commandcar
-cpy
-empty-trash-cli
-firebase-tools
-fkill
-fkill-cli
-get-port
-git-labelmaker
-git-open
-git-pending
-git-standup
-git-user-switch
-gitjk
-glyphhanger
-hint
-http-server
-internal-ip
-itunes-remote
-is-up
-less
-mkdirp
-nativefier
-node-gyp
-npm-run-all
-ntl
-open
-pageres
-pageres-cli
-public-ip
-sass
-siteaudit
-stacks-cli
-tldr
-trash-cli
-vtop
-yo`
-1. Additionally, you might want to consider installing these packages globally: `npm install -g
-axe-core
-browser-sync
-grunt-cli
-gulp-cli
-jshint`
+1. `npm install -g a11y autogit caniuse-cmd commandcar cpy empty-trash-cli fkill fkill-cli get-port git-labelmaker git-open git-pending git-standup git-user-switch gitjk glyphhanger hint http-server internal-ip itunes-remote is-up less mkdirp npm-run-all ntl open pageres pageres-cli public-ip siteaudit stacks-cli tldr trash-cli vtop`
 
 ### Python
 
@@ -167,7 +120,6 @@ waybackpack`
 bundler
 foreman
 haml
-jekyll
 mustache
 pg
 rails
