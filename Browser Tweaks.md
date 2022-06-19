@@ -123,6 +123,15 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 - `mousewheel.acceleration.factor` `10`
 - `mousewheel.acceleration.start` `-1`
 
+### Disable scroll zooming
+- `mousewheel.with_meta.action` `0`
+
+### Disable Pocket
+- `extensions.pocket.enabled` `false`
+
+### [Prevent blocking copy/pasting](https://smcleod.net/software/2022/05/16/firefox-addons-2022/#aboutconfig)
+- `dom.event.clipboardevents.enabled` `false`
+
 #### [Alt+Tab-esque Tab Previews](https://support.mozilla.org/en-US/questions/955292)
 - `browser.ctrlTab.previews` `true`
 
@@ -143,6 +152,8 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 
 #### Enable spellchecking in single-line input boxes
 - `layout.spellcheckDefault` `2`
+
+
 
 #### [Enable faster tab opening](http://www.askvg.com/how-to-disable-animation-while-opening-new-tab-in-mozilla-firefox-4-0/)
 - `browser.tabs.animate` `false`
