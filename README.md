@@ -278,7 +278,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. Migrate FontExplorer X sets and lists
 1. Use [TouchID for `sudo`](https://davidwalsh.name/touch-sudo)
 1. Set up [Caps Lock as Insert for Windows](https://www.paciellogroup.com/blog/2013/08/insert-key-usage-in-windows-on-a-mac/)
-1. Grant [cron jobs](https://blog.bejarano.io/fixing-cron-jobs-in-mojave.html) full disk access
+1. Grant [cron jobs](https://www.bejarano.io/fixing-cron-jobs-in-mojave/) full disk access
 1. Set up [GitHub personal access tokens](https://github.com/settings/tokens)
     1. Laptop [`.gitconfig`](https://github.com/ericwbailey/dotfiles/blob/main/.gitconfig#L9)
     1. Refined GitHub, Chrome
