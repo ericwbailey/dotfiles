@@ -268,7 +268,7 @@ Be sure to set from system root level so preferences propagate up to all user di
 1. [Re-enable SIP](https://ohthehugemanatee.org/blog/2015/10/01/how-i-got-el-capitain-working-with-my-developer-tools/): `csrutil enable`
 1. Set SlowQuitApps quit time: `defaults write com.dteoh.SlowQuitApps delay -int 250`
 1. Load BetterTouchTool preferences
-1. [Sync VS Code](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) settings
+1. Sync VS Code settings
 1. Log laptop serial number in 1Password
 1. Delete setup files (`README.md`, `.osx`, etc.)
 1. Turn `LoginLaunch.applescript` into an app and grant acccess permissions
