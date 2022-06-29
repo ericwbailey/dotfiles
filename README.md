@@ -136,6 +136,7 @@ These apps can't be installed by Homebrew Cask or mas.
 - [Gifmock](https://gifmock.com/)
 - [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
 - [JPEG Mini](https://www.jpegmini.com/)
+- [Local](https://localwp.com/)
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [Screenotate](https://screenotate.com/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
