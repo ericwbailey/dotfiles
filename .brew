@@ -170,8 +170,9 @@ echo -ne '\007'
 echo "Installing cask apps"
 
 # Tap cask and install
-brew tap caskroom/cask
+brew tap homebrew/cask
 brew install brew-cask
+brew install brew-cask-completion
 
 # Quicklook
 brew install --cask qlmarkdown
@@ -183,7 +184,6 @@ brew install --cask webpquicklook
 brew install --cask scriptql
 brew install --cask suspicious-package
 brew install --cask quicklookase
-brew install --cask qlvideo
 
 # Color Pickers
 brew install --cask colorpicker-skalacolor
@@ -201,7 +201,6 @@ brew install --cask bettertouchtool
 brew install --cask betterzip
 brew install --cask charles
 brew install --cask cocktail
-brew install --cask curb
 brew install --cask dictater
 brew install --cask discord
 brew install --cask figma
@@ -211,7 +210,6 @@ brew install --cask fontexplorer-x-pro
 brew install --cask fontplop
 brew install --cask fsmonitor
 brew install --cask gifcapture
-brew install --cask gitup
 brew install --cask handbrake
 brew install --cask hazel
 brew install --cask imagealpha
@@ -243,7 +241,6 @@ brew install --cask skala-preview
 brew install --cask sketch
 brew install --cask skype
 brew install --cask slack
-brew install --cask spectacle
 brew install --cask stay
 brew install --cask steam
 brew install --cask switch
