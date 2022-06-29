@@ -139,6 +139,7 @@ These apps can't be installed by Homebrew Cask or mas.
 - [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)
 - [Screenotate](https://screenotate.com/)
 - [Simple Proxy](https://github.com/dfmcphee/simple-proxy)
+- [Webponize](https://webponize.org)
 
 Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are synced.
 
