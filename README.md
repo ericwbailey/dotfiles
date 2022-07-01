@@ -107,7 +107,6 @@ proselint
 Pygments
 pytz
 setuptools
-thefuck
 waybackpack`
 
 ### Ruby
