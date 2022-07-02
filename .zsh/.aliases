@@ -155,13 +155,6 @@ alias glpw="gulp watch"
 alias glpt="gulp test"
 alias glpd="gulp deploy"
 
-## Grunt
-alias gnt="grunt"
-alias gntc="grunt clean"
-alias gntb="grunt build"
-alias gnts="grunt run"
-alias gnts="grunt serve"
-
 ## NPM
 alias npmi="npm install"
 alias npmu="npm update"
@@ -178,10 +171,8 @@ alias yarnplease="rm -rf node_modules/ && rm -f package-lock.json && yarn instal
 ## Open DNS public IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-## pageres: https://github.com/sindresorhus/pageres
-alias pageshot="pageres"
-alias screenshot="pageres"
-alias siteshot="pageres"
+## Python
+alias python="/usr/bin/python3"
 
 ## Vagrant
 alias vg="vagrant"
