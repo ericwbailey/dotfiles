@@ -178,12 +178,10 @@ Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are sync
 1. Preview (Assign to None)
 1. Music (Assign to None)
 1. 1Password (Assign to None)
-1. FontExplorer X (Assign to All Desktops)
+1. RightFont (Assign to All Desktops)
 1. Obsidian (Assign to None)
 1. Todoist (Assign to None)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-1. Basecamp (Assign to None)
-1. Trello (Assign to None)
 1. Shift (Assign to All Desktops)
 1. Discord (Assign to All Desktops)
 1. Slack (Assign to All Desktops)
@@ -198,7 +196,6 @@ Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are sync
 1. Edge (Assign to All Desktops)
 1. Polypane (Assign to All Desktops)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-1. Sketch (Assign to None)
 1. Figma (Assign to None)
 1. Pixelmator pro (Assign to None)
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
