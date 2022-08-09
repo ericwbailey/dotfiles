@@ -175,29 +175,30 @@ Ensure preferences for **Alfred**, **Hazel**, **iTerm**, and **Mackup** are sync
 
 ### Dock
 
-1. Preview (Assign to None)
-1. Music (Assign to None)
-1. 1Password (Assign to None)
-1. RightFont (Assign to All Desktops)
-1. Obsidian (Assign to None)
-1. Todoist (Assign to None)
+1. Preview
+1. Music
+1. 1Password
+1. RightFont
+1. Obsidian
+1. Todoist
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-1. Shift (Assign to All Desktops)
-1. Discord (Assign to All Desktops)
-1. Slack (Assign to All Desktops)
+1. Zoom
+1. Shift
+1. Discord
+1. Slack
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-1. iTerm (Assign to None)
-1. VS Code (Assign to All Desktops)
-1. Tower (Assign to Desktop 2)
+1. iTerm
+1. VS Code
+1. Tower
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-1. Chrome (Assign to All Desktops)
-1. Firefox (Assign to All Desktops)
-1. Safari (Assign to All Desktops)
-1. Edge (Assign to All Desktops)
-1. Polypane (Assign to All Desktops)
+1. Chrome
+1. Firefox
+1. Safari
+1. Edge
+1. Polypane
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
-1. Figma (Assign to None)
-1. Pixelmator pro (Assign to None)
+1. Pixelmator Pro
+1. Figma
 1. Spacer: `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock`
 
 ### Desktop view preferences
