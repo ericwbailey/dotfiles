@@ -3,7 +3,7 @@ module.exports = {
   handlers: [
     {
       match: /^https?:\/\/localhost.*$/,
-      browser: "Chrome"
+      browser: "Google Chrome"
     },
     {
       match: /^https?:\/\/twitter\.com\/.*$/,
