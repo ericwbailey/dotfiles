@@ -220,6 +220,7 @@ brew install --cask kaleidoscope
 brew install --cask kap
 brew install --cask karabiner-elements
 brew install --cask keepingyouawake
+brew install --cask lingon-x
 brew install --cask makemkv
 brew install --cask metaz
 brew install --cask muzzle
