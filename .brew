@@ -7,9 +7,9 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-echo -ne '\007' 
-echo -ne '\007' 
-echo -ne '\007' 
+echo -ne '\007'
+echo -ne '\007'
+echo -ne '\007'
 echo "Updating and upgrading Homebrew"
 
 # Make sure we’re using the latest Homebrew
@@ -21,9 +21,9 @@ brew upgrade
 
 ## Core System Updates ########################################################
 
-echo -ne '\007' 
-echo -ne '\007' 
-echo -ne '\007' 
+echo -ne '\007'
+echo -ne '\007'
+echo -ne '\007'
 echo "Installing core system utilities"
 
 # Install GNU core utilities (those that come with OS X are outdated)
@@ -55,9 +55,9 @@ brew install php
 
 ## Binaries ###################################################################
 
-echo -ne '\007' 
-echo -ne '\007' 
-echo -ne '\007' 
+echo -ne '\007'
+echo -ne '\007'
+echo -ne '\007'
 echo "Installing binaries"
 
 brew install ack
@@ -129,9 +129,9 @@ brew install yarn
 brew install zopfli
 brew install zsh
 
-echo -ne '\007' 
-echo -ne '\007' 
-echo -ne '\007' 
+echo -ne '\007'
+echo -ne '\007'
+echo -ne '\007'
 echo "Cleaning up"
 
 # Remove outdated versions from the cellar
@@ -140,9 +140,9 @@ brew cleanup
 
 ## Apps #######################################################################
 
-echo -ne '\007' 
-echo -ne '\007' 
-echo -ne '\007' 
+echo -ne '\007'
+echo -ne '\007'
+echo -ne '\007'
 echo "Installing apps"
 
 brew install fpp
@@ -165,9 +165,9 @@ brew cleanup
 
 ## Cask #######################################################################
 
-echo -ne '\007' 
-echo -ne '\007' 
-echo -ne '\007' 
+echo -ne '\007'
+echo -ne '\007'
+echo -ne '\007'
 echo "Installing cask apps"
 
 # Tap cask and install
@@ -226,6 +226,7 @@ brew install --cask metaz
 brew install --cask muzzle
 brew install --cask obsidian
 brew install --cask optimage
+brew install --cask pika
 brew install --cask pixelsnap
 brew install --cask quitter
 brew install --cask rectangle
@@ -256,9 +257,9 @@ brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask zoom
 
-echo -ne '\007' 
-echo -ne '\007' 
-echo -ne '\007' 
+echo -ne '\007'
+echo -ne '\007'
+echo -ne '\007'
 echo "Cleaning up"
 
 # Remove outdated versions from the cellar
