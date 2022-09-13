@@ -7,9 +7,7 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-echo -ne '\007'
-echo -ne '\007'
-echo -ne '\007'
+say "Updating and upgrading Homebrew."
 echo "Updating and upgrading Homebrew"
 
 # Make sure we’re using the latest Homebrew
@@ -21,9 +19,7 @@ brew upgrade
 
 ## Core System Updates ########################################################
 
-echo -ne '\007'
-echo -ne '\007'
-echo -ne '\007'
+say "Homebrew upgrade completed. Installing core system utilities."
 echo "Installing core system utilities"
 
 # Install GNU core utilities (those that come with OS X are outdated)
@@ -55,9 +51,7 @@ brew install php
 
 ## Binaries ###################################################################
 
-echo -ne '\007'
-echo -ne '\007'
-echo -ne '\007'
+say "Core system utilities install completed. Installing binaries."
 echo "Installing binaries"
 
 brew install ack
@@ -129,9 +123,7 @@ brew install yarn
 brew install zopfli
 brew install zsh
 
-echo -ne '\007'
-echo -ne '\007'
-echo -ne '\007'
+say "Cleaning up."
 echo "Cleaning up"
 
 # Remove outdated versions from the cellar
@@ -140,9 +132,7 @@ brew cleanup
 
 ## Apps #######################################################################
 
-echo -ne '\007'
-echo -ne '\007'
-echo -ne '\007'
+say "Clean up completed. Installing apps."
 echo "Installing apps"
 
 brew install fpp
@@ -157,6 +147,7 @@ brew install font-fira-code
 brew tap cooklang/tap
 brew install cooklang/tap/cook
 
+say "Cleaning up."
 echo "Cleaning up"
 
 # Remove outdated versions from the cellar
@@ -165,9 +156,7 @@ brew cleanup
 
 ## Cask #######################################################################
 
-echo -ne '\007'
-echo -ne '\007'
-echo -ne '\007'
+say "Clean up completed. Installing cask apps."
 echo "Installing cask apps"
 
 # Tap cask and install
@@ -257,10 +246,8 @@ brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask zoom
 
-echo -ne '\007'
-echo -ne '\007'
-echo -ne '\007'
-echo "Cleaning up"
+say "Cleaning up and finishing up."
+echo "Cleaning up and finishing up"
 
 # Remove outdated versions from the cellar
 brew cleanup
