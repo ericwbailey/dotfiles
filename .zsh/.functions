@@ -68,6 +68,20 @@ function tre() {
 }
 
 
+# Clones a repository, navigates into it, and performs npm install if there is 
+# a package.json available.
+clone() {
+  git clone $1
+  cd $(basename ${1%.*})
+  if test -f "./package.json"; then
+    echo "..."
+    echo "Found package.json... installing dependencies"
+    echo "..."
+    npm install
+  fi
+}
+
+
 # Displays useful host-related info
 hostinfo() {
   echo -e "\nYou are logged on $HOST"
