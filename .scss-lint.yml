@@ -456,14 +456,15 @@ linters:
   PropertyUnits:
     enabled: true
     global: [
-      'ch', 'em', 'ex', 'rem',      # Font-relative lengths
-      'cm', 'in', 'mm', 'q',        # Absolute lengths
-      'vh', 'vw', 'vmin', 'vmax',   # Viewport-percentage lengths
-      'deg', 'grad', 'rad', 'turn', # Angle
-      'ms', 's',                    # Duration
-      'Hz', 'kHz',                  # Frequency
-      'dpi', 'dpcm', 'dppx',        # Resolution
-      'fr', '%']                    # Other
+      'ch', 'em', 'ex', 'rem',                      # Font-relative lengths
+      'cm', 'in', 'mm', 'q',                        # Absolute lengths
+      'vh', 'vi', 'vb', 'vw', 'vmin', 'vmax',       # Viewport-percentage lengths
+      'cqw', 'cqh', 'cqi', 'cqb', 'cqmin', 'cqmax', # Container queries 
+      'deg', 'grad', 'rad', 'turn',                 # Angle
+      'ms', 's',                                    # Duration
+      'Hz', 'kHz',                                  # Frequency
+      'dpi', 'dpcm', 'dppx',                        # Resolution
+      'fr', '%']                                    # Other
     properties:
       counter-reset: []
       counter-increment: []
