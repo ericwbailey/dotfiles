@@ -331,6 +331,7 @@ say "macOS preferences set. Installing apps."
 echo "Installing apps"
 
 mas install 766939888  # 1Keyboard
+mas install 1672085276 # Aiko
 mas install 918207447  # Annotate
 mas install 687450044  # Blind
 mas install 1193539993 # Brother iPrint&Scan
