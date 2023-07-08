@@ -70,11 +70,11 @@ alias link="ln -s" # Create a symbolic link
 alias unlink="rm " # Deletes a symbolic link. Don't include trailing slash for the folder name
 
 ## Finding
-alias cat=ccat                 # Cat with color output
-alias fd="fd -HL --full-path"  # fd: https://github.com/sharkdp/fd
-alias findhere="find . -name " # Find files in current directory
-alias grep="grep --color=auto" # Colors grep output
-alias ports="lsof -PiTCP -sTCP:LISTEN" # Lists all TCP ports and processes that are open and listening
+alias cat=ccat                          # Cat with color output
+alias fd="fd -HL --full-path"           # fd: https://github.com/sharkdp/fd
+alias findhere="find . -name "          # Find files in current directory
+alias grep="grep --color=auto"          # Colors grep output
+alias listen="lsof -PiTCP -sTCP:LISTEN" # Lists all TCP ports and processes that are open and listening
 
 ## Listing
 
