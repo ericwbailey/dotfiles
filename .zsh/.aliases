@@ -74,6 +74,7 @@ alias cat=ccat                 # Cat with color output
 alias fd="fd -HL --full-path"  # fd: https://github.com/sharkdp/fd
 alias findhere="find . -name " # Find files in current directory
 alias grep="grep --color=auto" # Colors grep output
+alias ports="lsof -PiTCP -sTCP:LISTEN" # Lists all TCP ports and processes that are open and listening
 
 ## Listing
 
