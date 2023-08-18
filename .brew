@@ -212,6 +212,7 @@ brew install --cask keepingyouawake
 brew install --cask lingon-x
 brew install --cask makemkv
 brew install --cask metaz
+brew install --cask modern-csv
 brew install --cask muzzle
 brew install --cask obsidian
 brew install --cask optimage
