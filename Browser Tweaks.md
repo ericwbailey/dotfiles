@@ -40,7 +40,9 @@ Most settings *should* sync, but just in case:
 
 ## Chrome
 - 🔽 Right click on the Address Bar to always show full URLs
-- Disable ad tracking: chrome://settings/adPrivacy
+- Disable ad tracking:
+  - chrome://settings/adPrivacy
+  - https://rud.is/sandbox-check/
 
 ### Developer Tools Expiriments
 - chrome://flags/#omnibox-ui-hide-steady-state-url-path-query-and-ref-on-interaction
