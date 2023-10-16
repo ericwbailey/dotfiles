@@ -96,7 +96,8 @@
 
 ### NPM
 
-1. `npm install -g 
+1. `npm install -g
+alfred-dark-mode
 autogit 
 caniuse-cmd 
 cpy 
@@ -106,7 +107,7 @@ fkill-cli
 get-port 
 git-labelmaker 
 git-open 
-git-user-switch 
+git-user-switch
 gitjk 
 glyphhanger 
 http-server 
