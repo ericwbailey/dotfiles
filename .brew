@@ -245,6 +245,7 @@ brew install --cask vagrant-manager
 brew install --cask virtualbox
 brew install --cask visual-studio-code
 brew install --cask vlc
+brew install --cask whisky
 brew install --cask zoom
 
 say "Cleaning up and finishing up."
