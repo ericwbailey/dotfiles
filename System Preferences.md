@@ -143,6 +143,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 - Delay Until Repeat: **2 positions after Long**
 - ☑️ Adjust keyboard brightness in low light
 - ☑️ Turn off when computer is not used for: **5 mins**
+- Press 🌐 key to: **Start Dictation**
 
 ### Shortcuts
 - Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: **All controls**
