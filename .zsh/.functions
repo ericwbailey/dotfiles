@@ -4,6 +4,12 @@ function mkd() {
 }
 
 
+# Navigate to git project root
+function r() {
+  cd "$(git rev-parse --show-toplevel 2>/dev/null)"
+}
+
+
 # Change working directory to the top-most Finder window location
 function cdf() {
   cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
