@@ -456,7 +456,7 @@ linters:
   PropertyUnits:
     enabled: true
     global: [
-      'ch', 'em', 'ex', 'rem',                                     # Font-relative lengths
+      'ch', 'em', 'ex', 'lh', 'rem',                               # Font-relative lengths
       'cm', 'in', 'mm', 'q',                                       # Absolute lengths
       'vh', 'vi', 'vb', 'vw', 'vmin', 'vmax', 'svh', 'lvh', 'dvh', # Viewport-percentage lengths
       'cqw', 'cqh', 'cqi', 'cqb', 'cqmin', 'cqmax',                # Container queries 
