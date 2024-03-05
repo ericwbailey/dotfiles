@@ -215,6 +215,7 @@ brew install --cask makemkv
 brew install --cask metaz
 brew install --cask modern-csv
 brew install --cask muzzle
+brew install --cask nightfall
 brew install --cask obsidian
 brew install --cask optimage
 brew install --cask pika
