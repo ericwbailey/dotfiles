@@ -1,0 +1,110 @@
+{
+  "name": "Creator Micro",
+  "vendorProductId": 1464657635,
+  "macros": [
+    "accessibility",
+    "{+KC_LSFT}{+KC_LCTL}{+KC_LALT}{+KC_LGUI}j{-KC_LGUI}{-KC_LCTL}{-KC_LALT}{-KC_LSFT}",
+    "{+KC_LSFT}{+KC_LCTL}{+KC_LALT}{+KC_LGUI} {-KC_LCTL}{-KC_LALT}{-KC_LSFT}{-KC_LGUI}",
+    "{+KC_LSFT}{+KC_LCTL}{+KC_LALT}{+KC_LGUI}s{-KC_LGUI}{-KC_LCTL}{-KC_LALT}{-KC_LSFT}",
+    "{+KC_LSFT}{+KC_LCTL}{+KC_LALT}{+KC_LGUI}v{-KC_LGUI}{-KC_LCTL}{-KC_LALT}{-KC_LSFT}",
+    "{+KC_LSFT}{+KC_LCTL}{+KC_LALT}{+KC_LGUI}g{-KC_LGUI}{-KC_LCTL}{-KC_LALT}{-KC_LSFT}",
+    "{+KC_LSFT}{+KC_LCTL}{+KC_LALT}{+KC_LGUI}h{-KC_LGUI}{-KC_LCTL}{-KC_LALT}{-KC_LSFT}",
+    "{+KC_LSFT}{+KC_LCTL}{+KC_LALT}{+KC_LGUI}d{-KC_LGUI}{-KC_LCTL}{-KC_LALT}{-KC_LSFT}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "layers": [
+    [
+      "BL_BRTG",
+      "KC_MPRV",
+      "KC_MNXT",
+      "KC_MPLY",
+      "KC_PGUP",
+      "MACRO(0)",
+      "MACRO(1)",
+      "KC_HOME",
+      "KC_PGDN",
+      "KC_NO",
+      "MACRO(7)",
+      "KC_END",
+      "RGB_TOG",
+      "KC_NO",
+      "KC_NO",
+      "TO(1)"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "MACRO(2)",
+      "MACRO(4)",
+      "KC_NO",
+      "KC_NO",
+      "MACRO(5)",
+      "MACRO(6)",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "TO(2)"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "TO(3)"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "CUSTOM(0)",
+      "CUSTOM(1)",
+      "CUSTOM(3)",
+      "CUSTOM(5)",
+      "KC_NO",
+      "CUSTOM(2)",
+      "CUSTOM(4)",
+      "CUSTOM(6)",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "TO(0)"
+    ]
+  ],
+  "encoders": [
+    [
+      ["KC_F14", "KC_F15"],
+      ["KC_TRNS", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"]
+    ],
+    [
+      ["KC_VOLD", "KC_VOLU"],
+      ["KC_TRNS", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"]
+    ]
+  ]
+}
