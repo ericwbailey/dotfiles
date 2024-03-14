@@ -60,6 +60,7 @@ brew install antigen
 brew install autoconf
 brew install autojump
 brew install bat
+brew install bruno
 brew install ccat
 brew install cmake
 brew install colordiff
