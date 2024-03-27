@@ -99,6 +99,7 @@ brew install micro
 brew install mkcert
 brew install mysql
 brew install m-cli
+brew install monolith
 brew install node
 brew install nss
 brew install optipng
