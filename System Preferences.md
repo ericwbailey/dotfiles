@@ -147,6 +147,7 @@ Note: Don't override preferences already set by `.osx`. Anything left unmodified
 
 ### Shortcuts
 - Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: **All controls**
+- In App Shortcuts: Add **Paste and Match Style** to All Applications and bind to <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>
 
 
 ## Mouse
