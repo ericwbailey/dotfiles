@@ -153,6 +153,7 @@ slim`
 
 These apps can't be installed by Homebrew Cask or mas.
 
+- [CompressX](https://compressx.app/)
 - [Creative Cloud](https://www.adobe.com/creativecloud/desktop-app.html)
 - [Gifmock](https://gifmock.com/)
 - [Hosts.prefpane](https://github.com/specialunderwear/Hosts.prefpane)
