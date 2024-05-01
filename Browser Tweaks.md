@@ -5,8 +5,10 @@ Most settings *should* sync, but just in case:
 
 ## Table of Contents
 
+- [Edge](#edge)
+  - [Flags](#flags)
 - [Chrome](#chrome)
-  - [Developer Tools Expiriments](#developer-tools-expiriments)
+  - [Developer Tools Experiments](#developer-tools-experiments)
   - [DevTools Settings](#devtools-settings)
     - [Preferences](#preferences)
       - [Appearance](#appearance)
@@ -38,13 +40,21 @@ Most settings *should* sync, but just in case:
     - [Advanced settings](#advanced-settings)
 
 
+## Edge
+
+### Flags
+
+`edge://flags/`
+
+- "Experimental Web Platform Features"
+
 ## Chrome
 - 🔽 Right click on the Address Bar to always show full URLs
 - Disable ad tracking:
   - chrome://settings/adPrivacy
   - https://rud.is/sandbox-check/
 
-### Developer Tools Expiriments
+### Developer Tools Experiments
 - chrome://flags/#omnibox-ui-hide-steady-state-url-path-query-and-ref-on-interaction
 - chrome://flags/#read-later `Disabled`
 - chrome://flags/#side-panel_name `Disabled`
