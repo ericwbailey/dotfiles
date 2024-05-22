@@ -5,6 +5,7 @@ Most settings *should* sync, but just in case:
 
 ## Table of Contents
 
+- [Search](#search)
 - [Edge](#edge)
   - [Flags](#flags)
 - [Chrome](#chrome)
@@ -38,6 +39,11 @@ Most settings *should* sync, but just in case:
     - [Style Editor](#style-editor)
     - [Editor Preferences](#editor-preferences)
     - [Advanced settings](#advanced-settings)
+
+## Search
+
+[Turn off AI Overview in Google
+Set "Web" as default](https://tenbluelinks.org/)
 
 
 ## Edge
