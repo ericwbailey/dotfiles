@@ -88,6 +88,7 @@ brew install hub
 brew install imagemagick
 brew install jpeg
 brew install jpegoptim
+brew install jordanbaird-ice
 brew install libevent
 brew install libpng
 brew install libtool
