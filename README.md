@@ -1,4 +1,4 @@
-# New System Setup
+npm i -g @ae-studio/px# New System Setup
 
 
 ## Table of Contents
@@ -97,6 +97,7 @@
 ### NPM
 
 1. `npm install -g
+@ae-studio/px
 alfred-dark-mode
 autogit 
 caniuse-cmd 
