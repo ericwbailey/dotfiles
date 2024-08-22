@@ -172,6 +172,8 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 #### Enable spellchecking in single-line input boxes
 - `layout.spellcheckDefault` `2`
 
+#### Disable [Anonym](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/)
+- `dom.private-attribution.submission.enabled` `false`
 
 
 #### [Enable faster tab opening](http://www.askvg.com/how-to-disable-animation-while-opening-new-tab-in-mozilla-firefox-4-0/)
