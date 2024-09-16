@@ -139,80 +139,155 @@ Set "Web" as default](https://tenbluelinks.org/)
 #### [Adjust scrolling speed](http://ccm.net/faq/11032-firefox-define-a-custom-scrolling-speed)
 In Preferences, disable Advanced > General > Use Smooth Scrolling
 
-- `mousewheel.acceleration.factor` `10`
-- `mousewheel.acceleration.start` `-1`
+| Key | Value |
+|---|---|
+| `mousewheel.acceleration.factor` | `10` |
+| `mousewheel.acceleration.start` | `-1` |
 
 ### Disable scroll zooming
-- `mousewheel.with_meta.action` `0`
+
+| Key | Value |
+|---|---|
+| `mousewheel.with_meta.action`  | `0` |
 
 ### Disable Pocket
-- `extensions.pocket.enabled` `false`
+
+| Key | Value |
+|---|---|
+| `extensions.pocket.enabled` | `false` |
 
 ### [Prevent blocking copy/pasting](https://smcleod.net/software/2022/05/16/firefox-addons-2022/#aboutconfig)
-- `dom.event.clipboardevents.enabled` `false`
+
+| Key | Value |
+|---|---|
+| `dom.event.clipboardevents.enabled` | `false` |
 
 #### [Alt+Tab-esque Tab Previews](https://support.mozilla.org/en-US/questions/955292)
-- `browser.ctrlTab.previews` `true`
+
+| Key | Value |
+|---|---|
+| `browser.ctrlTab.previews` | `true` |
 
 #### Disable download complete notification
-- `browser.download.manager.showAlertOnComplete` `false`
+
+| Key | Value |
+|---|---|
+| `browser.download.manager.showAlertOnComplete` | `false` |
 
 #### [Disable HTTP Referers](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)
-- `network.http.sendRefererHeader` `0`
+
+| Key | Value |
+|---|---|
+| `network.http.sendRefererHeader` | `0` |
 
 #### Disable installing new extensions delay
-- `security.dialog_enable_delay` `0`
+
+| Key | Value |
+|---|---|
+| `security.dialog_enable_delay` | `0` |
 
 #### Enable click to play
-- `plugins.click_to_play` `boolean` `true`
+
+| Key | Value |
+|---|---|
+| `plugins.click_to_play` | `true` |
 
 #### [Enable HTTP cache](http://lifehacker.com/speed-up-firefox-by-enabling-its-new-http-cache-1570488335)
-- `browser.cache.use_new_backend` `1`
+
+| Key | Value |
+|---|---|
+| `browser.cache.use_new_backend` | `1` |
 
 #### Enable spellchecking in single-line input boxes
-- `layout.spellcheckDefault` `2`
+
+| Key | Value |
+|---|---|
+| `layout.spellcheckDefault` | `2` |
 
 #### Disable [Anonym](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/)
-- `dom.private-attribution.submission.enabled` `false`
 
+| Key | Value |
+|---|---|
+| `dom.private-attribution.submission.enabled` | `false` |
 
 #### [Enable faster tab opening](http://www.askvg.com/how-to-disable-animation-while-opening-new-tab-in-mozilla-firefox-4-0/)
-- `browser.tabs.animate` `false`
+
+| Key | Value |
+|---|---|
+| `browser.tabs.animate` | `false` |
 
 #### [Open new tabs at the end of the tab bar](http://www.mydigitallife.info/change-firefox-to-open-new-tab-at-far-right-end-of-tabbar-disable-insert-next-to-current-active-tab/)
-- `browser.tabs.insertRelatedAfterCurrent` `false`
+
+| Key | Value |
+|---|---|
+| `browser.tabs.insertRelatedAfterCurrent` | `false` |
 
 #### Remove Awesome Bar search prompt
-- `browser.urlbar.unifiedcomplete` `false`
+
+| Key | Value |
+|---|---|
+| `browser.urlbar.unifiedcomplete` | `false` |
 
 #### Remove "Search or enter address" from the navbar until focused
-- `dom.placeholder.show_on_focus` `false`
+
+| Key | Value |
+|---|---|
+| `dom.placeholder.show_on_focus` | `false` |
 
 #### [Remove swipe back/forward gestures](https://support.mozilla.org/en-US/questions/1003526)
-- `browser.gesture.swipe.left` `""`
-- `browser.gesture.swipe.right` `""`
+
+| Key | Value |
+|---|---|
+| `browser.gesture.swipe.left` | `""` |
+| `browser.gesture.swipe.right` | `""` |
 
 #### [Show HTTP(S) in address bar](http://techdows.com/2011/09/show-http-in-firefox-7-address-bar.html)
-- `browser.urlbar.trimURLs` `false`
+
+| Key | Value |
+|---|---|
+| `browser.urlbar.trimURLs` | `false` |
 
 #### Remove "Recently Bookmarked" from the Bookmarks menu
-- `browser.bookmarks.showRecentlyBookmarked` `false`
+
+| Key | Value |
+|---|---|
+| `browser.bookmarks.showRecentlyBookmarked` | `false` |
 
 #### Number of entries in the Awesome Bar
-- `browser.urlbar.maxRichResults` `15`
 
-### Remove Awesome Bar search prompt
-- `browser.urlbar.unifiedcomplete` `false`
-
-### Remove "Search or enter address" from the navbar until focused
-- `dom.placeholder.show_on_focus` `false`
+| Key | Value |
+|---|---|
+| `browser.urlbar.maxRichResults` | `15` |
 
 ### Disable one-click Search Engines
-- `browser.urlbar.oneOffSearches` `false`
+
+| Key | Value |
+|---|---|
+| `browser.urlbar.oneOffSearches` | `false` |
 
 #### Show common sites on the Awesome Bar on click
-- `browser.urlbar.update1.intervention` `false`
 
+| Key | Value |
+|---|---|
+| `browser.urlbar.update1.intervention` | `false` |
+
+#### [Disable AI chat](https://meow.social/@Alkaris/113098734925394187)
+
+| Key | Value |
+|---|---|
+| `browser.ml.chat.prompt.prefix` | `blank` |
+| `browser.ml.chat.prompts.0` | `blank` |
+| `browser.ml.chat.prompts.1` | `blank` |
+| `browser.ml.chat.prompts.2` | `blank` |
+| `browser.ml.chat.prompts.3` | `blank` |
+| `browser.ml.chat.shortcuts` | `false` |
+| `browser.ml.chat.shortcuts.longPress` | `0` |
+| `browser.ml.chat.sidebar` | `false` |
+| `browser.ml.logLevel` | `None` |
+| `browser.ml.modelCacheMaxSizeBytes` | `0` |
+| `browser.ml.modelCacheTimeout` | `0` |
+| `browser.ml.modelHubRootUrl` | `blank` |
+| `browser.ml.modelHubUrlTemplate` | `blank` |
 
 ### userChrome.css
 ```css
