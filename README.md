@@ -98,9 +98,10 @@ npm i -g @ae-studio/px# New System Setup
 
 1. `npm install -g
 @ae-studio/px
+@bramus/caniuse-cli
 alfred-dark-mode
 autogit 
-caniuse-cmd 
+caniuse-cmd
 cpy 
 empty-trash-cli 
 fkill 
