@@ -135,11 +135,14 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Use column view in all Finder windows by default (four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`)
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
+# Keep folders on top
+defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
+
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
 # Change minimize/maximize window effect
-defaults write com.apple.dock mineffect -string "scale"
+defaults write com.apple.dock "mineffect" -string "scale"
 
 # Adds Quit Finder to the  menu
 defaults write com.apple.finder QuitMenuItem -bool YES
@@ -202,10 +205,13 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Don’t show Dashboard as a Space
 defaults write com.apple.dock dashboard-in-overlay -bool true
 
+# Don't show recent applications in the Dock
+defaults write com.apple.dock "show-recents" -bool "false"
+
 # Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
- # Disable the Launchpad gesture (pinch with thumb and three fingers)
+# Disable the Launchpad gesture (pinch with thumb and three fingers)
 defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 
 # Hot corners
@@ -303,6 +309,9 @@ defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 ## TextEdit
 # Use plain text mode for new TextEdit documents
 defaults write com.apple.TextEdit RichText -int 0
+
+# Don't use smart quotes for plain text
+defaults write com.apple.TextEdit "SmartQuotes" -bool "false" && killall TextEdit
 
 # Open and save files as UTF-8 in TextEdit
 defaults write com.apple.TextEdit PlainTextEncoding -int 4
