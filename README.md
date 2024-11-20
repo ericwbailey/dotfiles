@@ -1,4 +1,4 @@
-npm i -g @ae-studio/px# New System Setup
+# New System Setup
 
 
 ## Table of Contents
