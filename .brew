@@ -192,6 +192,8 @@ brew install --cask beamer
 brew install --cask bettertouchtool
 brew install --cask betterzip
 brew install --cask discord
+brew tap espanso/espanso
+brew install --cask espanso
 brew install --cask figma
 brew install --cask finicky
 brew install --cask fontplop
