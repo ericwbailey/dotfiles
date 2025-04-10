@@ -184,6 +184,7 @@ brew install --cask colorpicker-skalacolor
 
 # Apps
 brew install --cask adapter
+brew install --cask airfoil
 brew install --cask alfred
 brew install --cask appdelete
 brew install --cask audio-hijack
@@ -207,6 +208,7 @@ brew install --cask karabiner-elements
 brew install --cask keycue
 brew install --cask keepingyouawake
 brew install --cask lingon-x
+brew install --cask localcan
 brew install --cask modern-csv
 brew install --cask nightfall
 brew install --cask notchnook
