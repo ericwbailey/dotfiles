@@ -181,6 +181,9 @@ alias vg="vagrant"
 ## TLDR
 alias tldr="tldr --theme ocean"
 
+## Slack
+alias slackhdr="killall Slack ; open /Applications/Slack.app/ --args --force-color-profile=srgb"
+
 
 # Servers #####################################################################
 
