@@ -288,6 +288,8 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 | `browser.ml.modelCacheTimeout` | `0` |
 | `browser.ml.modelHubRootUrl` | `blank` |
 | `browser.ml.modelHubUrlTemplate` | `blank` |
+| `browser.ml.enable` | `false` |
+| `extensions.ml.enabled` | `false` |
 
 ### userChrome.css
 ```css
