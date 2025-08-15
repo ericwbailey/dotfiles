@@ -7,3 +7,4 @@
 - [Dozens of things you can do to clean up a fresh install of Windows 11 24H2 and Edge ](https://arstechnica.com/gadgets/2025/02/what-i-do-to-clean-up-a-clean-install-of-windows-11-23h2-and-edge/)
 - [Making Windows 11 usable](https://www.aleksandrhovhannisyan.com/blog/making-windows-11-usable/)
 - [Ninite](https://ninite.com/)
+- [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
