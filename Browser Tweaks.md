@@ -124,6 +124,8 @@ Set "Web" as default](https://tenbluelinks.org/)
 
 ## Firefox
 
+https://kau.sh/blog/how-to-firefox/
+
 ### Search bar operators
 - `#` Page title (`browser.urlbar.match.title`)
 - `@` Page URL (`browser.urlbar.match.url`)
