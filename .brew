@@ -106,6 +106,7 @@ brew install node
 brew install nss
 brew install optipng
 brew install pandoc
+brew install peterldowns/tap/localias
 brew install pidof
 brew install pipenv
 brew install postgresql
