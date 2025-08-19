@@ -292,6 +292,7 @@ In Preferences, disable Advanced > General > Use Smooth Scrolling
 | `browser.ml.modelHubUrlTemplate` | `blank` |
 | `browser.ml.enable` | `false` |
 | `extensions.ml.enabled` | `false` |
+| `browser.ml.chat.enabled` | `false` |
 
 ### userChrome.css
 ```css
